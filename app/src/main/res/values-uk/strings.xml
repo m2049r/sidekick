@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Гаманець</string>
+
+    <string name="menu_about">Про програму</string>
+    <string name="menu_privacy">Політика конфіденційності</string>
+
+    <string name="menu_help">Допомога</string>
+    <string name="menu_rename">Перейменувати</string>
+    <string name="menu_backup">Резервна копія</string>
+    <string name="menu_changepw">Змінити пароль</string>
+
+    <string name="label_login_wallets">Гаманець</string>
+    <string name="label_credits">Подяка</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_cancel">Відміна</string>
+    <string name="label_wallet_advanced_details">Додатковій інформації</string>
+
+
+    <string name="changepw_progress">Виконується зміна паролю</string>
+
+    <string name="service_progress">Для даної дії &#8230;\nМоже знадобитися деякий час!</string>
+
+    <string name="backup_failed">Резервне копіювання відбулося з помилкою!</string>
+    <string name="rename_failed">Перейменування відбулося з помилкою!</string>
+    <string name="changepw_failed">Зміна паролю відбулася з помилкою!</string>
+    <string name="changepw_success">Зміну паролю виконано успішно</string>
+
+    <string name="status_wallet_disconnected">Роз\'єднано</string>
+
+    <string name="service_busy">Я все ще зайнятий твоїм гаманцем &#8230;</string>
+
+    <string name="prompt_rename">Перейменувати %1$s</string>
+
+    <string name="prompt_changepw">Новий пароль для %1$s</string>
+    <string name="prompt_changepwB">Повторіть пароль для %1$s</string>
+    <string name="prompt_password">Пароль для %1$s</string>
+    <string name="prompt_fingerprint_auth">Тепер ви можете відкрити гаманець за допомогою відбитка пальця.\nБудь ласка торкніться датчика.</string>
+    <string name="prompt_open_wallet">Відкриття гаманця&#8230;</string>
+    <string name="bad_fingerprint">Відбиток пальця не розпізнається. Спробуйте ще раз.</string>
+    <string name="bad_password">Невірний пароль!!</string>
+    <string name="bad_saved_password">Збережений пароль невірний.\nВведіть пароль вручну.</string>
+    <string name="bad_wallet">Гаманця не існує!</string>
+
+    <string name="label_watchonly">(Режим перегляду)</string>
+
+    <string name="service_description">Служба monerujo</string>
+
+    <string name="label_copy_viewkey">Ключ перегляду</string>
+    <string name="label_copy_address">Публічна адреса</string>
+    <string name="message_copy_viewkey">Ключ перегляду скопійовано в буфер обміну!</string>
+    <string name="message_copy_address">Адресу гаманця скопійовано в буфер обміну!</string>
+    <string name="message_nocopy">Копіювання недоступно з міркувань безпеки!</string>
+
+    <string name="generate_title">Створити гаманець</string>
+    <string name="generate_name_hint">Ім\'я гаманця</string>
+    <string name="generate_password_hint">Пароль гаманця</string>
+    <string name="generate_fingerprint_hint">Дозволити відкрити гаманець за допомогою відбитка пальця</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Використання аутентифікації по відбитку пальця</strong>
+        <p>З підтримкою аутентифікації по відбитку пальця, ви можете переглядати баланс і отримувати кошти
+         без введення пароля.</p>
+        <p>Але для додаткової безпеки, monerujo попросить вас ввести пароль при
+         перегляді деталей гаманця, або відправці коштів.</p>
+        <strong>Попередження системи безпеки</strong>
+        <p>monerujo хоче нагадати вам, що кожен, хто може отримати ваш відбиток пальця, буде
+         мати можливість, заглянути в баланс вашого гаманця.</p>
+        <p>Наприклад, зловмисник може заглянути в ваш гаманець, коли ви спите.</p>
+        <strong>Ви впевнені, що хочете включити цю функцію?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Пароль не співпадає</string>
+    <string name="generate_buttonGenerate">Зробіть мені вже гаманець!</string>
+    <string name="generate_button_accept">Я ввів мнемонічну фразу</string>
+
+    <string name="generate_wallet_name">Придумай мені ім\'я!</string>
+    <string name="generate_wallet_exists">Такий гаманець існує!</string>
+    <string name="generate_wallet_dot">Не може починатися з .</string>
+    <string name="generate_wallet_creating">Створення гаманця</string>
+    <string name="generate_wallet_created">Гаманець створено</string>
+
+    <string name="generate_restoreheight_error">Введіть номер блоку або дату (YYYY-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Ключ</string>
+    <string name="generate_wallet_type_new">Новий</string>
+    <string name="generate_wallet_type_seed">Фраза</string>
+    <string name="generate_wallet_type_view">Перегляд</string>
+
+    <string name="generate_address_hint">Публічна адреса</string>
+    <string name="generate_viewkey_hint">Ключ перегляду</string>
+    <string name="generate_spendkey_hint">Ключ витрати</string>
+    <string name="generate_mnemonic_hint">Мнемонічна фраза (25 слів)</string>
+    <string name="generate_restoreheight_hint">Відновити висоту або дату (YYYY-MM-DD)</string>
+
+    <string name="generate_address_label">Публічна адреса</string>
+    <string name="generate_viewkey_label">Ключ перегляду</string>
+    <string name="generate_spendkey_label">Ключ витрати</string>
+    <string name="generate_mnemonic_label">Мнемонічна фраза</string>
+    <string name="generate_crazypass_label">Дата висоти відновлення (YYYY-MM-DD)</string>
+
+    <string name="generate_check_key">Введіть діючий ключ</string>
+    <string name="generate_check_address">Введіть діючу адресу</string>
+    <string name="generate_check_mnemonic">Введіть вашу мнемонічну фразу</string>
+
+    <string name="send_fee">+%1$s Комісія</string>
+
+    <string name="details_alert_message">Зараз будуть показані конфіденційні дані. Озирнись навколо!</string>
+    <string name="details_alert_yes">Я в безпеці</string>
+    <string name="details_alert_no">Поверніть мене назад!</string>
+    <string name="details_title">Детальна інформація</string>
+
+    <string name="delete_alert_message">Цей гаманець буде знищено. Ваші кошти назавжди зникнуть, якщо у вас немає насіння або діючої резервної копії для його відновлення. </string>
+    <string name="delete_alert_yes">Так, зроби це!</string>
+    <string name="delete_alert_no">Ні, дякую!</string>
+
+    <string name="fab_create_new">Створити новий гаманець</string>
+    <string name="fab_restore_viewonly">Відновити гаманець тільки для перегляду</string>
+    <string name="fab_restore_key">Відновити гаманець з ключів</string>
+    <string name="fab_restore_seed">Відновити гаманець з мнемонічної фрази</string>
+
+    <string name="menu_language">Мова</string>
+    <string name="language_system_default">Використовувати мову системи</string>
+
+    <string name="fab_restore_ledger">Відновлення з Ledger Nano</string>
+
+    <string name="menu_info">Інформация</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="backup_success">Резервне копіювання успішне</string>
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Конвертувати фразу Ledger</string>
+    <string name="prompt_ledger_seed">Словесна фраза Ledger</string>
+    <string name="prompt_ledger_phrase">Пароль Ledger (необов\'язково)</string>
+    <string name="bad_ledger_seed">Помилка Ledger фрази!</string>
+    <string name="prompt_ledger_seed_warn">Вводячи сюди Ledger фразу являється серйозною загрозою для вашої безпеки!</string>
+
+    <string name="label_restoreheight">Відновити висоту</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

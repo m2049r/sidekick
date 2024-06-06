@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Creează Portofel - Nou</h1>
+        <p>Dacă ai nevoie de o adresă nouă pentru Monero!</p>
+        <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile portofelului
+	de pe dispozitiv. Folosește o parolă dificilă - folosește chiar o frază.</p>
+        <h2>Notează-ți Semnătura Mnemonică!</h2>
+        <p>În următorul ecran vor fi afișate 25 de cuvinte care reprezintă \"Semnătura Mnemonică\".
+        Aceasta este singura informație necesară pentru recuperarea portofelului tău într-un moment ulterior și obținerea
+	accesului deplin la fondurile tale. Păstrarea acesteia într-un mediu privat și securizat este foarte importantă,
+	deoarece va permite <em>oricui</em> acces total la fondurile tale!</p>
+        <p>În cazul în care ți-ai pierdut parola portofelului, vei putea recupera accesul la el folosind Semnătura Mnemonică.</p>
+        <p>Nu există o altă modalitate de a-ți recupera Semnătura Mnemonică, dacă o pierzi, toate fondurile tale vor fi pierdute!
+        Totodată Semnătura Mnemonică nu poate fi schimbată, iar dacă ea este furată sau compromisă, trebuie să îți muți
+	fondurile către o nouă adresă de portofel (care va conține o altă Semnătură Mnemonică). Prin urmare, este mai bine
+	să copiezi în siguranță Semnătura Mnemonică în <em>mai multe</em> locații sigure și de încredere.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Creează Portofel - Semnătură</h1>
+        <p>În cazul în care deții deja o adresă de portofel pentru Monero și dorești să îți recuperezi tranzacțiile din baza
+	de date distribuită (blockchain)</p>
+        <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile portofelului
+	de pe dispozitiv. Folosește o parolă dificilă - folosește chiar o frază.</p>
+        <p>Introdu cuvintele Semnăturii Mnemonice în câmpul \"Semnătură Mnemonică\".<p>
+        <p>În cazul în care știi monoblocul în care a fost procesată prima ta tranzacție folosind această adresă,
+	te rugăm să-l introduci în câmpul \"Număr monobloc\". La fel poți să introduci o dată în format AAAA-LL-ZZ. 
+	Dacă nu ești sigur(ă), introdu o dată/număr aproximativ <em>anterior</em> primei utilizări a portofelului.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Creează Portofel - Chei de acces</h1>
+        <p>Dacă încerci recuperarea portofelului folosind cheile de acces!</p>
+        <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile
+	portofelului de pe dispozitiv. Folosește o parolă dificilă - folosește chiar o frază.<p>
+        <p>Introdu adresa portofelului tău Monero în câmpul \"Adresă publică\", completează câmpul \"Cheie vizualizare\" 
+	și \"Cheie consum\".</p>
+        <p>În cazul în care știi monoblocul în care a fost procesată prima ta tranzacție folosind această adresă,
+        te rugăm să-l introduci în câmpul \"Număr monobloc\". La fel poți să introduci o dată în format AAAA-LL-ZZ.
+        Dacă nu ești sigur(ă), introdu o dată/număr aproximativ <em>anterior</em> primei utilizări a portofelului.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Creează Portofel - Vizualizare</h1>
+        <p>În cazul în care dorești să vizualizezi tranzacțiile primite!</p>
+        <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile
+	portofelului de pe dispozitiv. Folosește o parolă dificilă - folosește chiar o frază.<p>
+        <p>Introdu adresa portofelului tău Monero în câmpul \"Adresă publică\" și completează câmpul
+	\"Cheie vizualizare\".</p>
+        <p>În cazul în care știi monoblocul în care a fost procesată prima ta tranzacție folosind această adresă,
+        te rugăm să-l introduci în câmpul \"Număr monobloc\". La fel poți să introduci o dată în format AAAA-LL-ZZ.
+        Dacă nu ești sigur(ă), introdu o dată/număr aproximativ <em>anterior</em> primei utilizări a portofelului.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Detalii Portofel</h1>
+        <h2>Adresă publică</h2>
+        Adresa publică a protofelului reprezintă, ca și exemplu, un cont bancar, număr pe care îl poți împărtăși
+	cu oricine fără a avea teama de a pierde din balanța Monero. Oricine poate trimite Monero către portofelul
+	tău folosind această adresă.
+        <h2>Semnătura Mnemonică</h2>
+        Aceasta este singura informație necesară pentru recuperarea portofelului tău într-un moment ulterior
+	și obținerea accesului deplin la fondurile tale. Păstrarea acesteia într-un mediu privat și securizat
+	este foarte importantă, deoarece va permite <em>oricui</em> acces total la fondurile tale!
+	În cazul în care nu ai notat această informație într-un loc sigur, te rog să o faci acum!
+        <h2>Parolă Recuperare Fișiere Portofel</h2>
+        Asigură-te că ai notat această parolă. Dacă resetezi dispozitivul sau ștergi aplicația, vei avea
+        nevoie de ea pentru a accesa portofelul din nou.<br/>
+        <h3>CrAzYpass</h3>
+        Dacă parola afișată aici e formată din 52 caractere alfanumerice în grupuri a câte 4 - felicitări!
+        Fișierele portofelului tău sunt securizate cu o cheie pe 256 biți generată de dispozitiv
+        pe baza parolei alese (la creare sau prin modificare). Este extrem de dificil
+        să o spargi!<br/>
+        E obligatorie pentru toate portofelele noi create.
+        <h3>Parolă</h3>
+        Dacă aici e afișată parola ta, fișierele portofelului tău sunt mai puțin securizate decât la setarea
+        unui CrAzYpass. Pentru a corecta, simplu selectează \"Schimbă Parola\" din meniu. După introducerea
+        unei noi parole (inclusiv una folosită anterior) aplicația va genera un CrAzYpass pentru
+        tine și va securiza fișierele portofelului cu ajutorul lui. Notează-l!
+        <h3>Portofele CrAzYpass</h3>
+        Dacă dorești să reinstalezi Monerujo (ca exemplu, după resetarea telefonului sau trecerea
+        la unul nou) sau dorești să utilizezi fișierele portofelului pe un alt dispozitiv sau PC, folosește
+        Parola de Recuperare pentru a accesa portofelul din nou.<br/>
+        La selectarea \"Schimbă Parola\" din meniu, poți alege o parolă nouă. Aceasta va genera
+        o Parolă de Recuperare nouă. Noteaz-o!
+        <h2>Cheie vizualizare</h2>
+        Cheia ta de vizualizare poate fi folosită pentru a monitoriza tranzacțiile primite fără a da permisiunea
+	de a cheltui fondurile aflate în portofelul tău.
+        <h2>Cheie consum</h2>
+        Cheia ta de consum permite oricui să cheltuie fondurile Monero asociate cu portofelul tău, așa că nu
+	divulga nimănui această cheie și păstreaz-o în siguranță precum Semnătura Mnemonică.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">Am înțeles!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

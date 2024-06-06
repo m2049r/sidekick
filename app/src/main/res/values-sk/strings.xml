@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Peňaženka</string>
+
+    <string name="menu_about">O aplikácii</string>
+    <string name="menu_privacy">Zásady ochrany osobných údajov</string>
+
+    <string name="menu_help">Pomoc</string>
+    <string name="menu_rename">Premenovať</string>
+    <string name="menu_backup">Záloha</string>
+    <string name="menu_changepw">Zmena Hesla</string>
+
+    <string name="label_login_wallets">Peňaženky</string>
+    <string name="label_credits">Zásluhy</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Zrušiť</string>
+    <string name="label_wallet_advanced_details">Viac info</string>
+
+
+    <string name="changepw_progress">Prebieha zmena hesla</string>
+
+    <string name="service_progress">Balím si veci &#8230;\nMôže to chvíľu trvať!</string>
+
+    <string name="backup_failed">Zálohovanie zlyhalo!</string>
+    <string name="rename_failed">Premenovanie zlyhalo!</string>
+    <string name="changepw_failed">Zmena hesla zlyhala!</string>
+    <string name="changepw_success">Heslo zmenené</string>
+
+    <string name="status_wallet_disconnected">Odpojený</string>
+
+    <string name="service_busy">Stále ma vyťažuje posledná peňaženka &#8230;</string>
+
+    <string name="prompt_rename">Premenuj %1$s</string>
+
+    <string name="prompt_changepw">Nové heslo pre %1$s</string>
+    <string name="prompt_changepwB">Opakuj heslo pre %1$s</string>
+    <string name="prompt_password">Heslo pre %1$s</string>
+    <string name="prompt_fingerprint_auth">Môžeš tiež otvoriť peňaženku pomocou odtlačku prsta.\nDotkni sa senzora.</string>
+    <string name="prompt_open_wallet">Otváram peňaženku&#8230;</string>
+    <string name="bad_fingerprint">Odtlačok som nerozoznal. Skús znova.</string>
+    <string name="bad_password">Nesprávne heslo!</string>
+    <string name="bad_saved_password">Uložené heslo je nesprávne.\nProsím vlož heslo manuálne.</string>
+    <string name="bad_wallet">Peňaženka neexistuje!</string>
+
+    <string name="label_watchonly">(Len k nahliadaniu)</string>
+
+    <string name="service_description">monerujo Service</string>
+
+    <string name="label_copy_viewkey">Prezerací Kľúč</string>
+    <string name="label_copy_address">Verejná Adresa</string>
+    <string name="message_copy_viewkey">Prezerací Kľúč skopírovaný do schránky!</string>
+    <string name="message_copy_address">Adresa peňaženky skopírovaná do schránky!</string>
+    <string name="message_nocopy">Kopírovanie vypnuté z bezpečnostných dôvodov!</string>
+
+    <string name="generate_title">Vytvor Peňaženku</string>
+    <string name="generate_name_hint">Názov Peňaženky</string>
+    <string name="generate_password_hint">Heslo Peňaženky</string>
+    <string name="generate_fingerprint_hint">Povoľ otváranie peňaženky odtlačkom prsta</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Overenie odtlačkom prsta</strong>
+        <p>Pomocou overenia odtlačkom prsta, môžeš vidieť zostatok a prijímať prostriedky, bez zadávania hesla.</p>
+        <p>Avšak kvôli zvýšeniu bezpečnosti, monerujo bude stále vyžadovať heslo na zobrazenie detailov peňaženky a posielanie.</p>
+        <strong>Bezpečnostné Varovanie</strong>
+        <p>Monerujo Ti chce pripomenúť, že ktokoľvek kto získa prístup k Tvojim odtlačkom, bude schopný nazrieť do tvojej peňaženky.</p>
+        <p>Napríklad záškodník niekde v blízkosti môže otvoriť Tvoju peňaženku keď spíš.</p>
+        <strong>Si si istý, že chceš povoliť túto funkciu?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Heslá nie sú rovnaké</string>
+    <string name="generate_buttonGenerate">Sprav mi už peňaženku!</string>
+    <string name="generate_button_accept">Zapísal som si mnemotechnický seed</string>
+
+    <string name="generate_wallet_name">Daj mi meno!</string>
+    <string name="generate_wallet_exists">Peňaženka existuje!</string>
+    <string name="generate_wallet_dot">Neslobodno začať s .</string>
+    <string name="generate_wallet_creating">Vytváranie peňaženky</string>
+    <string name="generate_wallet_created">Peňaženka vytvorená</string>
+
+    <string name="generate_restoreheight_error">Vlož číslo alebo dátum (YYYY-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Kľúče</string>
+    <string name="generate_wallet_type_new">Nová</string>
+    <string name="generate_wallet_type_seed">Seed</string>
+    <string name="generate_wallet_type_view">Prezeracia</string>
+
+    <string name="generate_address_hint">Verejná Adresa</string>
+    <string name="generate_viewkey_hint">Prezerací Kľúč (view key)</string>
+    <string name="generate_spendkey_hint">Platobný Kľúč (spend key)</string>
+    <string name="generate_mnemonic_hint">25-slovný mnemotechnický Seed</string>
+    <string name="generate_restoreheight_hint">Dátum (YYYY-MM-DD) alebo Výška</string>
+
+    <string name="generate_address_label">Verejná Adresa</string>
+    <string name="generate_viewkey_label">Prezerací Kľúč (view key)</string>
+    <string name="generate_spendkey_label">Platobný Kľúč (spend key)</string>
+    <string name="generate_mnemonic_label">Mnemotechnický Seed</string>
+    <string name="generate_crazypass_label">heslo súboru peňaženky</string>
+
+    <string name="generate_check_key">Vlož platný Kľúč</string>
+    <string name="generate_check_address">Vlož platnú Adresu</string>
+    <string name="generate_check_mnemonic">Vlož svoj 25-slovný seed</string>
+
+    <string name="send_fee">+%1$s poplatok</string>
+
+    <string name="details_alert_message">Budú zobrazené citlivé dáta.\nPozri cez plece!</string>
+    <string name="details_alert_yes">Som v bezpečí</string>
+    <string name="details_alert_no">Naspäť!</string>
+    <string name="details_title">Detaily</string>
+
+    <string name="delete_alert_message">Táto peňaženka bude zmazaná. Vaše finančné prostriedky budú navždy preč, pokiaľ nemáte svoj seed alebo funkčnú zálohu na ich obnovenie.</string>
+    <string name="delete_alert_yes">Áno, poďme na to!</string>
+    <string name="delete_alert_no">Nie, díky!</string>
+
+    <string name="fab_create_new">Vytvor novú peňaženku</string>
+    <string name="fab_restore_viewonly">Obnoviť prezeraciu peňaženku</string>
+    <string name="fab_restore_key">Obnoviť peňaženku zo súkromných kľúčov</string>
+    <string name="fab_restore_seed">Obnoviť peňaženku z 25-slovného seedu</string>
+
+    <string name="menu_language">Jazyk</string>
+    <string name="language_system_default">Použi jazyk systému</string>
+
+    <string name="fab_restore_ledger">Obnoviť z Ledger Nano</string>
+
+    <string name="menu_info">Ukázať Tajné Kľúče</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="backup_success">úspešne zálohované</string>
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Konvertuj Ledger Seed</string>
+    <string name="prompt_ledger_seed">Ledger Seed</string>
+    <string name="prompt_ledger_phrase">Ledger fráza (voliteľné)</string>
+    <string name="bad_ledger_seed">Neplatný Ledger Seed!</string>
+    <string name="prompt_ledger_seed_warn">Vloženie Ledger Seedu sem je vážne bezpečnostné riziko!</string>
+
+    <string name="label_restoreheight">Výška</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

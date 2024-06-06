@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Crear Portamonedes - New</h1>
+        <p>Per si necessiteu una nova adreça de Monero!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes.
+        La contrasenya s’utilitza per protegir les dades del seu portamonedes en el dispositiu. Utilitzeu una contrasenya sòlida - encara millor si utiliza una frase.</p>
+        <h2>Apunteu la vostra llavor mnemotècnica!</h2>
+        <p>A la pantalla següent trobareu la vostra "Llavor Mnemotècnica" de 25 paraules.
+        Aquestes són les úniques dades necessàries per a recuperar el vostre portamonedes i obtenir accés total als vostres fons.
+        Mantenir-la segura i privada és molt important ja que permet que <em> qualsevol persona</em> tingui accés total als vostres fons!.</p>
+        <p>Si perdeu la contrasenya del portamonedes encara podrieu recuperar-lo amb la llavor Mnemotècnica.</p>
+        <p>La llavor Mnemotècnica tampoc no es pot canviar mai, i si és robada o compromesa d’alguna manera haureu de traslladar els vostres fons a un nou portamonedes (amb una nova 	llavor mnemotècnica). Per tant, es recomana que feu còpies de seguretat de la vostra llavor mnemotècnica escrivint-la i emmagatzemant-la a <em> múltiple </em> llocs de forma 	segura.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Crear Portamonedes - Llavor</h1>
+        <p>Si ja teniu una adreça Monero i voleu recuperar les transaccions de la blockchain!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes.
+        La contrasenya s’utilitza per protegir les dades del seu portamonedes en el dispositiu. Utilitzeu una contrasenya sòlida - encara millor si utiliza una frase.</p>
+        <p>Introduïu la Llavor en el camp \"Llavor Mnemotècnica\".<p>
+        <p>Introduïu el número de bloc de la primera transacció realitzada en aquesta adreça en el camp "Restaurar Alçada". També podeu utilitzar una data en el format AAAA-MM-DD. 	Si no esteu segurs, introduïu una data / alçada de bloc aproximada <em> abans </em> d’haver fer servir aquesta adreça del portamonedes.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Crear Portamonedes - Claus</h1>
+        <p>Si voleu recuperar el vostre portamonedes fent servir les vostres claus!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes. La contrasenya s’utilitza per protegir les dades de la seva cartera al dispositiu. Utilitzeu una contrasenya sòlida 	- encara millor si utiliza una frase.<p>
+        <p>Introduïu la vostra Adreça Monero en el camp \"Adreça Pública\" i ompliu \"Clau de Visualització\" i  \"Clau de Despesa\" </p>
+        <p>Introduïu el número de bloc de la primera transacció realitzada en aquesta adreça en el
+        camp "Restaurar Alçada". També podeu utilitzar una data en el format AAAA-MM-DD. Si no esteu segurs, introduïu una data / alçada de bloc aproximada <em> abans </em> d’haver 	fer servir aquesta adreça del portamonedes.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Crear Portamonedes - Només de Lectura</h1>
+        <p>Si només voleu monitoritzar les transaccions entrants del portamonedes!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes. La contrasenya s’utilitza per protegir les dades de la seva cartera al dispositiu. Utilitzeu una contrasenya sòlida 	- encara millor si utiliza una frase.<p>
+        <p>Introduïu la vostra Adreça Monero en el camp \"Adreça Pública\" i ompliu \"Clau de Visualització\".</p>
+        <p>Introduïu el número de bloc de la primera transacció realitzada en aquesta adreça en el camp "Restaurar Alçada". També podeu utilitzar una data en el format AAAA-MM-DD. 	Si no esteu segurs, introduïu una data / alçada de bloc aproximada <em> abans </em> d’haver fer servir aquesta adreça del portamonedes.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Detalls del portamonedes</h1>
+        <h2>Adreça pública</h2>
+        La vostra adreça pública és com el vostre número de compte bancari que podeu compartir amb qualsevol persona sense haver de tenir por de perdre el vostres Monero. La gent 	enviarà Monero al seu portamonedes mitjançant aquesta adreça.
+        <h2>Clau Mnemotècnica</h2>
+       	Aquestes són les úniques dades necessàries per a recuperar el vostre portamonedes i obtenir accés total als vostres fons.
+        Mantenir-la segura i privada és molt important ja que permet que <em> qualsevol persona</em> tingui accés total als vostres fons! Si no us heu escrit en cap lloc segur, 	feu-ho!
+        <h2>Contrasenya de Recuperació d’Arxius del Portamonedes</h2>
+	    Assegureu-vos que heu escrit aquesta contrasenya. Si restabliu el dispositiu o desinstal·leu l’aplicació, la necessitarà per tornar a accedir al seu portamonedes.<br/>
+        <h3>CrAzYsenya</h3>
+        Si la contrasenya que es mostra aquí és de 52 caràcters alfanumèrics en grups de 4 - felicitats!
+        Els fitxers del portamonedes estan protegits amb una clau de 256 bits generada per la funció de seguretat del vostre dispositiu basades en la contrasenya que heu triat 	(durant la creació o al canviar-la). Això ho fa extremadament difícil de piratejar!<br/>
+      	Aquesta opció és obligatoria per a tots els nous portamonedes.
+        <h3>Contrasenya de Llegat</h3>
+	    Si veieu la vostra contrasenya aquí, els fitxers del portamonedes no estan tan segurs com quan s’utilitza la CrAzYsenya. Per solucionar-ho, seleccioneu \"Canviar 		Contrasenya\" des del menú. Després d’entrar una nova contrasenya (potser fins i tot la mateixa que abans) l’aplicació generarà una CrAzYsenya per a protegir els vostres 	arxius del portamonedes. Anoteu-la!
+        <h3>CrAzYsenya del Portamonedes</h3>
+	    Si mai necessiteu tornar a instal·lar Monerujo (per exemple, després de restablir el telèfon o canviar-lo per un de nou) o voleu utilitzar els arxius del portamonedes en un 	altre dispositiu o PC, cal que ho feu utilitzant aquesta Contrasenya de Recuperació (CrAzYsenya) per tornar a accedir al vostre portamonedes. <br/>
+        En seleccionar \"Canviar Contrasenya\" des del menú, podeu triar una nova contrasenya. Aneu amb compte que això generarà una nova Contrasenya de Recuperació (CrAzYsenya). 	Anoteu-la!
+        <h2>Clau de Visualització</h2>
+   	    La vostra clau de visualització es pot utilitzar per monitoritzar les transaccions entrants al vostre portamonedes sense donar-ne permís per gastar els fons a dins seu.
+        <h2>Clau de Despesa</h2>
+        La vostra clau de despesa permet a qualsevol persona gastar els Monero associats al seu portamonedes, així que no ho compartiu amb ningú, mantingueu-la segura com la vostra 	Llavor Mnemotècnica.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">Ja ho tinc!</string> <!-- Note: "Got it" as in "I understand this" -->
+</resources>

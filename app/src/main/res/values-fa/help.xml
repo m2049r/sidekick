@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="fa">
+    <string name="help_create_new"><![CDATA[
+        <h1>ساخت کیف پول حدید</h1>
+        <p>اگر یک کیف پول جدید مونرو نیاز دارید!</p>
+        <p>
+        یک نام کیف پول و رمز عبور منحصر به فرد وارد کنید. رمز عبور برای ایمن سازی اطلاعات کیف
+        پول شما در دستگاه استفاده می‌شود. از یک رمز عبور قوی استفاده کنید - حتی بهتر، از یک «عبارت عبور» استفاده کنید.
+        </p>
+        <h2>بذر یادآوری خود را روی کاغذ یادداشت کنید!</h2>
+        <p>
+        در صفحهٔ زیر «بذر یادآوری» 25 کلمه‌ای خود را پیدا خواهید کرد. این تنها چیزی است که برای بازیابی کیف پول
+        شما در آینده و دسترسی کامل به وجوه شما مورد نیاز است. نگهداری «ایمن» و «خصوصی» این کلمات بسیار مهم است، زیرا به
+        <em>همه</em>
+        امکان دسترسی کامل به وجوه شما را می‌دهد!
+        </p>
+        <p>
+        اگر عبارت عبور کیف پول خود را گم کردید، همچنان می‌توانید کیف پول خود را با بذر یادآوری بازیابی کنید.
+        </p>
+        <p>
+        هیچ راهی برای بازیابی بذر یادآوری وجود ندارد، اگر آن را از دست بدهید تمام سرمایهٔ شما از بین خواهد رفت!
+        بذر یادآوری نیز هرگز قابل تغییر نیست، و اگر به سرقت رفته یا به خطر بیفتد، باید وجوه خود را به کیف‌پول
+        جدید (با یک بذر جدید) منتقل کنید. بنابراین، بهتر است از بذر یادآوری خود با نوشتن و ذخیرهٔ آن در
+        <em>چندین</em>
+        مکان امن و مطمئن، پشتیبان تهیه کنید.
+        </p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>بازیابی کیف پول از بذر</h1>
+        <p>اگر از پیش یک کیف پول مونرو دارید و می‌خواهید تراکنش‌ها را از بلاک‌چین بازیابی کنید!</p>
+        <p>
+        یک نام کیف پول و رمز عبور منحصر به فرد وارد کنید. رمز عبور برای ایمن سازی اطلاعات کیف پول شما
+        در دستگاه استفاده می‌شود. از یک رمز عبور قوی استفاده کنید - حتی بهتر، از یک «عبارت عبور» استفاده کنید.
+        </p>
+        <p>بذر خود را در قسمت «بذر یادآوری» وارد کنید.<p>
+        <p>
+        شمارهٔ بلوک اولین تراکنش استفاده شده برای این آدرس را در فیلد «ارتفاع بازیابی» وارد کنید. همچنین می‌توانید از تاریخ میلادی در قالب
+        YYYY-MM-DD
+        استفاده کنید. اگر مطمئن نیستید، یک تاریخ یا ارتفاع بازیابی تقریبی
+        <em>قبل از</em>
+        اولین استفاده از این آدرس کیف پول را وارد کنید.
+        </p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>بازیابی کیف پول از کلیدها</h1>
+        <p>اگر می‌خواهید با استفاده از کلیدهای خود کیف پول خود را بازیابی می‌کنید!</p>
+        <p>
+        یک نام کیف پول و رمز عبور منحصر به فرد وارد کنید. رمز عبور برای ایمن سازی اطلاعات کیف پول شما در دستگاه استفاده می‌شود. از یک رمز عبور قوی استفاده کنید - حتی بهتر، از یک «عبارت عبور» استفاده کنید.
+        </p>
+        <p>آدرس مونروی خود را در قسمت «آدرس عمومی» وارد کنید و «کلید مشاهده» و «کلید مصرف» را پر کنید.</p>
+        <p>
+        شمارهٔ بلوک اولین تراکنش استفاده شده برای این آدرس را در فیلد «ارتفاع بازیابی» وارد کنید. همچنین می‌توانید از تاریخ میلادی در قالب
+        YYYY-MM-DD
+        استفاده کنید. اگر مطمئن نیستید، یک تاریخ یا ارتفاع بازیابی تقریبی
+        <em>قبل از</em>
+        اولین استفاده از این آدرس کیف پول را وارد کنید.
+        </p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>
+        ساخت کیف پول «فقط مشاهده‌ای»
+        </h1>
+        <p>اگر فقط می‌خواهید تراکنش‌های ورودی به کیف پول را نظارت کنید!</p>
+        <p>یک نام کیف پول و رمز عبور منحصر به فرد وارد کنید. رمز عبور برای ایمن سازی اطلاعات کیف پول شما در دستگاه استفاده می‌شود. از یک رمز عبور قوی استفاده کنید - حتی بهتر، از یک «عبارت عبور» استفاده کنید.</p>
+        <p>آدرس مونروی خود را در قسمت «آدرس عمومی» وارد کنید و «کلید مشاهده» را پر کنید.</p>
+        <p>
+        شمارهٔ بلوک اولین تراکنش استفاده شده برای این آدرس را در فیلد «ارتفاع بازیابی» وارد کنید. همچنین می‌توانید از تاریخ میلادی در قالب
+        YYYY-MM-DD
+        استفاده کنید. اگر مطمئن نیستید، یک تاریخ یا ارتفاع بازیابی تقریبی
+        <em>قبل از</em>
+        اولین استفاده از این آدرس کیف پول را وارد کنید.
+        </p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>جزئیات کیف پول</h1>
+        <h2>آدرس عمومی</h2>
+        آدرس عمومی شما مانند شمارهٔ حساب بانکی شما است که می‌توانید آن را با هرکسی به اشتراک بگذارید
+        بدون اینکه نگران از دست دادن مونروی خود باشید. دیگران مونرو را با استفاده از این آدرس به کیف پول شما ارسال می‌کنند.
+        <h2>بذر یادآوری</h2>
+        این تنها داده‌ای است که برای بازیابی کیف پول شما در آینده و دسترسی کامل به وجوه شما مورد نیاز است.
+        نگهداری خصوصی و امن این بذر بسیار مهم است، زیرا به <em>هرکسی</em> اجازه دسترسی کامل به مونروی
+        شما را می‌دهد! اگر این کد را در جایی امن یادداشت نکرده‌اید، لطفاً انجام دهید!
+        <h2>رمز عبور بازیابی فایل‌های کیف پول</h2>
+        حتما این رمز عبور را روی کاغذ یادداشت کنید. اگر دستگاه خود را بازنشانی کنید یا برنامه را حذف نصب کنید،
+        برای دسترسی مجدد به فایل‌های کیف پول خود به آن نیاز خواهید داشت.<br/>
+        <h3>CrAzYpass</h3>
+        اگر رمز عبور نمایش داده شده در اینجا 52 کاراکتر در گروه‌های 4 تایی است - تبریک می‌گوییم!
+        فایل‌های کیف پول شما با یک کلید 256 بیتی ایجاده شده براساس عبارت عبوری که انتخاب کرده‌اید ایمن شده. این کار هک
+        شدن را بسیار سخت می‌کند!<br/>
+        این ویژگی برای همهٔ کیف پول‌های تازه ایجاد شده اجباری است.
+        <h3>رمز عبور قدیمی</h3>
+        اگر عین عبارت عبور خود را در اینجا می‌بینید، فایل‌های کیف پول شما به اندازهٔ زمانی
+        که از CrAzYpass استفاده می‌کنید ایمن نیستند. برای رفع این مشکل، کافی است «تغییر عبارت عبور» را
+        از منو انتخاب کنید. برنامه پس از وارد کردن یک عبارت عبور جدید (حتی شاید با همان عبارت قبلی)
+        یک CrAzYpass برای شما تولید و فایل‌های کیف پول شما را با آن ایمن می‌کند. آن را روی کاغذ بنویسید!
+        <h3>
+        کیف پول‌های CrAzYpass
+        </h3>
+        اگر زمانی نیاز به نصب مجدد مونروجو داشتید (مثلاً پس از تنظیم مجدد تلفن یا مهاجرت به یک تلفن جدید) یا می‌خواهید
+        از فایل‌های کیف پول خود در دستگاه یا رایانه شخصی دیگری استفاده کنید، باید از این رمز بازیابی برای
+        دسترسی مجدد به کیف پول خود استفاده کنید.<br/>
+        با انتخاب «تغییر عبارت عبور» از منو می‌توانید عبارت دیگری را انتخاب کنید. مراقب باشید که با این کار
+        یک رمز عبور بازیابی جدید ایجاد می‌شود. آن را روی کاغذ بنویسید!
+        <h2>کلید مشاهده</h2>
+        کلید مشاهدهٔ شما می‌تواند برای ساخت یک کیف پول «فقط مشاهده‌ای» برای نظارت بر تراکنش‌های دریافتی
+        به کیف پول شما بدون اجازه داشتن برای خرج کردن وجوه، استفاده شود.
+        <h2>کلید مصرف</h2>
+        کلید مصرف شما به هرکسی اجازه می‌دهد مونروی مربوط به کیف پول شما را خرج
+        کند، بنابراین این کلید را به کسی نگویید، آن را مانند بذر یادآوری خود ایمن نگه دارید.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">فهمیدم!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

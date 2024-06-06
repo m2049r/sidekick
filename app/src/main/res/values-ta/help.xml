@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ta">
+    <string name="help_create_new"><![CDATA[
+        <h1>பணப்பையை உருவாக்கல் - புதிய</h1>
+        <p>உங்களுக்கு ஒரு புதிய மொனேரொ முகவரி தேவைப்பட்டால்</p>
+        <p>தனித்துவமான பணப்பை பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்.
+        சாதனத்தில் இருக்கும் உங்கள் பணப்பை தரவுகளை பாதுகாக்க இந்த கடவுச்சொல் பயன்படுத்தப்படும். ஆகையால் வலிமையான 
+        கடவுச்சொல்லை பயன்படுத்தவும் - கடவுத்தொடரை பயன்படுத்தினால் இன்னும் சிறப்பாக இருக்கும்.</p>
+        <h2>உங்கள் நினைவி விதையை குறித்து வைத்து கொள்ளவும்!</h2>
+        <p>பின்வரும் திரையில், உங்களுடைய 25-வார்த்தை கொண்ட \"நினைவி விதையை\" உங்களால் காண இயலும்.
+        பின்னர் ஒரு கட்டத்தில் உங்கள் பணப்பையை மீட்டெடுக்க வேண்டும் என்றால் இந்த தரவு மட்டுமே போதுமானதாக இருக்கும். 
+        இதன்மூலம் உங்கள் வைப்புகளின் முழு அணுகலை நீங்கள் பெற இயலும்.
+        இது <em>யாரேனும் ஒருவருக்கு</em> உங்கள் வைப்பின் முழு அணுகலை தரவல்லது என்பதால், இதை பாதுகாப்பாக மற்றும் 
+        கமுக்கமாக வைத்திருப்பது மிகவும் முக்கியமானதாகும்!</p>
+        <p>நீங்கள் உங்கள் பணப்பை கடவுச்சொல்லை மறந்துவிட்டீர்கள் எனறால், இந்த நினைவி விதையை கொண்டு உங்களால் 
+        உங்கள் பணப்பையை மீட்டெடுக்க இயலும்.</p>
+        <p>உங்கள் நினைவி விதையை மீட்டெடுக்க எந்த வழியும் இல்லை. இதைத் தொலைத்து விட்டீர்கள் என்றால் உங்கள் 
+        மொத்த வைப்பும் தொலைந்து விட்டதாகப் பொருள்! நினைவி விதையையும் ஒருபோதும் மாற்ற இயலாது. மேலும், இது தொலைந்தோ
+        அல்லது காணாமல் போனாலோ உங்கள் பணத்தை ஒரு புதிய பணப்பைக்கு மாற்ற வேண்டி வரும் (ஒரு புதிய நினைவி 
+        விதையைக் கொண்டு). எனவே, உங்கள் நினைவி விதையை ஒன்றிற்கும் மேற்பட்ட <em>பாதுகாப்பான</em> இடங்களில் 
+        கைப்பட எழுதி வைப்பது இன்றியமையாததாகும்.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>பணப்பை உருவாக்கல் - விதை</h1>
+        <p>உங்களிடம் ஏற்கனவே ஒரு மொனேரொ முகவரி இருந்து, தொகுப்பு சங்கிலியில் இருந்து பரிமாற்றங்களை மீட்டெடுக்க வேண்டுமென்றால்!</p>
+        <p>தனித்துவமான பணப்பை பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்.
+        சாதனத்தில் இருக்கும் உங்கள் பணப்பை தரவுகளை பாதுகாக்க இந்த கடவுச்சொல் பயன்படுத்தப்படும். ஆகையால் வலிமையான 
+        கடவுச்சொல்லை பயன்படுத்தவும் - கடவுத்தொடரை பயன்படுத்தினால் இன்னும் சிறப்பாக இருக்கும்.</p>
+        <p>\"நினைவி விதை\" என்னும் புலத்தில் உங்கள் விதையை உள்ளிடவும்.<p>
+        <p>\"மீட்டமை உயரம்\" புலத்தில் இந்த முகவரிக்காக பயன்படுத்தப்பட்ட முதல் பரிமாற்றத்தின் தொகுதி எண்ணை உள்ளிடவும்.
+        மேலும் நீங்கள் வவவவ-மம-நாநா என்னும் வடிவத்தில் ஒரு தேதியையும் பயன்படுத்தலாம். உங்களுக்கு குழப்பமாக இருந்தால, 
+        இந்த பணப்பை முகவரிக்கு <em>முன்பு</em> நீங்கள் முதலில் பயன்படுத்திய தோராயமான தேதி அல்லது தொகுதி உயரத்தை உள்ளிடவும்.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>பணப்பையை உருவாக்கல் - திறவுகோல்கள்</h1>
+        <p>உங்கள் திறவுகோல்களை பயன்படுத்தி உங்கள் பணப்பையை மீட்டெடுக்க உள்ளீர்கள் என்றால்!</p>
+        <p>தனித்துவமான பணப்பை பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்.
+        சாதனத்தில் இருக்கும் உங்கள் பணப்பை தரவுகளை பாதுகாக்க இந்த கடவுச்சொல் பயன்படுத்தப்படும். ஆகையால் வலிமையான 
+        கடவுச்சொல்லை பயன்படுத்தவும் - கடவுத்தொடரை பயன்படுத்தினால் இன்னும் சிறப்பாக இருக்கும்.</p>
+        <p>\"பொது முகவரி\" என்னும் புலத்தில் உங்கள் மொனேரொ முகவரியை உள்ளிட்டு, பின் \"பார்வை திறவுகோல்\" மற்றும் \"செலவழி திறவுகோல்\" ஆகியவற்றை நிரப்பவும்.</p>
+        <p>\"மீட்டமை உயரம்\" புலத்தில் இந்த முகவரிக்காக பயன்படுத்தப்பட்ட முதல் பரிமாற்றத்தின் தொகுதி எண்ணை உள்ளிடவும்.
+        மேலும் நீங்கள் வவவவ-மம-நாநா என்னும் வடிவத்தில் ஒரு தேதியையும் பயன்படுத்தலாம். உங்களுக்கு குழப்பமாக இருந்தால, 
+        இந்த பணப்பை முகவரிக்கு <em>முன்பு</em> நீங்கள் முதலில் பயன்படுத்திய தோராயமான தேதி அல்லது தொகுதி உயரத்தை உள்ளிடவும்.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>பணப்பையை உருவாக்கல் - பார்க்க</h1>
+        <p>பணப்பைக்கான உள்வரு பரிமாற்றங்களை மட்டும் நீங்கள் கண்காணிக்க வேண்டுமென்றால்!</p>
+        <p>தனித்துவமான பணப்பை பெயர் மற்றும் கடவுச்சொல்லை உள்ளிடவும்.
+        சாதனத்தில் இருக்கும் உங்கள் பணப்பை தரவுகளை பாதுகாக்க இந்த கடவுச்சொல் பயன்படுத்தப்படும். ஆகையால் வலிமையான 
+        கடவுச்சொல்லை பயன்படுத்தவும் - கடவுத்தொடரை பயன்படுத்தினால் இன்னும் சிறப்பாக இருக்கும்.</p>
+        <p>\"பொது முகவரி\" என்னும் புலத்தில் உங்கள் மொனேரொ முகவரியை உள்ளிட்டு, பின் \"பார்வை திறவுகோல்\" ஐ நிரப்பவும்.</p>
+        <p>\"மீட்டமை உயரம்\" புலத்தில் இந்த முகவரிக்காக பயன்படுத்தப்பட்ட முதல் பரிமாற்றத்தின் தொகுதி எண்ணை உள்ளிடவும்.
+        மேலும் நீங்கள் வவவவ-மம-நாநா என்னும் வடிவத்தில் ஒரு தேதியையும் பயன்படுத்தலாம். உங்களுக்கு குழப்பமாக இருந்தால, 
+        இந்த பணப்பை முகவரிக்கு <em>முன்பு</em> நீங்கள் முதலில் பயன்படுத்திய தோராயமான தேதி அல்லது தொகுதி உயரத்தை உள்ளிடவும்.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>பணப்பை விவரங்கள்</h1>
+        <h2>பொது முகவரி</h2>
+        பொது முகவரி உங்கள் வங்கி கணக்கு எண்ணை போன்றது. நீங்கள் மொனேரொவை இழந்து விடுவோமோ என்ற எந்தவித
+        கவலையும் இல்லாமல் இதை எவரோடும் பகிரலாம். இந்த முகவரியை பயன்படுத்தி மக்கள் உங்கள் பணப்பைக்கு மொனெரோவை
+        அனுப்புவார்கள்.
+        <h2>நினைவி விதை</h2>
+        பின்னர் ஒரு கட்டத்தில் உங்கள் பணப்பையை மீட்டெடுக்க வேண்டும் என்றால் இந்த தரவு மட்டுமே போதுமானதாக இருக்கும். 
+        இதன்மூலம் உங்கள் வைப்புகளின் முழு அணுகலை நீங்கள் பெற இயலும்.
+        இது <em>யாரேனும் ஒருவருக்கு</em> உங்கள் வைப்பின் முழு அணுகலை தரவல்லது என்பதால், இதை பாதுகாப்பாக மற்றும் 
+        கமுக்கமாக வைத்திருப்பது மிகவும் முக்கியமானதாகும்! இதை இன்னும் ஒரு பாதுகாப்பான இடத்தில் எழுதி வைக்கவில்லையென்றால்
+        இப்போதே அதை செய்யவும்!
+        <h2>பணப்பை கோப்புகள் மீட்டமை கடவுச்சொல்</h2>
+        இந்த கடவுச்சொல்லை எழுதி வைப்பதிருப்பதை உறுதிசெய்து கொள்ளவும். நீங்கள் உங்கள் சாதனத்தை மீள் அமைத்தாலோ அல்லது
+        செயலியின் நிறுவலை நீக்கனாலோ, உங்கள் பணப்பையை மீண்டும் அணுக இது உங்களுக்கு தேவைப்படும்.<br/>
+        <h3>CrAzYpass</h3>
+        இங்கு காட்டப்பட்டுள்ள கடவுச்சொல் ஒரு குழுவில் 4 என்ற அடிப்படையில் உள்ள 52 எண்ணெழுத்து வரையுருக்களாகும் - வாழ்த்துக்கள்!
+        உங்கள் பணப்பை கோப்புகள் நீங்கள் தேர்ந்தெடுத்த கடவுத்தொடரை (உருவாக்கலின்போது அல்லது அதை மாற்றும் போது) அடிப்படையாக 
+        கொண்டு உங்கள் சாதனத்தின் பாதுகாப்பு சிறப்பியல்புகளால் உற்பத்தி செய்யப்பட்ட 256-இரும திறவுகோலை கொண்டு பாதுகாக்கப்பட்டுள்ளது. 
+        இது ஊடுருவலை மிக கடினமானதாக்குகிறது!<br/>
+        இந்த சிறப்பியல்பு எல்லா புதிதாக உருவாக்கப்பட்ட பணப்பைகளுக்கும் கட்டாயமானதாகும்.
+        <h3>மரபுவழி கடவுச்சொல்</h3>
+        உங்கள் கடவுத்தொடரை இங்குக் காண நேர்ந்தால், உங்கள் பணப்பை கோப்பானது CrAzYpass ஐ பயன்படுத்தும்போது 
+        உள்ள பாதுகாப்பைக் காட்டிலும் சற்று குறைவாக உள்ளது எனப் பொருள் கொள்ளலாம். இதைச் சரி செய்ய, சிறுபட்டியிலிருந்து 
+        \"கடவுச்சொற்றொடரை மாற்று\" என்பதைத் தேர்ந்தெடுக்கவும். இதில் புதிய கடவுத்தொடரை (அல்லது அதே கடவுத்தொடரை) இட்டவுடன் 
+        செயலியானது ஒரு CrAzYpass ஐ உங்களுக்காக உற்பத்தி செய்து, உங்கள் பணப்பை கோப்புகளை அதைக்கொண்டு பாதுகாக்கும். இதை
+        எழுதி வைத்துக் கொள்ளவும்!
+        <h3>CrAzYpass பணப்பைகள்</h3>
+        If you ever need to reinstall Monerujo (for example after resetting your phone or switching
+        to a new one) or you want to use your wallet files on a different device or PC, you have to
+        use this Recovery Password in order to access your wallet again.<br/>
+        By selecting \"Change Passphrase\" from the menu, you can choose another passphrase. Beware
+        that this will generate a new Recovery Password. Write it down!
+        <h2>பார்வை திறவுகோல்</h2>
+        பார்வை திறவுகோலானது உங்கள் பணப்பைக்கு உள்வரும் பரிமாற்றங்களை, அவற்றிற்கு உங்கள் பணப்பையில் 
+        உள்ள பணத்தைச் செலவழிப்பதற்கு அனுமதி அளிக்காமல் அவற்றைக் கண்காணிக்கப் பயன்படும்.
+        <h2>செலவழி திறவுகோல்</h2>
+        உங்கள் செலவழி திறவுகோலானது உங்கள் பணப்பையோடு தொடர்புடைய மொனேரொவை யாரேனும் ஒருவர் செலவழிக்க அனுமதிக்கிறது.
+        ஆகையால், நினைவி விதையைப் போல் இதைப் பற்றியும் யாரிடமும் சொல்லாதீர்கள்.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">புரிந்தது!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

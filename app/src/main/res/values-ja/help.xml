@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>ウォレットの作成 - 新規</h1>
+        <p>新しいモネロのアドレスが必要な場合!</p>
+        <p>ユニークなウォレットの名前とパスワードを入力してください。
+        パスワードはデバイス上であなたのウォレットデータを
+        守るために使われます。強力なパスワードか、
+        もしくはパスフレーズを使ってください。</p>
+        <h2>ニーモニック・シードをメモしてください！</h2>
+        <p>次の画面では25の単語からなる「ニーモニック・シード」
+        が表示されます。これはあなたのウォレットを復元して資産に
+        アクセスするために唯一必要なものです。
+        このニーモニック・シードを安全に、プライベートに保管することは
+        非常に重要です。なぜならばこのニーモニック・シードを
+        知っている人間は<em>誰であろうと</em>
+        あなたの資産にアクセスできてしまうからです！</p>
+        <p>もしもあなたがウォレットのパスワードを紛失してしまった
+        場合でも、このニーモニック・シードがあれば
+        あなたのウォレットを復元することができます。</p>
+        <p>しかしニーモニック・シード自体を紛失してしまった場合、
+        それ自体を復元することはできず、あなたはすべての資産を
+        失うことになってしまいます！またニーモニック・シードは
+        あとから変更することができず、もしもニーモニック・シードが
+        盗まれたり流出したりしてしまった場合、あなたは新しい
+        ニーモニック・シードから作られた新しいウォレットに資産を
+        移動させる必要が有ります。それゆえ、ニーモニック・シードを
+        書き留めて、<em>複数の</em>安全で確実な場所に
+        保管しておくべきです。</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>ウォレットの作成 - シードから</h1>
+        <p>もしもあなたがすでにモネロのアドレスを持っていて
+        ブロックチェーンからトランザクションを復元したい場合!</p>
+        <p>ユニークなウォレットの名前とパスワードを入力してください。
+        パスワードはデバイス上であなたのウォレットデータを
+        守るために使われます。強力なパスワードか、
+        もしくはパスフレーズを使ってください。</p>
+        <p>あなたのニーモニック・シードを「ニーモニック・シード」
+        (Mnemonic Seed)の欄に入力してください。<p>
+        <p>このアドレスに対して発行された最初のトランザクションが
+        入っているブロックの番号を「復元ブロック長」(Restore Height)
+        の欄に入力してください。代わりに最初のトランザクションの
+        発行された日付をYYYY-MM-DD（年4桁-月2桁-日2桁）の形で
+        入力することもできます。もし日付/ブロック長が確実には
+        分からない場合、このウォレットアドレスを利用した最初の
+        日付/ブロック長よりも<em>前の</em>日付/ブロック長を
+        おおよそでいいので推定して入力してください。</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>ウォレットの作成 - 鍵を利用</h1>
+        <p>もしもあなたが鍵を使ってウォレットを復元しようとしている場合!</p>
+        <p>ユニークなウォレットの名前とパスワードを入力してください。
+        パスワードはデバイス上であなたのウォレットデータを
+        守るために使われます。強力なパスワードか、
+        もしくはパスフレーズを使ってください。<p>
+        <p>あなたのモネロのアドレスを「公開アドレス」(Public Address)
+        の欄に入力し、「表示用キー」（View Key）と
+        「送金用キー」(Spend Key)も入力してください。</p>
+        <p>このアドレスに対して発行された最初のトランザクションが
+        入っているブロックの番号を「復元ブロック長」(Restore Height)
+        の欄に入力してください。代わりに最初のトランザクションの
+        発行された日付をYYYY-MM-DD（年4桁-月2桁-日2桁）の形で
+        入力することもできます。もし日付/ブロック長が確実には
+        分からない場合、このウォレットアドレスを利用した最初の
+        日付/ブロック長よりも<em>前の</em>日付/ブロック長を
+        おおよそでいいので推定して入力してください。</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>ウォレットの作成 - 閲覧専用</h1>
+        <p>もしもあなたがウォレットに入金されるトランザクションを閲覧したいだけの場合!</p>
+        <p>ユニークなウォレットの名前とパスワードを入力してください。
+        パスワードはデバイス上であなたのウォレットデータを
+        守るために使われます。強力なパスワードか、
+        もしくはパスフレーズを使ってください。<p>
+        <p>あなたのモネロのアドレスを「公開アドレス」(Public Address)
+        の欄に入力し、「表示用キー」（View Key）も入力してください。</p>
+        <p>このアドレスに対して発行された最初のトランザクションが
+        入っているブロックの番号を「復元ブロック長」(Restore Height)
+        の欄に入力してください。代わりに最初のトランザクションの
+        発行された日付をYYYY-MM-DD（年4桁-月2桁-日2桁）の形で
+        入力することもできます。もし日付/ブロック長が確実には
+        分からない場合、このウォレットアドレスを利用した最初の
+        日付/ブロック長よりも<em>前の</em>日付/ブロック長を
+        おおよそでいいので推定して入力してください。</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>ウォレットの詳細/h1>
+        <h2>公開アドレス</h2>
+        あなたの公開アドレスは、モネロを失う心配をせずに、
+        誰にでも見せることができる銀行の口座番号のようなものです。
+        他の人はこのアドレスを使ってあなたにモネロを送金します。
+        <h2>ニーモニック・シード</h2>
+        これはあなたのウォレットを後から復元して資産に完全な
+        アクセスを得るために必要な唯一のデータです。
+        このニーモニック・シードを安全に、プライベートに
+        保管することは非常に重要です。なぜならばこのニーモニック・シードを
+        知っている人間は<em>誰であろうと</em>あなたの資産に
+        アクセスできてしまうからです！もしもあなたがまだ
+        これを書き留めて安全に保管していない場合、
+        直ちに書き留めて安全に保管するようにしてください。
+        <h2>ウォレットファイル復元パスワード</h2>
+        このパスワードを書き留めておくようにしてください。
+        もしもあなたがデバイスをリセットしたりアプリを
+        アンインストールした場合、ウォレットに再びアクセスするために
+        このパスワードが必要になります。<br/>
+        <h3>CrAzYpass</h3>
+        もしここに表示されているパスワードが4文字毎に区切られた
+        52文字の英数字からなるものであった場合 - 
+        おめでとうございます!あなたのウォレットファイルは
+        デバイスのセキュリティ機能を使い、あなたが新規作成
+        (もしくは変更)したパスフレーズに基づいて生成された
+        256ビットのキーで守られています。
+        これはハッキングが非常に難しくなります!<br/>
+        この機能はすべての新規作成されたウォレットでは必須となっています。
+        <h3>古いパスワード</h3>
+        もしここに表示されているのがあなたのパスワードなら、
+        あなたのウォレットファイルはCrAzYpass（クレイジーパス）
+        を使った場合ほど安全ではありません。これを直すためには、
+        「パスワードを変更する」(Change Passphrase)をメニューから
+        選択してください。新しいパスフレーズ(前のものと同じものであっても)
+        を入力した後、アプリはあなたのためにCrAzYpass(クレイジーパス)
+        を生成し、あなたのウォレットファイルを保護します。
+        パスフレーズは書き留めておいてください!
+        <h3>CrAzYpass ウォレット</h3>
+        もしもMonerujoを再インストールする必要がある場合
+        （例えばデバイスをリセットしたり新しい機種に変えた場合）、
+        もしくはあなたのウォレットファイルを別のデバイスや
+        PCで使いたい場合、あなたのウォレットに再びアクセスするためには
+        このリカバリーパスワードが必要です。<br/>
+        「パスフレーズの変更」(Change Passphrase)をメニューから
+        選択することによって、あなたは別のパスフレーズを選ぶことができます。
+        これは新しいリカバリーパスワードを生成することに注意してください。
+        パスフレーズは書き留めておいてください!
+        <h2>表示用キー</h2>
+        あなたの表示用キーは、資金をウォレットから送金する権限を
+        与えることなく、あなたのウォレットへの入金トランザクションを
+        監視するのに使用できます。
+        <h2>送金用キー</h2>
+        あなたの送金用キーはあなたのウォレットに関連するすべての
+        モネロを送金することが可能です。従って、このキーは誰にも
+        見せてはいけません。また、ニーモニック・シードと同様に
+        厳重に取り扱ってください。
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">分かりました！</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

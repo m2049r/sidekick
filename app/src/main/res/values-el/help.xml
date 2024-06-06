@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Δημιουργία πορτοφολιού - Νέο</h1>
+        <p>Εάν χρειάζεστε μια νέα διεύθυνση Monero!</p>
+        <p>Δώσε ένα μοναδικό όνομα και κωδικό πρόσβασης πορτοφολιού.
+        Ο κωδικός πρόσβασης χρησιμοποιείται για τη διασφάλιση των δεδομένων του πορτοφολιού στη συσκευή.
+		Χρησιμοποίησε έναν ισχυρό κωδικό πρόσβασης - ακόμα καλύτερα χρησιμοποιήσε μια φράση-κωδικό.</p>
+        <h2>Σημείωσε τον μνημονικό σου σπόρο!</h2>
+        <p>Στην παρακάτω οθόνη θα βρείς τον 25-λέξεων \"Μνημονικό Σπόρο \".
+        Αυτό είναι τα μόνα δεδομένα που χρειάζεσαι για να επαναφέρεις το πορτοφόλι σου στο μέλλον
+        και να έχεις πλήρη πρόσβαση στα κεφάλαιά σου.
+        Το να το κρατήσεις ασφαλές και ιδιωτικό είναι πολύ σημαντικό, καθώς δίνει στον <em>οποιονδήποτε</em>
+        πλήρη πρόσβαση στα κεφάλαιά σου!</p>
+        <p>Αν χάσεις τον κωδικό του πορτοφολιού σου, μπορείς να επαναφέρεις το πορτοφόλι σου με τον Μνημονικό Σπόρο</p>
+        <p>Δεν υπάρχει τρόπος να επαναφέρεις τον Μνημονικό σου Σπόρο, αν τον χάσεις όλα σου τα κεφάλαια θα χαθούν!
+        Επίσης, ο Μνημονικός Σπόρος δεν γίνεται να αλλάξει, και αν κλαπεί ή εκτεθεί,
+        θα πρέπει να μεταφέρεις τα κεφάλαιά σου σε ένα νέο πορτοφόλι (με νέο Μνημονιακό Σπόρο). Επομένως, το καλύτερο
+        είναι να κρατήσεις αντίγραφο του Μνημονικού Σπόρου σου γράφοντάς τον και αποθηκεύοντάς τον <em>πολλαπλές φορές</em> σε
+        ασφαλή μέρη.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Δημιουργία πορτοφολιού - Σπόρος</h1>
+        <p>Εάν έχεις ήδη μια Διεύθυνση Monero και θέλεις να επαναφέρεις τις συναλλαγές από το blockchain!</p>
+        <p>Βάλε ένα μοναδικό όνομα χρήστη και κωδικό για το πορτοφόλι. Ο κωδικός χρησιμοποιείται για τη διασφάλιση των δεδομένων του πορτοφολιού στη συσκευή.
+        Χρησιμοποιήστε έναν ισχυρό κωδικό πρόσβασης - ακόμα καλύτερα χρησιμοποιήστε μια φράση-κωδικό.</p>
+        <p>Βάλε τον Σπόρο σου στο πεδίο \"Μνημονικός Σπόρος\".<p>
+        <p>Εάν ξέρεις τον αριθμό μπλοκ της πρώτης συναλλαγής για αυτή την διεύθυνση, βάλε τον στο
+        πεδίο \"Ύψος ανάκτησης\" - αφήνοντάς το κενό θα σαρωθεί <em>ολόκληρο</em> το blockchain για
+        συναλλαγές που ανήκουν στην διεύθυνσή σου. Αυτό παίρνει <em>πολύ</em> ώρα.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Δημιουργία πορτοφολιού - Κλειδιά</h1>
+        <p>Εάν επαναφέρεις το πορτοφόλι χρησιμοποιώντας τα κλειδιά του πορτοφολιού σου!</p>
+        <p>Βάλε ένα μοναδικό όνομα χρήστη και κωδικό για το πορτοφόλι. Ο κωδικός χρησιμοποιείται για τη διασφάλιση των δεδομένων του πορτοφολιού στη συσκευή.
+        Χρησιμοποιήστε έναν ισχυρό κωδικό πρόσβασης - ακόμα καλύτερα χρησιμοποιήστε μια φράση-κωδικό.</p>
+        <p>Βάλε την Διεύθυνση Monero στο πεδίο \"Δημόσια Διεύθυνση\" και συμπλήρωσε το \"Κλειδί Προβολής\" και \"Κλειδί Ξοδεύματος\".</p>
+        <p>Εάν ξέρεις τον αριθμό μπλοκ της πρώτης συναλλαγής για αυτή την διεύθυνση, βάλε τον στο
+        πεδίο \"Ύψος ανάκτησης\" - αφήνοντάς το κενό θα σαρωθεί <em>ολόκληρο</em> το blockchain για
+        συναλλαγές που ανήκουν στην διεύθυνσή σου. Αυτό παίρνει <em>πολύ</em> ώρα.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Δημιουργία πορτοφολιού - Παρακολούθησης</h1>
+        <p>Εάν θέλεις μόνο να παρακολουθείς για εισερχόμενες συναλλαγές σε ένα πορτοφόλι!</p>
+        <p>Βάλε ένα μοναδικό όνομα χρήστη και κωδικό για το πορτοφόλι. Ο κωδικός χρησιμοποιείται για τη διασφάλιση των δεδομένων του πορτοφολιού στη συσκευή.
+        Χρησιμοποιήστε έναν ισχυρό κωδικό πρόσβασης - ακόμα καλύτερα χρησιμοποιήστε μια φράση-κωδικό.</p>
+        <p>Βάλε την Διεύθυνση Monero στο πεδίο \"Δημόσια Διεύθυνση\" και συμπλήρωσε το \"Κλειδί Προβολής\".</p>
+        <p>Εάν ξέρεις τον αριθμό μπλοκ της πρώτης συναλλαγής για αυτή την διεύθυνση, βάλε τον στο
+        πεδίο \"Ύψος ανάκτησης\" - αφήνοντάς το κενό θα σαρωθεί <em>ολόκληρο</em> το blockchain για
+        συναλλαγές που ανήκουν στην διεύθυνσή σου. Αυτό παίρνει <em>πολύ</em> ώρα.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Λεπτομέρειες Πορτοφολιού</h1>
+        <h2>Δημόσια διεύθυνση</h2>
+        Η δημόσια διεύθυνσή σου είναι σαν τον αριθμό τραπεζικού λογαριασμού μπορείς να την μοιραστείς με οποιονδήποτε
+        χωρίς να φοβάσαι οτι θα χάσεις τα Monero σου. Μπορείς να λάβεις Monero στο πορτοφόλι σου με αυτή την διεύθυνση.
+        <h2>Μνημονικός Σπόρος</h2>
+        Αυτό είναι τα μόνα δεδομένα που χρειάζεσαι για να επαναφέρεις το πορτοφόλι σου οποτεδήποτε στο μέλλον
+        και να έχεις πλήρη πρόσβαση στα κεφάλαιά σου. Το να το κρατήσεις ασφαλές και ιδιωτικό είναι πολύ σημαντικό, καθώς δίνει στον <em>οποιονδήποτε</em>
+        πλήρη πρόσβαση στα κεφάλαιά σου! Αν δεν το έχεις σημειώσει ήδη σε ασφαλές μέρος παρακαλώ κάνε το!
+        <h2>Κλειδί προβολής</h2>
+        Το κλειδί προβολής(view key) μπορεί να χρησιμοποιηθεί για να παρακολουθήσει εισερχόμενες συναλλαγές
+        στο πορτοφόλι σου χωρίς να δίνει την δυνατότητα να ξοδέψεις κεφάλαια από αυτό.
+        <h2>Κλειδί ξοδεύματος</h2>
+        Το κλειδί ξοδεύματος(spend key) επιτρέπει στον οποιονδήποτε να ξοδέψει τα Monero που σχετίζοντε με το πορτοφόλι σου,
+        για αυτό μην μοιραστείς με κανέναν αυτό το κλειδί, κράτα το ασφαλές όπως και τον Μνημονικό σου Σπόρο.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">Got it!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

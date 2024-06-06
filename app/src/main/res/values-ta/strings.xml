@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ta">
+    <string name="wallet_activity_name">பணப்பை</string>
+
+    <string name="menu_about">எங்களைப் பற்றி</string>
+    <string name="menu_privacy">தனியுரிமைக் கொள்கை</string>
+
+    <string name="menu_help">உதவி</string>
+    <string name="menu_rename">மறுபெயரிடு</string>
+    <string name="menu_delete">அழி</string>
+    <string name="menu_backup">காப்புநகலெடு</string>
+    <string name="menu_changepw">கடவுச்சொற்றொடரை மாற்று</string>
+
+    <string name="label_login_wallets">பணப்பைகள்</string>
+    <string name="label_credits">நன்றிகள்</string>
+    <string name="label_ok">சரி</string>
+    <string name="label_cancel">நீங்கு</string>
+    <string name="label_wallet_advanced_details">விரிவான தகவல்</string>
+
+    <string name="changepw_progress">கடவுச்சொல் மாற்றம் நடந்து கொண்டிருக்கிறது</string>
+
+    <string name="service_progress">செயல்கள் முடியும் தருவாயில் உள்ளன &#8230;\nஇது சற்று நேரம் எடுக்கலாம்!</string>
+
+    <string name="backup_success">காப்புநகலெடுப்பு வெற்றியடைந்தது</string>
+    <string name="backup_failed">காப்புநகலெடுப்பு தோல்வியடைந்தது!</string>
+    <string name="delete_failed">அழித்தல் தோல்வியடைந்தது!</string>
+    <string name="rename_failed">மறுபெயரிடல் தோல்வியடைந்தது!</string>
+    <string name="changepw_failed">கடவுச்சொல் மாற்றம் தோல்வியடைந்தது!</string>
+    <string name="changepw_success">கடவுச்சொல் மாற்றப்பட்டது</string>
+
+    <string name="status_wallet_disconnected">துண்டிக்கப்பட்டது</string>
+
+    <string name="service_busy">நான் இன்னும் உங்கள் கடைசி &#8230; பணப்பையோடு அலுவலாக இருக்கிறேன்</string>
+
+    <string name="prompt_rename">%1$s ஐ மறுபெயரிடவும்</string>
+
+    <string name="prompt_changepw">%1$s ற்கான புதிய கடவுத்தொடர்</string>
+    <string name="prompt_changepwB">%1$s ற்கான கடவுத்தொடரை மீண்டும் இடவும்</string>
+    <string name="prompt_password">%1$s ற்கான கடவுத்தொடர்</string>
+    <string name="prompt_fingerprint_auth">நீங்கள் விரல்பதிவை பயன்படுத்தியும் பணப்பையை திறக்கலாம்.\nஉணரியை தொடவும்.</string>
+    <string name="prompt_open_wallet">&#8230; பணப்பை திறக்கப்படுகிறது</string>
+    <string name="bad_fingerprint">விரல்பதிவு அடையாளம் கண்டுகொள்ளப்படவில்லை. மீண்டும் முயலவும்.</string>
+    <string name="bad_password">தவறான கடவுச்சொல்!</string>
+    <string name="bad_saved_password">சேமிக்கப்பட்ட கடவுச்சொல் தவறாய் இருக்கிறது.\nதயவுசெய்து கடவுச்சொல்லை கைமுறையாக இடவும்.</string>
+    <string name="bad_wallet">பணப்பை எதுவும் இல்லை!</string>
+
+    <string name="label_watchonly">(காண மட்டும்)</string>
+
+    <string name="service_description">monerujo சேவை</string>
+
+    <string name="label_copy_viewkey">பார்வை திறவுகோல்</string>
+    <string name="label_copy_address">பொது முகவரி</string>
+    <string name="message_copy_viewkey">பார்வை திறவுகோல் கிளிப்போர்டில் நகலெடுக்கப்பட்டது!</string>
+    <string name="message_copy_address">பணப்பை முகவரி கிளிப்போர்டில் நகலெடுக்கப்பட்டது!</string>
+    <string name="message_nocopy">பாதுகாப்பு காரணங்களுக்காக நகலெடுத்தல் முடக்கப்பட்டுள்ளது!</string>
+
+    <string name="generate_title">பணப்பையை உருவாக்கு</string>
+    <string name="generate_name_hint">பணப்பை பெயர்</string>
+    <string name="generate_password_hint">பணப்பை கடவுத்தொடர்</string>
+    <string name="generate_fingerprint_hint">விரல்பதிவு மூலம் பணப்பையை திறப்பதை அனுமதிக்கவும்</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>விரல்பதிவு சான்றளிப்பு</strong>
+        <p>விரல்பதிவு சான்றளிப்பை செயல்படுத்துவதன் மூலம் உங்களால், கடவுச்சொல்லை இடாமலேயே பணப்பை இருப்பை பார்க்கவும்,
+        பணத்தை பெறவும் இயலும்.</p>
+        <p>இருப்பினும் கூடுதல் பாதுகாப்பிற்காக, பணப்பை விவரங்களை பார்க்கும்போதும் அல்லது பணத்தை அனுப்பும்போதும் 
+        monerujo உங்களிடம் கடவுச்சொல்லை கேட்கும்.</p>
+        <strong>பாதுகாப்பு எச்சரிக்கை</strong>
+        <p>இறுதியாக, உங்கள் விரல்பதிவை பெறவல்ல ஒருவரால் உங்கள் பணப்பை இருப்பினுள் எட்டி பார்க்க முடியும் 
+        என்பதை monerujo உங்களுக்கு நினைவு கூற விரும்புகிறது.</p>
+        <p>எடுத்துக்காட்டாக, தீயநோக்குடைய ஒரு பயனரால் நீங்கள் உறக்கத்தில் இருக்கும்போது உங்களுக்கு தெரியாமல் இந்த
+        பணப்பையை திறந்து பார்க்க வாய்ப்புள்ளது.</p>
+        <strong>இந்த செயல்பாட்டை செயல்படுத்த நீங்கள் உறுதியாக உள்ளீர்களா?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">கடவுத்தொடர் ஒத்துப்போகவில்லை</string>
+    <string name="generate_buttonGenerate">இப்போ நீ பணப்பையை உருவாக்கி தறப்போறிய இல்லயா!</string>
+    <string name="generate_button_accept">நினைவி விதையை நான் குறிப்பு எடுத்துக்கொண்டு விட்டேன்</string>
+
+    <string name="generate_wallet_name">எனக்கு ஒரு பெயரை சூட்டவும்!</string>
+    <string name="generate_wallet_exists">பணப்பை இருக்கிறது!</string>
+    <string name="generate_wallet_dot">புள்ளியை கொண்டு துவங்க கூடாது.</string>
+    <string name="generate_wallet_creating">பணப்பை உருவாக்கப்படுகிறது</string>
+    <string name="generate_wallet_created">பணப்பை உருவாக்கப்பட்டுவிட்டது</string>
+
+    <string name="generate_restoreheight_error">எண் அல்லது தேதியை (வவவவ-மம-நாநா) உள்ளிடவும்</string>
+
+    <string name="generate_wallet_type_key">திறவுகோல்</string>
+    <string name="generate_wallet_type_new">புதிய</string>
+    <string name="generate_wallet_type_seed">விதை</string>
+    <string name="generate_wallet_type_view">பார்வை</string>
+
+    <string name="generate_address_hint">பொது முகவரி</string>
+    <string name="generate_viewkey_hint">பார்வை திறவுகோல்</string>
+    <string name="generate_spendkey_hint">செலவழி திறவுகோல்</string>
+    <string name="generate_mnemonic_hint">25-வார்த்தையுள்ள நினைவி விதை</string>
+    <string name="generate_restoreheight_hint">மீட்டமை அல்லது தேதி (வவவவ-மம-நாநா)</string>
+
+    <string name="generate_address_label">பொது முகவரி</string>
+    <string name="generate_viewkey_label">பார்வை திறவுகோல்</string>
+    <string name="generate_spendkey_label">செலவழி திறவுகோல்</string>
+    <string name="generate_mnemonic_label">நினைவி விதை</string>
+    <string name="generate_crazypass_label">பணப்பை கோப்புகள் மீட்டமை கடவுச்சொல்</string>
+
+    <string name="generate_check_key">செல்லத்தக்க திறவுகோலை உள்ளிடவும்</string>
+    <string name="generate_check_address">செல்லத்தக்க முகவரியை உள்ளிடவும்</string>
+    <string name="generate_check_mnemonic">உங்கள் 25 வார்த்தை விதையை உள்ளிடவும்</string>
+
+    <string name="send_fee">+%1$s கட்டணம்</string>
+
+    <string name="details_alert_message">மறைமுகத் தரவு இப்போது காட்டப்படும்.\nஉங்க பின்னால் யாராவது இருக்குராங்களானு பாத்துக்கோங்க!</string>
+    <string name="details_alert_yes">நான் பாதுகாப்பாகத்தான் உள்ளேன்</string>
+    <string name="details_alert_no">பின்செல்லவும்!</string>
+    <string name="details_title">விவரங்கள்</string>
+
+    <string name="delete_alert_message">இந்த பணப்பை அழிக்கப்பட உள்ளது. உங்கள் விதை அல்லது வேலை செய்யக்கூடிய காப்புநகல் உங்களிடம் இல்லையென்றால் உங்கள் வைப்பு மொத்தமா போயிவிடும்.</string>
+    <string name="delete_alert_yes">ஆம், உறுதியாக அதை செய்!</string>
+    <string name="delete_alert_no">இல்லை வேண்டாம்!</string>
+
+    <string name="fab_create_new">புதிய பணப்பையை உருவாக்கவும்</string>
+    <string name="fab_restore_viewonly">பார்க்க-மட்டும் பணப்பையை மீட்டெடுக்கவும்</string>
+    <string name="fab_restore_key">தனியார் திறவுகோல்களை மூலம் பணப்பையை மீட்டெடுக்கவும்</string>
+    <string name="fab_restore_seed">25 வார்த்தை கொண்ட நினைவி விதையை கொண்டு பணப்பையை மீட்டெடுக்கவும்</string>
+
+    <string name="menu_language">மொழி</string>
+    <string name="language_system_default">முறைமை மொழியை பயன்படுத்து</string>
+
+    <string name="fab_restore_ledger">பேரேடு நாநோ இல் இருந்து மீட்டெடுக்கவும்</string>
+
+    <string name="menu_info">இரகசியங்களை காண்பி!</string>
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="menu_ledger_seed">பேரேடு விதையை மாற்று</string>
+    <string name="prompt_ledger_seed">பேரேடு விதை வார்த்தைகள்</string>
+    <string name="prompt_ledger_phrase">பேரேடு கடவுத்தொடர் (மேம்பட்டது)</string>
+    <string name="bad_ledger_seed">செல்லாத பேரேடு விதை!</string>
+    <string name="prompt_ledger_seed_warn">உங்கள் பேரேடு விதையை இங்கே உள்ளிடுவது மிகவும் ஆபத்தானதாகும்!</string>
+
+    <string name="label_restoreheight">மீட்டமை உயரம்</string>
+
+    <string name="onboarding_agree">எனக்கு புரிந்து விட்டது!</string>
+
+    <string-array name="daynight_themes">
+        <item>தானியக்கமாக</item>
+        <item>பகல்</item>
+        <item>இரவு</item>
+    </string-array>
+    <string name="gunther_says">இங்கு எதுவும் இல்லை\nதயவுசெய்து பணப்பையை உருவாக்கவும் அல்லது மீட்டெடுக்கவும்</string>
+
+    <string name="menu_restore">பணப்பையை ஏற்றுமதி செய்யவும்</string>
+    <string name="restore_failed">பணப்பை ஏற்றுமதி தோல்வியடைந்தது!</string>
+
+    <string name="label_seed_offset_encrypt">விதை மறையீடு (சோதனைவழி)</string>
+    <string name="seed_offset_hint">விதை ஈடுசெய் சொற்றொடர் (விரும்பினால்)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

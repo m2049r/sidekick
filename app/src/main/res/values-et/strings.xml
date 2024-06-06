@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Rahakott</string>
+
+    <string name="menu_about">Meist</string>
+    <string name="menu_privacy">Privaatsuspoliitika</string>
+
+    <string name="menu_help">Abi</string>
+    <string name="menu_rename">Nimeta ümber</string>
+    <string name="menu_backup">Tagavarakoopia</string>
+    <string name="menu_changepw">Vaheta parooli</string>
+
+    <string name="label_login_wallets">Rahakotid</string>
+    <string name="label_credits">Autorid</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Katkesta</string>
+    <string name="label_wallet_advanced_details">Lisainfo</string>
+
+    <string name="changepw_progress">Vahetan parooli</string>
+
+    <string name="service_progress">Teen ettevalmistusi &#8230;\nSee võib aega võtta!</string>
+
+    <string name="backup_failed">Tagavarakoopia ebaõnnestus!</string>
+    <string name="rename_failed">Ümber nimetamine ebaõnnestus!</string>
+    <string name="changepw_failed">Parooli vahetamine ebaõnnestus!</string>
+    <string name="changepw_success">Parool vahetatud</string>
+
+    <string name="status_wallet_disconnected">Lahti ühendatud</string>
+
+    <string name="service_busy">Ma tegelen ikka veel su eelmise rahakotiga &#8230;</string>
+
+    <string name="prompt_rename">Nimeta ümber %1$s</string>
+
+    <string name="prompt_changepw">Uus parool rahakotile %1$s</string>
+    <string name="prompt_changepwB">Korda parooli rahakotile %1$s</string>
+    <string name="prompt_password">Prool rahakotile %1$s</string>
+    <string name="prompt_fingerprint_auth">Sa saad rahakoti avamiseks kasutada ka sõrmejälge.\nSelleks puuduta sõrmejäljelugejat.</string>
+    <string name="prompt_open_wallet">Avan rahakoti&#8230;</string>
+    <string name="bad_fingerprint">Sõrmejälge ei tuntud ära. Proovi uuesti.</string>
+    <string name="bad_password">Vale parool!</string>
+    <string name="bad_saved_password">Salvestatud parool on vale.\nPalun sisesta parool käsitsi.</string>
+    <string name="bad_wallet">Rahakotti pole olemas!</string>
+
+    <string name="label_watchonly">(Ainult vaatamiseks)</string>
+
+    <string name="service_description">monerujo teenus</string>
+
+    <string name="label_copy_viewkey">Vaatamise võti</string>
+    <string name="label_copy_address">Avalik aadress</string>
+    <string name="message_copy_viewkey">Vaatamise võti on kopeeritud lõikepuhvrisse!</string>
+    <string name="message_copy_address">Rahakoti aadress on kopeeritud lõikepuhvrisse!</string>
+    <string name="message_nocopy">Lõikepuhvrisse kopeerimine on turvakaalutlustel keelatud!</string>
+
+    <string name="generate_title">Loo rahakott</string>
+    <string name="generate_name_hint">Rahakoti nimi</string>
+    <string name="generate_password_hint">Rahakoti parool</string>
+    <string name="generate_fingerprint_hint">Luba rahakoti avamine sõrmejäljega</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Sõrmejäljega avamine</strong>
+        <p>Kui sõrmejäljega avamine on sisse lülitatud, saad kontoseisu vaadata ja raha vastu võtta ilma parooli sisestamata.</p>
+        <p>Kuid kõrgema turvalisuse nimel palutakse sul sisestada parool siis, kui vaatad rahakoti infot või saadad raha.</p>
+        <strong>Turvahoiatus</strong>
+        <p>Lõpetuseks, monerujo tahab sulle meelde tuletada, et igaüks, kes pääseb ligi sinu sõrmejäljele, saab vaadata su kontoseisu.</p>
+        <p>Näiteks on võimalik pahatahtlikel inimestel nii avada su rahakott, kui sa magad.</p>
+        <strong>Oled kindel, et soovid selle aktiveerida?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Paroolid ei kattu</string>
+    <string name="generate_buttonGenerate">Loo mulle juba üks rahakott!</string>
+    <string name="generate_button_accept">Olen mnemoonilise seemne üles kirjutanud</string>
+
+    <string name="generate_wallet_name">Anna mulle nimi!</string>
+    <string name="generate_wallet_exists">Rahakott juba eksisteerib!</string>
+    <string name="generate_wallet_dot">Nimi ei saa alata märgiga .</string>
+    <string name="generate_wallet_creating">Loon rahakotti</string>
+    <string name="generate_wallet_created">Rahakott loodud</string>
+
+    <string name="generate_restoreheight_error">Sisesta plokinumber või kuupäev (YYYY-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Võtmed</string>
+    <string name="generate_wallet_type_new">Uus</string>
+    <string name="generate_wallet_type_seed">Seeme</string>
+    <string name="generate_wallet_type_view">Vaatamiseks</string>
+
+    <string name="generate_address_hint">Avalik aadress</string>
+    <string name="generate_viewkey_hint">Vaatamise võti</string>
+    <string name="generate_spendkey_hint">Kulutamise võti</string>
+    <string name="generate_mnemonic_hint">25-sõnaline mnemooniline seeme</string>
+    <string name="generate_restoreheight_hint">Taastamise plokinumber või kuupäev (YYYY-MM-DD)</string>
+
+    <string name="generate_address_label">Avalik aadress</string>
+    <string name="generate_viewkey_label">Vaatamise võti</string>
+    <string name="generate_spendkey_label">Kulutamise võti</string>
+    <string name="generate_mnemonic_label">Mnemooniline seeme</string>
+    <string name="generate_crazypass_label">Rahakoti failide taastamise parool</string>
+
+    <string name="generate_check_key">Sisesta korrektne võti</string>
+    <string name="generate_check_address">Sisesta korrektne  aadress</string>
+    <string name="generate_check_mnemonic">Sisesta oma 25-sõnaline seeme</string>
+
+    <string name="send_fee">+%1$s teenustasu</string>
+
+    <string name="details_alert_message">Nüüd näidatakse tundlikku infot.\nPiilu oma seljataha!</string>
+    <string name="details_alert_yes">Olen turvalises kohas</string>
+    <string name="details_alert_no">Vii mind tagasi!</string>
+    <string name="details_title">Lisainfo</string>
+
+    <string name="delete_alert_yes">Täpselt nii!</string>
+    <string name="delete_alert_no">Ei, tänan!</string>
+
+    <string name="fab_create_new">Loo uus rahakott</string>
+    <string name="fab_restore_viewonly">Taasta rahakott vaatamiseks</string>
+    <string name="fab_restore_key">Taasta rahakott privaatvõtmetest</string>
+    <string name="fab_restore_seed">Taasta rahakott 25-sõnalisest seemnest</string>
+
+    <string name="menu_language">Keel</string>
+    <string name="language_system_default">Kasuta süsteemi keelt</string>
+
+    <string name="fab_restore_ledger">Taasta seadmelt Ledger Nano</string>
+
+    <string name="menu_info">Näita salajast infot</string>
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="backup_success">Tagavarakoopia õnnestus</string>
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Convert Ledger Seed</string>
+    <string name="prompt_ledger_seed">Ledger Seed Words</string>
+    <string name="prompt_ledger_phrase">Ledger Passphrase (optional)</string>
+    <string name="bad_ledger_seed">Invalid Ledger Seed!</string>
+    <string name="prompt_ledger_seed_warn">Entering your Ledger Seed here is a major security risk!</string>
+
+    <string name="label_restoreheight">Taastamise plokinumber</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

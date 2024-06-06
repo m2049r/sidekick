@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Criar Carteira - Nova</h1>
+        <p>Se você precisa de um novo endereço Monero!</p>
+        <p>Escreva um nome para sua carteira e uma senha forte.
+        A senha é utilizada para proteger as informações da carteira. Use uma senha forte e comprida.</p>
+        <h2>Anote a semente mnemônica!</h2>
+        <p>Na próxima tela será exibida a sua \"semente mnemônica\".
+        Essa lista de palavras é a única informação necessária para restaurar sua carteira no futuro
+        e recuperar o acesso aos seus fundos.
+        Manter a semente num local seguro e privado é muito importante, já que ela dá acesso completo
+        aos seus fundos para <em>qualquer pessoa</em>!
+        <p>Se você perder ou esquecer sua senha, ainda é possível recuperar a carteira através da semente mnemônica.</p>
+        <p>Não existe uma maneira de recuperar a semente mnemônica, se você perdê-la seu dinheiro será perdido junto!
+        A semente nunca pode ser alterada. Se ela for roubada ou comprometida de alguma maneira, será
+        preciso movimentar os fundos para uma nova carteira (com uma nova semente).
+        Portanto é melhor fazer um backup da sua semente
+        mnemônica escrevendo-a a mão e guardando cópias em <em>vários</em> lugares seguros.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Criar Carteira - Semente</h1>
+        <p>Se você já tem um endereço Monero e quer restaurar suas transações e fundos!</p>
+        <p>Escreva um nome e senha únicos para sua carteira. A senha é utilizada para proteger os dados no Android.
+        Use uma senha forte e comprida.</p>
+        <p>Escreva a semente no campo \"semente mnemônica\".<p>
+        <p>Caso lembre, escreva a altura (ID) do bloco da primeira transação que você fez neste endereço
+        no campo \"restaurar da altura\". Você também pode indicar uma data no formato AAAA-MM-DD. Se você não tiver certeza,
+        coloque uma data aproximada <em>anterior</em> a data da sua primeira transação.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Criar Carteira - Chaves</h1>
+        <p>Se você quer restaurar a carteira a partir das chaves privadas</p>
+        <p>Escreva um nome e senha únicos para sua carteira. A senha é utilizada para proteger os dados no Android.
+        Use uma senha forte e comprida.</p>
+        <p>Escreva seu endereço Monero no campo \"Endereço público\" e preencha os campos \"Chave de visualização\" e \"Chave de gasto\".</p>
+        <p>Caso lembre, escreva a altura (ID) do bloco da primeira transação que você fez neste endereço
+        no campo \"restaurar da altura\". Você também pode indicar uma data no formato AAAA-MM-DD. Se você não tiver certeza,
+        coloque uma data aproximada <em>anterior</em> a data da sua primeira transação.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Criar Carteira - Somente Leitura</h1>
+        <p>Se você quer monitorar as transações que chegam na sua carteira.</p>
+        <p>Escreva um nome e senha únicos para sua carteira. A senha é utilizada para proteger os dados no Android.
+        Use uma senha forte e comprida.</p>
+        <p>Escreva seu endereço Monero no campo \"Endereço público\" e preencha o campo \"Chave de visualização\".</p>
+        <p>Caso lembre, escreva a altura (ID) do bloco da primeira transação que você fez neste endereço
+        no campo \"restaurar da altura\". Você também pode indicar uma data no formato AAAA-MM-DD. Se você não tiver certeza,
+        coloque uma data aproximada <em>anterior</em> a data da sua primeira transação.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Detalhes da carteira</h1>
+        <h2>Endereço público</h2>
+        Seu endereço público é como se fosse o número da sua conta bancária: você pode compartilhá-lo com qualquer
+        pessoa sem ter medo de perder seu Monero. As pessoas te enviarão Monero usando este endereço.
+        <h2>Semente Mnemônica</h2>
+        Essa é a única informação necessária para recuperar sua carteira no futuro e obter controle absoluto de seus fundos.
+        Manter essa informação privada e segura é muito importante, já que ela dá acesso total dos seus Moneros
+        para <em>qualquer pessoa</em>! Se você não anotou as palavras em um local seguro, faça-o o mais rápido possível!
+        <h2>Senha dos arquivos da carteira</h2>
+        Certifique-se de anotar e se lembrar desta senha. Caso você reinicie o dispositivo ou desinstale a aplicação, será preciso
+        colocar a senha para acessar a carteira novamente.<br/>
+        <h3>SeNHaLoUCa</h3>
+        Se a senha exibida tem 50 caracteres alfanuméricos em grupos de 4 - parabéns!
+        Os arquivos da sua carteira estão protegidos com uma chave de 256-bits gerada pelo seu dispositivo baseada
+        na senha que você escolheu (na hora de criar ou alterar a senha). Isso faz com que a carteira seja extremamente
+        difícil de ser hackeada!<br/>
+        Essa funcionalidade é obrigatória para todas as novas carteiras.
+        <h3>Senhas antigas</h3>
+        Se esta é a sua senha, os arquivos da sua carteira não estão tão protegidos como se estivessem usando a SeNHaLoUCa.
+        Para corrigir este problema, selecione \"Alterar senha\" no menu. Após escrever a nova senha (ou até mesmo a mesma),
+        o aplicativo vai criar a SeNHaLoUCa para você e protegerá seus arquivos com ela.
+        Não esqueça de anotá-la!
+        <h3>Carteiras com SeNHaLoUCa</h3>
+        Se você precisar reinstalar o Monerujo (por exemplo, caso você compre um novo celular), ou se você quiser usar
+        os arquivos da sua carteira em outro dispositivo ou computador, será preciso usar essa senha de restauração para
+        ter acesso à carteira novamente.<br/>
+        Ao selecionar "Alterar senha" no menu, você poderá escolher uma nova senha. Lembre-se que isso vai criar uma nova senha
+        de restauração! Anote-a!
+        <h2>Chave de Visualização</h2>
+        Sua chave de visualização pode ser usada para monitorar as transações que você recebe, sem precisar
+        dar permissão para <strong>gastar</strong> os fundos da sua carteira.
+        <h2>Chave de Gasto</h2>
+        Sua chave de gasto permite gastar o Monero que estiver na sua carteira, então não compartilhe esta chave com ninguém!
+        Mantenha-a segura, assim como a semente mnemônica.
+    ]]></string>
+
+
+    <string name="help_ok">Entendi!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

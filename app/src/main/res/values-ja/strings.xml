@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">ウォレット</string>
+
+    <string name="menu_about">Monerujoについて</string>
+    <string name="menu_privacy">プライバシーポリシー</string>
+
+    <string name="menu_help">ヘルプ</string>
+    <string name="menu_rename">名前の変更</string>
+    <string name="menu_backup">バックアップ</string>
+    <string name="menu_changepw">パスフレーズの変更</string>
+
+    <string name="label_login_wallets">ウォレット</string>
+    <string name="label_credits">クレジット</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">キャンセル</string>
+
+    <string name="changepw_progress">パスワードの変更中</string>
+
+    <string name="service_progress">準備中 &#8230;\nしばらく時間がかかるかもしれません!</string>
+
+    <string name="backup_failed">バックアップに失敗しました!</string>
+    <string name="rename_failed">名前の変更に失敗しました!</string>
+    <string name="changepw_failed">パスワード変更に失敗しました!</string>
+    <string name="changepw_success">パスワードが変更されました</string>
+
+    <string name="connect_stagenet" translatable="false">ステージネット</string>
+    <string name="connect_testnet" translatable="false">テストネット</string>
+
+    <string name="status_wallet_disconnected">接続が切断されました</string>
+
+    <string name="service_busy">まだ前のウォレットの処理をしています &#8230;</string>
+
+    <string name="prompt_rename">%1$s の名称変更</string>
+
+    <string name="prompt_changepw">%1$s の新しいパスフレーズ</string>
+    <string name="prompt_changepwB">%1$s の新しいパスフレーズを再入力</string>
+    <string name="prompt_password">%1$s のパスワード</string>
+    <string name="prompt_fingerprint_auth">あなたは指紋でもウォレットを開くことができます。\nセンサーにタッチしてください。</string>
+    <string name="prompt_open_wallet">ウォレットを開いています&#8230;</string>
+    <string name="bad_fingerprint">指紋が認識できません。もう一度試してください。</string>
+    <string name="bad_password">パスワードが違います!</string>
+    <string name="bad_saved_password">保存されたパスワードは不正確です。\n手動でパスワードを入力してください。</string>
+    <string name="bad_wallet">ウォレットは存在しません!</string>
+
+    <string name="label_watchonly">(閲覧専用)</string>
+
+    <string name="service_description">monerujo のサービス</string>
+
+    <string name="label_copy_viewkey">表示用キー</string>
+    <string name="label_copy_address">公開アドレス</string>
+    <string name="message_copy_viewkey">表示用キーがクリップボードにコピーされました!</string>
+    <string name="message_copy_address">ウォレットアドレスがクリップボードにコピーされました!</string>
+    <string name="message_nocopy">セキュリティ上の理由でコピーは無効化されています!</string>
+
+    <string name="generate_title">ウォレット作成</string>
+    <string name="generate_name_hint">ウォレットの名前</string>
+    <string name="generate_password_hint">ウォレットのパスフレーズ</string>
+    <string name="generate_fingerprint_hint">指紋でウォレットを開くのを許可する</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>指紋認証</strong>
+        <p>指紋認証を有効化すると、あなたはウォレット残高の閲覧と資産の受取をパスワード無しで行なえます。</p>
+        <p>しかしセキュリティのため、monerujoはウォレットの詳細の閲覧と送金にはパスワードを要します。</p>
+        <strong>セキュリティ警告</strong>
+        <p>そして最後に、あなたの指紋を入手できる人間は誰でもあなたのウォレット残高を覗くことができます。</p>
+        <p>例えば、あなたの周りの邪悪な人間が、あなたが寝ている間にウォレットを開くかもしれません。</p>
+        <strong>この機能を本当に有効化しますか?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">パスフレーズが一致しません</string>
+    <string name="generate_buttonGenerate">ウォレットを作成します!</string>
+    <string name="generate_button_accept">ニーモニック・シードをメモしました</string>
+
+    <string name="generate_wallet_name">名前をつけてください!</string>
+    <string name="generate_wallet_exists">ウォレットが存在します!</string>
+    <string name="generate_wallet_dot">ドット(.)から始まることはできません</string>
+    <string name="generate_wallet_creating">ウォレット作成中</string>
+    <string name="generate_wallet_created">ウォレットが作成されました</string>
+
+    <string name="generate_restoreheight_error">数字か日付（年4桁-月2桁-日2桁）を入力してください</string>
+
+    <string name="generate_wallet_type_key">キー</string>
+    <string name="generate_wallet_type_new">新規</string>
+    <string name="generate_wallet_type_seed">シード</string>
+    <string name="generate_wallet_type_view">閲覧</string>
+
+    <string name="generate_address_hint">公開アドレス</string>
+    <string name="generate_viewkey_hint">表示用キー</string>
+    <string name="generate_spendkey_hint">送金用キー</string>
+    <string name="generate_mnemonic_hint">25単語のニーモニック・シード</string>
+    <string name="generate_restoreheight_hint">復元するブロック長または日付（年4桁-月2桁-日2桁）</string>
+
+    <string name="generate_address_label">公開アドレス</string>
+    <string name="generate_viewkey_label">表示用キー</string>
+    <string name="generate_spendkey_label">送金用キー</string>
+    <string name="generate_mnemonic_label">ニーモニック・シード</string>
+    <string name="generate_crazypass_label">ウォレットファイル復元パスワード</string>
+
+    <string name="generate_check_key">有効なキーを入力してください</string>
+    <string name="generate_check_address">有効なアドレスを入力してください</string>
+    <string name="generate_check_mnemonic">25 単語のシードを入力してください</string>
+
+    <string name="send_fee">+%1$s 手数料</string>
+
+    <string name="details_alert_message">機密データは表示されません\n背後に人がいないことを確認してください!</string>
+    <string name="details_alert_yes">私は安全です</string>
+    <string name="details_alert_no">戻ります!</string>
+    <string name="details_title">詳細</string>
+
+    <string name="delete_alert_yes">はい、お願いします!</string>
+    <string name="delete_alert_no">いいえ、結構です!</string>
+
+    <string name="fab_create_new">新しいウォレットの作成</string>
+    <string name="fab_restore_viewonly">閲覧専用ウォレットを復元</string>
+    <string name="fab_restore_key">秘密鍵からウォレットを復元</string>
+    <string name="fab_restore_seed">25単語のシードからウォレットを復元</string>
+
+    <string name="menu_language">言語</string>
+    <string name="language_system_default">システムの言語を使う</string>
+
+    <string name="fab_restore_ledger">レッジャーナノから復元</string>
+
+    <string name="menu_info">シークレットを見せてください!</string>
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="backup_success">バックアップ成功</string>
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Ledgerシードを転換</string>
+    <string name="prompt_ledger_seed">Ledgerのニーモニックシード</string>
+    <string name="prompt_ledger_phrase">Ledgerパスフレーズ （オプショナル）</string>
+    <string name="bad_ledger_seed">Ledgerのニーモニックシードは不正!</string>
+    <string name="prompt_ledger_seed_warn">ここにLedgerシードを入力するのは、大きなセキュリティリスクですよ！</string>
+
+    <string name="label_restoreheight">Restore Height</string>
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_wallet_advanced_details">タッチして詳細情報を見る</string> <!-- Please chnage to "Detailed information" -->
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

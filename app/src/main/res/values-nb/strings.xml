@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Lommebok</string>
+
+    <string name="menu_about">Om</string>
+    <string name="menu_privacy">Personvernserklæring</string>
+
+    <string name="menu_help">Hjelp</string>
+    <string name="menu_rename">Gi nytt navn</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_changepw">[Forandre passord]</string>
+
+    <string name="label_login_wallets">Lommebøker</string>
+    <string name="label_credits">Credits</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Avbryt</string>
+    <string name="label_wallet_advanced_details">Detaljert informasjon</string>
+
+    <string name="changepw_progress">[Passordforandring i gang]</string>
+
+    <string name="service_progress">Gjør ting ferdig &#8230;\nDette kan ta si tid!</string>
+
+    <string name="backup_success">Backup suksessfull</string>
+    <string name="backup_failed">Backup feila!</string>
+    <string name="rename_failed">Kunne ikke gi nytt navn!</string>
+    <string name="changepw_failed">[Passordforandring feila!]</string>
+    <string name="changepw_success">[Passord forandra]</string>
+
+    <string name="status_wallet_disconnected">Kobla fra</string>
+
+    <string name="service_busy">Jeg er fortsatt opptatt med din forrige lommebok &#8230;</string>
+
+    <string name="prompt_rename">Gi nytt navn til %1$s</string>
+
+    <string name="prompt_changepw">[Nytt passord for %1$s]</string>
+    <string name="prompt_changepwB">[Gjenta passord for %1$s]</string>
+    <string name="prompt_password">Passord for %1$s</string>
+    <string name="prompt_fingerprint_auth">[You can also open wallet using fingerprint.\nPlease touch sensor.]</string>
+    <string name="prompt_open_wallet">[Opening the wallet&#8230;]</string>
+    <string name="bad_fingerprint">[Fingerprint not recognized. Try again.]</string>
+    <string name="bad_password">Feil passord!</string>
+    <string name="bad_saved_password">[Saved password is incorrect.\nPlease enter password manually.]</string>
+    <string name="bad_wallet">Lommebok eksisterer ikke!</string>
+
+    <string name="label_watchonly">(Bare se)</string>
+
+    <string name="service_description">monerujo tjeneste</string>
+
+    <string name="label_copy_viewkey">View-nøkkel</string>
+    <string name="label_copy_address">Offentlig adresse</string>
+    <string name="message_copy_viewkey">View-nøkkel kopiert til utklippstavle!</string>
+    <string name="message_copy_address">Lommebokadresse kopiert til utklippstavle!</string>
+    <string name="message_nocopy">Kopiering skrudd av for sikkerhetsgrunner!</string>
+
+    <string name="generate_title">Lag lommebok</string>
+    <string name="generate_name_hint">Lommeboknavn</string>
+    <string name="generate_password_hint">Lommebokpassord</string>
+    <string name="generate_fingerprint_hint">[Allow to open wallet using fingerprint]</string>
+    <string name="generate_fingerprint_warn">[<![CDATA[
+        <strong>Fingerprint Authentication</strong>
+        <p>With fingerprint authentication enabled, you can view wallet balance and receive funds
+        without entering password.</p>
+        <p>But for additional security, monerujo will still require you to enter password when
+        viewing wallet details or sending funds.</p>
+        <strong>Security Warning</strong>
+        <p>Finally, monerujo wants to remind you that anyone who can get your fingerprint will be
+        able to peep into your wallet balance.</p>
+        <p>For instance, a malicious user around you can open your wallet when you are asleep.</p>
+        <strong>Are you sure to enable this function?</strong>
+    ]]>]</string>
+    <string name="generate_bad_passwordB">[Passordene stemmer ikke overens]</string>
+    <string name="generate_buttonGenerate">Lag meg en lommebok!</string>
+    <string name="generate_button_accept">Jeg har notert informasjonen ovenfor!</string>
+
+    <string name="generate_wallet_name">Gi meg et navn!</string>
+    <string name="generate_wallet_exists">Lommebok eksisterer!</string>
+    <string name="generate_wallet_dot">Kan ikke begynne med .</string>
+    <string name="generate_wallet_creating">Lager lommebok</string>
+    <string name="generate_wallet_created">Lommebok lagd</string>
+
+    <string name="generate_restoreheight_error">Skriv inn nummer eller dato (ÅÅÅÅ-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Nøkler</string>
+    <string name="generate_wallet_type_new">Ny</string>
+    <string name="generate_wallet_type_seed">Seed</string>
+    <string name="generate_wallet_type_view">View</string>
+
+    <string name="generate_address_hint">Offentlig adresse</string>
+    <string name="generate_viewkey_hint">View-nøkkel</string>
+    <string name="generate_spendkey_hint">Spend-nøkkel</string>
+    <string name="generate_mnemonic_hint">25-ord mnemonisk seed</string>
+    <string name="generate_restoreheight_hint">Gjenopprettelseshøyde- eller dato (ÅÅÅÅ-MM-DD)</string>
+
+    <string name="generate_address_label">Offentlig adresse</string>
+    <string name="generate_viewkey_label">View-nøkkel</string>
+    <string name="generate_spendkey_label">Spend-nøkkel</string>
+    <string name="generate_mnemonic_label">Mnemonisk seed</string>
+    <string name="generate_crazypass_label">[Lommebokfiler gjenopprettelsespassord]</string>
+
+    <string name="generate_check_key">Skriv inn gyldig nøkkel</string>
+    <string name="generate_check_address">Skriv inn gyldig adresse</string>
+    <string name="generate_check_mnemonic">Skriv inn ditt 25-ord lange seed</string>
+
+    <string name="send_fee">+%1$s avgift</string>
+
+    <string name="details_alert_message">Sensitive data vil nå bli vist.\nSe over skulderen din!</string>
+    <string name="details_alert_yes">Jeg er trygg</string>
+    <string name="details_alert_no">Ta meg tilbake!</string>
+    <string name="details_title">Detaljer</string>
+
+    <string name="delete_alert_yes">Ja, gjør det!</string>
+    <string name="delete_alert_no">Nei takk!</string>
+
+    <string name="fab_create_new">Lag ny lommebok</string>
+    <string name="fab_restore_viewonly">Gjenoprett bare-se lommebok</string>
+    <string name="fab_restore_key">Gjenoprett lommebok fra private nøkler</string>
+    <string name="fab_restore_seed">Gjenoprett lommebok fra 25-ord seed</string>
+
+    <string name="menu_language">Language</string>
+    <string name="language_system_default">Use System Language</string>
+
+    <string name="fab_restore_ledger">Restore from Ledger Nano</string>
+
+    <string name="menu_info">Detaljer</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Convert Ledger Seed</string>
+    <string name="prompt_ledger_seed">Ledger Seed Words</string>
+    <string name="prompt_ledger_phrase">Ledger Passphrase (optional)</string>
+    <string name="bad_ledger_seed">Invalid Ledger Seed!</string>
+    <string name="prompt_ledger_seed_warn">Entering your Ledger Seed here is a major security risk!</string>
+
+    <string name="label_restoreheight">Restore Height</string>
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Plånbok</string>
+
+    <string name="menu_about">Om</string>
+    <string name="menu_privacy">Sekretesspolicy</string>
+
+    <string name="menu_help">Hjälp</string>
+    <string name="menu_rename">Byt namn</string>
+    <string name="menu_backup">Säkerhetskopiera</string>
+    <string name="menu_changepw">Ändra lösenfras</string>
+
+    <string name="label_login_wallets">Plånböcker</string>
+    <string name="label_credits">Erkännanden</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Avbryt</string>
+    <string name="label_wallet_advanced_details">Detaljerad information</string>
+
+    <string name="changepw_progress">Ändring av lösenord pågår</string>
+
+    <string name="service_progress">Gör klart några saker …\nDetta kan ta lite tid!</string>
+
+    <string name="backup_success">Säkerhetskopia sparad</string>
+    <string name="backup_failed">Det gick inte att säkerhetskopiera!</string>
+    <string name="rename_failed">Det gick inte att byta namn!</string>
+    <string name="changepw_failed">Det gick inte att ändra lösenord!</string>
+    <string name="changepw_success">Lösenordet har ändrats</string>
+
+    <string name="status_wallet_disconnected">Frånkopplad</string>
+
+    <string name="service_busy">Jag är fortfarande upptagen med din förra plånbok …</string>
+
+    <string name="prompt_rename">Byt namn %1$s</string>
+
+    <string name="prompt_changepw">Ny lösenfras för %1$s</string>
+    <string name="prompt_changepwB">Upprepa lösenfrasen för %1$s</string>
+    <string name="prompt_password">Lösenord för %1$s</string>
+    <string name="prompt_fingerprint_auth">Du kan också öppna plånboken med fingeravtryck.\nAnvänd fingeravtryckssensorn.</string>
+    <string name="bad_fingerprint">Fingeravtrycket känns inte igen. Försök igen.</string>
+    <string name="bad_password">Lösenordet är fel!</string>
+    <string name="bad_wallet">Plånboken finns inte!</string>
+
+    <string name="label_watchonly">(Granskning)</string>
+
+    <string name="service_description">monerujo-tjänsten</string>
+
+    <string name="label_copy_viewkey">Granskningsnyckel</string>
+    <string name="label_copy_address">Publik adress</string>
+    <string name="message_copy_viewkey">Granskningsnyckel kopierades till urklipp!</string>
+    <string name="message_copy_address">Plånboksadress kopierades till urklipp!</string>
+    <string name="message_nocopy">Kopiering är inaktiverad av säkerhetskäl!</string>
+
+    <string name="generate_title">Skapa plånbok</string>
+    <string name="generate_name_hint">Plånbokens namn</string>
+    <string name="generate_password_hint">Plånbokens lösenfras</string>
+    <string name="generate_fingerprint_hint">Tillåt öppning av plånboken med fingeravtryck</string>
+    <string name="generate_fingerprint_warn"><![CDATA[<strong>Autentisering med fingeravtryck</strong> <p>När fingeravtrycksautentisering är aktiverad kan du se plånbokens saldo och ta emot pengar utan att ange lösenord.</p> <p>Men för ytterligare säkerhet kräver monerujo ändå att du anger lösenord för att granska information om plånboken eller skicka pengar.</p> <strong>Säkerhetsvarning</strong> <p>Slutligen vill monerujo påminna dig att vem som helst som kan komma åt ditt fingeravtryck kan se saldot i din plånbok.</p> <p>En elak användare i din närhet kan till exempel öppna din plånbok när du sover.</p> <strong>Är det säkert att du vill aktivera denna funktion?</strong>]]></string>
+    <string name="generate_bad_passwordB">Lösenfraserna matchar inte</string>
+    <string name="generate_buttonGenerate">Skapa min plånbok nu då!</string>
+    <string name="generate_button_accept">Jag har skrivit ner det minnesbaserade startvärdet</string>
+
+    <string name="generate_wallet_name">Ge mig ett namn!</string>
+    <string name="generate_wallet_exists">Plånboken finns!</string>
+    <string name="generate_wallet_dot">Får inte börja med .</string>
+    <string name="generate_wallet_creating">Skapar plånbok</string>
+    <string name="generate_wallet_created">Plånboken skapades</string>
+
+    <string name="generate_restoreheight_error">Ange ett tal eller ett datum (ÅÅÅÅ-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Nycklar</string>
+    <string name="generate_wallet_type_new">Nytt</string>
+    <string name="generate_wallet_type_seed">Startvärde</string>
+    <string name="generate_wallet_type_view">Visa</string>
+
+    <string name="generate_address_hint">Publik adress</string>
+    <string name="generate_viewkey_hint">Granskningsnyckel</string>
+    <string name="generate_spendkey_hint">Spendernyckel</string>
+    <string name="generate_mnemonic_hint">Minnesbaserat startvärde på 25 ord</string>
+    <string name="generate_restoreheight_hint">Återställningshöjd eller datum (ÅÅÅÅ-MM-DD)</string>
+
+    <string name="generate_address_label">Publik adress</string>
+    <string name="generate_viewkey_label">Granskningsnyckel</string>
+    <string name="generate_spendkey_label">Spendernyckel</string>
+    <string name="generate_mnemonic_label">Minnesbaserat startvärde</string>
+    <string name="generate_crazypass_label">Lösenord för återställning av plånboksfiler</string>
+
+    <string name="generate_check_key">Ange en giltig nyckel</string>
+    <string name="generate_check_address">Ange en giltig adress</string>
+    <string name="generate_check_mnemonic">Ange ditt startvärde på 25 ord</string>
+
+    <string name="send_fee">+%1$s avgift</string>
+
+    <string name="details_alert_message">Nu kommer känsliga data att visas.\nTitta över axeln!</string>
+    <string name="details_alert_yes">Det är OK</string>
+    <string name="details_alert_no">Ta mig tillbaka!</string>
+    <string name="details_title">Detaljer</string>
+
+    <string name="delete_alert_yes">Ja, gör det!</string>
+    <string name="delete_alert_no">Nej tack!</string>
+
+    <string name="fab_create_new">Skapa ny plånbok</string>
+    <string name="fab_restore_viewonly">Återställ granskningsplånbok</string>
+    <string name="fab_restore_key">Återställ plånbok från privata nycklar</string>
+    <string name="fab_restore_seed">Återställ plånbok från startvärde på 25 ord</string>
+
+    <string name="prompt_open_wallet">Öppnar plånboken&#8230;</string>
+    <string name="bad_saved_password">Det sparade lösenordet är inkorrekt.\nSkriv lösenordet manuellt.</string>
+
+    <string name="menu_language">Språk</string>
+    <string name="language_system_default">Använd systemets språk</string>
+
+    <string name="fab_restore_ledger">Återställ från Ledger Nano</string>
+
+    <string name="menu_info">Detaljer</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Konvertera Ledger Seed</string>
+    <string name="prompt_ledger_seed">Ledger Seed Words</string>
+    <string name="prompt_ledger_phrase">Ledger lösenfras (frivillig)</string>
+    <string name="bad_ledger_seed">Ogilitigt Ledger Seed!</string>
+    <string name="prompt_ledger_seed_warn">Att ange din Ledger Seed här är en stor säkerhetsrisk!</string>
+
+    <string name="label_restoreheight">Återställningshöjd</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">Jag förstår!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Dag</item>
+        <item>Natt</item>
+    </string-array>
+    <string name="gunther_says">Det finns inget här\nSkapa eller återställ en plånbok</string>
+
+    <string name="delete_alert_message">Denna plånbok kommer att raderas. Dina pengar kommer att vara borta för alltid om du inte har din seed eller en fungerande säkerhetskopia för att återställa dem.</string>
+    <string name="menu_delete">Förstöra</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Förstöringen misslyckades!</string>
+
+    <string name="menu_restore">Importera plånbok</string>
+    <string name="restore_failed">Importeringen misslyckad!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

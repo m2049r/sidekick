@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>建立全新的錢包</h1>
+        <p>如果你需要一個新的 Monero 錢包地址！</p>
+        <p>請輸入一個獨特的錢包名稱與錢包密碼。
+        這個密碼是用來保護你在這個裝置上的錢包資料，請使用足夠強度的密碼。</p>
+        <h2>請抄寫你的記憶種子碼！</h2>
+        <p>在下一個步驟將會顯示你的 25 字「記憶種子碼」。
+        這是你在未來想回復錢包並且取得完整權限時所需的唯一資訊。
+        妥善保護好這份種子碼是相當重要的事情，因為它可以給予<em>任何人</em>對你的錢包操作的權限！</p>
+        <p>如果你忘記錢包密碼，你依然能夠使用記憶種子碼來回復你的錢包。</p>
+        <p>沒有任何方法能夠恢復你的記憶種子碼，如果你弄丟了種子碼將會失去你的所有資金！
+        記憶種子碼是無法更改的，若種子碼被竊取或洩漏，你將必須立刻將資金轉移到新的錢包中 (將會是新的一份種子碼)。
+        因此，最好的方式是將種子碼寫下並儲存在<em>數個</em>安全的地方。</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>用種子碼回復錢包</h1>
+        <p>如果你已經有一個錢包地址並想要在區塊鏈上回復它！</p>
+        <p>請輸入不得重複的錢包名稱與錢包密碼。
+        這個密碼是用來保護你在這個裝置上的錢包資料，請使用足夠強度的密碼。</p>
+        <p>在欄位「種子碼」中輸入你的 25 字種子碼。<p>
+        <p>請在欄位「回復高度」輸入這個地址第一筆交易發生的區塊高度。你也可以依照 YYYY-MM-DD
+        格式輸入日期。如果你不是很確定，可以輸入這個錢包地址第一次使用<em>之前</em>的區塊高度或日期。</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>用金鑰回復錢包</h1>
+        <p>如果你已經有一個錢包地址並想要用金鑰上回復它！</p>
+        <p>請輸入不得重複的錢包名稱與錢包密碼。
+        這個密碼是用來保護你在這個裝置上的錢包資料，請使用足夠強度的密碼。</p>
+        <p>在欄位「公開地址」中輸入你的 Monero 地址並填妥「查看金鑰」與「花費金鑰」。</p>
+        <p>請在欄位「回復高度」輸入這個地址第一筆交易發生的區塊高度。你也可以依照 YYYY-MM-DD
+        格式輸入日期。如果你不是很確定，可以輸入這個錢包地址第一次使用<em>之前</em>的區塊高度或日期。</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>建立唯讀錢包</h1>
+        <p>如果你只是想查看一個錢包的存入金額！</p>
+        <p>請輸入不得重複的錢包名稱與錢包密碼。
+        這個密碼是用來保護你在這個裝置上的錢包資料，請使用足夠強度的密碼。</p>
+        <p>在欄位「公開地址」中輸入你的 Monero 地址並填妥「查看金鑰」。</p>
+        <p>請在欄位「回復高度」輸入這個地址第一筆交易發生的區塊高度。你也可以依照 YYYY-MM-DD
+        格式輸入日期。如果你不是很確定，可以輸入這個錢包地址第一次使用<em>之前</em>的區塊高度或日期。</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>錢包詳細資訊</h1>
+        <h2>公開地址</h2>
+        你的公開地址就像是銀行帳號一樣可以與他人分享而不需要擔心會失去你的
+        Monero，其他人可以透過這個地址發送 Monero 到你的錢包。
+        <h2>記憶種子碼</h2>
+        這是你唯一需要用來回復錢包的資訊並且可以用來取用錢包的完全權限。妥善保護好這份種子碼是相當重要的事情，因為它可以給予<em>任何人</em>對你的錢包操作的權限！如果你還尚未在安全的地方抄寫保存這份種子碼，請盡速進行。
+        <h2>錢包檔回復密碼</h2>
+        請務必抄寫下此份密碼。當你重置手機或重新安裝 App 時，你將會需要用它來重新存取錢包檔。<br/>
+        <h3>CrAzYpass 加密</h3>
+        若你的密碼顯示為四組的 52 位英數字元，恭喜你！
+        你的錢包檔正由 256 位元的金鑰所保護著，這是本裝置基於你自己設定的密碼所產生 (建立或更改密碼時皆會產生)。
+        如此可以大幅提高錢包檔被駭客破解的難度。<br/>
+        所有新建立的錢包預設都會啟用這個加密功能。
+        <h3>舊式密碼</h3>
+        如果你在此看到你的密碼，代表著你的錢包並沒有啟用 CrAzYpass 加密以提高安全性。
+        若要啟用，只需要在選單中點選「更改密碼」，在輸入新的密碼後 (即使是與先前的密碼相同)，App
+        將會對你的錢包檔進行 CrAzYpass 加密，請將密碼抄寫下來！
+        <h3>CrAzYpass 加密的錢包</h3>
+        如果你需要重新安裝 Monerujo (譬如將手機重置或換了新的手機)，或是你想要將錢包檔在別的裝置或電腦上使用，你將必須使用錢包回復密碼才能重新存取錢包。<br/>
+        當你在選單中點選「更改密碼」時，可以更換新的密碼，但是請注意這同時會產生一組新的錢包回復密碼，請抄寫下來！
+        <h2>查看金鑰</h2>
+        查看金鑰可以被用在查看錢包的入帳金額而不包含花費錢包資金的權限。
+        <h2>花費金鑰</h2>
+        這個花費公鑰可以給予任何人花費你的錢包資金的權力，因此不要向任何人洩漏這份金鑰，就如同種子碼需要被妥善保存。
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">我知道了！</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

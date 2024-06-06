@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Skapa Plånbok - Ny</h1>
+        <p>Om du behöver en ny Monero-adress!</p>
+        <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
+        Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.<p>
+        <h2>Anteckna ditt Mnemoniska Frö!</h2>
+        <p>På den följande skärmen kommer du att hitta ditt 25-ord \"Mnemoniska Frö\".
+        Det här är den enda datan som behövs för att återställa din plånbok i framtiden
+        och få full tillgång till dina pengar.
+        Att bevara denna data säkert och privat är väldigt viktigt, eftersom det ger <em>vem som helst</em>
+        full tillgång till dina pengar!</p>
+        <p>Om du förlorar tillgång till din plånboks lösenord, kan du fortfarande återställa din plånbok med ditt Mnemoniska Frö.</p>
+        <p>Det finns inget sätt att återställa ditt Mnemoniska Frö, om du förlorar det förlorar du alla dina pengar!
+        Det Mnemoniska Fröet kan även aldrig ändras, så om det blir stulet eller på annat sätt komprometterat,
+        måste du flytta dina pengar till en ny plånbok (med ett nytt Mnemoniskt Frö). Därför, är det bäst
+        att du bevarar ditt Mnemoniska Frö genom att skriva ner det och förvara det i <em>flera</em> säkra
+        platser.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Skapa Plånbok - Frö</h1>
+        <p>Om du redan har en Monero-adress och vill återställa dess transaktioner från blockkedjan!</p>
+        <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
+        Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.</p>
+        <p>Ange ditt frö i fältet \"Mnemoniskt Frö\".<p>
+        <p>Om du känner till blocknumret av den första transaktionen använd för denna adress, ange det i
+        \"Återställningshöjd\" fältet - om du lämnar fältet tomt kommer <em>hela</em> blockkedjan för
+        transaktioner som tillhör din adress skannas. Det tar en väldigt lång tid.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Skapa Plånbok - Nycklar</h1>
+        <p>Om du återställer en plånbok med dina nycklar!</p>
+        <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
+        Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.</p>
+        <p>Ange din Monero-adress i fältet \"Offentlig Adress\" och fyll i \"Visningsnyckel\" och \"Spenderingsnyckel\".</p>
+        <p>Om du känner till blocknumret av den första transaktionen använd för denna adress, ange det i
+        \"Återställningshöjd\" fältet - om du lämnar fältet tomt kommer <em>hela</em> blockkedjan för
+        transaktioner som tillhör din adress skannas. Det tar en väldigt lång tid.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Skapa Plånbok - Visa</h1>
+        <p>Om du bara vill hålla ett öga på inkommande transaktioner till en plånbok!</p>
+        <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
+        Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.</p>
+        <p>Ange din Monero-adress i fältet \"Offentlig Adress\" och fyll i \"Visningsnyckel\" och \"Spenderingsnyckel\".</p>
+        <p>Om du känner till blocknumret av den första transaktionen använd för denna adress, ange det i
+        \"Återställningshöjd\" fältet - om du lämnar fältet tomt kommer <em>hela</em> blockkedjan för
+        transaktioner som tillhör din adress skannas. Det tar en väldigt lång tid.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Plånboksinformation</h1>
+        <h2>Offentlig adress</h2>
+        Din offentliga adress är som ditt bankkontonummer, du kan dela det med vem som helst utan att
+        behöva oroa dig om att förlora dina Moneroj. Folk kommer skicka Monero till din plånbok med
+        den här adressen.
+        <h2>Mnemoniskt Frö</h2>
+        Det här är den enda datan som behövs för att återställa din plånbok i framtiden och få full behörighet
+        till dina pengar. Att bevara fröet säkert och privat är extremt viktigt, eftersom att det ger
+        <em>vem som helst</em> tillgång till dina Moneroj! Om du inte har skrivit ner det någonstans säkert,
+        vänligen gör det nu!
+        <h2>Visningsnyckel</h2>
+        Din visningsnyckel kan användas för att hålla ett öga på inkommande transaktioner till din
+        plånbok utan att ge behörigheten att spendera pengarna i din plånbok.
+        <h2>Spenderingsnyckel</h2>
+        Din spenderingsnyckel ger vem som helst tillgång att spendera all Monero i din plånbok, så
+        ge inte denna nyckeln till någon, förvara den säkert som ditt Mnemoniska Frö.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">Got it!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

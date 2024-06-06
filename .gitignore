@@ -1,0 +1,43 @@
+/app/alpha*
+/app/prod*
+/external-libs/VERSION
+/external-libs/include/wallet2_api.h
+/external-libs/monero
+/external-libs/arm64-v8a
+/external-libs/armeabi-v7a
+/external-libs/x86_64
+
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof

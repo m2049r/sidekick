@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Carteira</string>
+
+    <string name="menu_about">Sobre</string>
+    <string name="menu_privacy">Política de Privacidade</string>
+
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_rename">Renomear</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_changepw">Alterar Senha</string>
+
+    <string name="label_login_wallets">Carteiras</string>
+    <string name="label_credits">Créditos</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_wallet_advanced_details">Mais detalhes</string>
+
+    <string name="changepw_progress">Alterando senha</string>
+
+    <string name="service_progress">Finalizando o processo &#8230;\nPode demorar um pouco</string>
+
+    <string name="backup_failed">Erro ao criar backup!</string>
+    <string name="rename_failed">Erro ao renomear!</string>
+    <string name="changepw_failed">Erro ao alterar senha!</string>
+    <string name="changepw_success">Senha alterada</string>
+
+    <string name="status_wallet_disconnected">Desconectado</string>
+
+    <string name="service_busy">Ainda estou ocupado com a outra carteira &#8230;</string>
+
+    <string name="prompt_rename">Renomear %1$s</string>
+
+    <string name="prompt_changepw">Nova senha para %1$s</string>
+    <string name="prompt_changepwB">Repetir senha para %1$s</string>
+    <string name="prompt_password">Senha para %1$s</string>
+    <string name="prompt_fingerprint_auth">Também é possível abrir a carteira usando sua impressão digital.\nPor favor, use o sensor.</string>
+    <string name="prompt_open_wallet">Abrindo a carteira&#8230;</string>
+    <string name="bad_fingerprint">Impressão digital não reconhecida. Tente novamente.</string>
+    <string name="bad_password">Senha incorreta!</string>
+    <string name="bad_saved_password">A senha salva está incorreta.\nPor favor, escreva manualmente.</string>
+    <string name="bad_wallet">Essa carteira não existe!</string>
+
+    <string name="label_watchonly">(Somente Leitura)</string>
+
+    <string name="service_description">Serviço monerujo</string>
+
+    <string name="label_copy_viewkey">Chave de visualização</string>
+    <string name="label_copy_address">Endereço público</string>
+    <string name="message_copy_viewkey">Chave de visualização copiada para a área de transferência!</string>
+    <string name="message_copy_address">Endereço da carteira copiado para a área de transferência!</string>
+    <string name="message_nocopy">Copiar está desativado por razões de segurança!</string>
+
+    <string name="generate_title">Criar carteira</string>
+    <string name="generate_name_hint">Nome da carteira</string>
+    <string name="generate_password_hint">Senha da carteira</string>
+    <string name="generate_fingerprint_hint">Permitir abrir a carteira com impressão digital</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Autenticação por impressão digital</strong>
+        <p>Com a autenticação por impressão digital ativa, é possível verificar o saldo e receber transações sem escrever a senha.</p>
+        <p>Porém por questões de segurança extra, o monerujo seguirá solicitando sua senha para ver detalhes da carteira ou enviar transações.</p>
+        <strong>Aviso de Segurança</strong>
+        <p>Queremos lembrar que qualquer pessoa com acesso às suas digitais poderá espiar o seu saldo.</p>
+        <p>Por exemplo, uma pessoa com má intenção pode abrir sua carteira usando sua digital enquanto você dorme.</p>
+        <strong>Tem certeza que quer ativar esta funcionalidade?</strong>
+    ]]></string>
+
+    <string name="generate_bad_passwordB">As senhas não são iguais</string>
+    <string name="generate_buttonGenerate">Vamos criar essa carteira logo!</string>
+    <string name="generate_button_accept">Eu anotei minha semente mnemônica</string>
+
+    <string name="generate_wallet_name">Dê-me um nome!</string>
+    <string name="generate_wallet_exists">Essa carteira já existe!</string>
+    <string name="generate_wallet_dot">Não pode começar com .</string>
+    <string name="generate_wallet_creating">Criando carteira</string>
+    <string name="generate_wallet_created">Carteira criada</string>
+
+    <string name="generate_restoreheight_error">Escreva a altura ou data (AAAA-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Chaves</string>
+    <string name="generate_wallet_type_new">Nova</string>
+    <string name="generate_wallet_type_seed">Semente</string>
+    <string name="generate_wallet_type_view">Visualizar</string>
+
+    <string name="generate_address_hint">Endereço público</string>
+    <string name="generate_viewkey_hint">Chave de visualização</string>
+    <string name="generate_spendkey_hint">Chave de gasto</string>
+    <string name="generate_mnemonic_hint">Semente mnemônica</string>
+    <string name="generate_restoreheight_hint">Restaurar da altura ou data (AAAA-MM-DD)</string>
+
+    <string name="generate_address_label">Endereço público</string>
+    <string name="generate_viewkey_label">Chave de visualização</string>
+    <string name="generate_spendkey_label">Chave de gasto</string>
+    <string name="generate_mnemonic_label">Semente mnemônica</string>
+    <string name="generate_crazypass_label">Senha para restaurar via arquivo</string>
+
+    <string name="generate_check_key">Escreva uma chave válida</string>
+    <string name="generate_check_address">Escreva um endereço válido</string>
+    <string name="generate_check_mnemonic">Escreva a semente de 25 palavras</string>
+
+    <string name="send_fee">+%1$s de taxa</string>
+
+    <string name="details_alert_message">Dados importantes serão exibidos.\nCertifique-se que ninguém está espiando!</string>
+    <string name="details_alert_yes">Estou seguro</string>
+    <string name="details_alert_no">Tire-me daqui!</string>
+    <string name="details_title">Detalhes</string>
+
+    <string name="delete_alert_yes">Sim, pode fazer!</string>
+    <string name="delete_alert_no">Não, obrigado!</string>
+
+    <string name="fab_create_new">Criar nova carteira</string>
+    <string name="fab_restore_viewonly">Restaurar carteira \"Somente leitura\"</string>
+    <string name="fab_restore_key">Restaurar carteira via chaves privadas</string>
+    <string name="fab_restore_seed">Restaurar carteira via semente mnemônica</string>
+
+    <string name="menu_language">Idioma</string>
+    <string name="language_system_default">Usar o idioma do sistema</string>
+
+    <string name="fab_restore_ledger">Restaurar da Ledger Nano</string>
+
+    <string name="menu_info">Mostrar Segredos!</string>
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="backup_success">Backup feito com successo</string>
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Converter semente da Ledger</string>
+    <string name="prompt_ledger_seed">Palavras da semente da Ledger</string>
+    <string name="prompt_ledger_phrase">Senha da Ledger (opcional)</string>
+    <string name="bad_ledger_seed">Semente da Ledger inválida!</string>
+    <string name="prompt_ledger_seed_warn">Escrever a semente da sua Ledger aqui é um grande risco de segurança!</string>
+
+    <string name="label_restoreheight">Restaurar da altura</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">Eu entendi!</string>
+
+    <string-array name="daynight_themes">
+        <item>Automático</item>
+        <item>Claro</item>
+        <item>Escuro</item>
+    </string-array>
+    <string name="gunther_says">Não há nada aqui\nPor favor, crie ou restaure uma carteira</string>
+
+    <string name="delete_alert_message">Esta carteira será excluída. Seus fundos desaparecerão para sempre, a não ser que você tenha sua semente guardada ou um backup funcional para recuperá-la.</string>
+    <string name="menu_delete">Excluir</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Exclusão falhou!</string>
+
+    <string name="menu_restore">Importar carteira</string>
+    <string name="restore_failed">Importação falhou!</string>
+
+    <string name="label_seed_offset_encrypt">Encriptação da Semente (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Senha de dedução da semente (opcional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

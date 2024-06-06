@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Кошелек</string>
+
+    <string name="menu_about">О программе</string>
+    <string name="menu_privacy">Политика конфиденциальности</string>
+
+    <string name="menu_help">Помощь</string>
+    <string name="menu_rename">Переименовать</string>
+    <string name="menu_backup">Резервная копия</string>
+    <string name="menu_changepw">Изменить пароль</string>
+
+    <string name="label_login_wallets">Кошелек</string>
+    <string name="label_credits">О кошельке</string>
+    <string name="label_ok">Ок</string>
+    <string name="label_cancel">Отмена</string>
+    <string name="label_wallet_advanced_details">Дополнительная информация</string>
+
+
+    <string name="changepw_progress">Выполняется изменение пароля</string>
+
+    <string name="service_progress">Для данного действия &#8230;\nМожет потребоваться некоторое время!</string>
+
+    <string name="backup_failed">Резервное копирование произошло с ошибкой!</string>
+    <string name="rename_failed">Переименование произошло с ошибкой!</string>
+    <string name="changepw_failed">Изменение пароля произошло с ошибкой!</string>
+    <string name="changepw_success">Изменение пароля выполено успешно</string>
+
+    <string name="status_wallet_disconnected">Разъединено</string>
+
+    <string name="service_busy">Я все еще занят твоим кошельком &#8230;</string>
+
+    <string name="prompt_rename">Переименовать %1$s</string>
+
+    <string name="prompt_changepw">Новый пароль для %1$s</string>
+    <string name="prompt_changepwB">Повторите пароль для %1$s</string>
+    <string name="prompt_password">Пароль для %1$s</string>
+    <string name="prompt_fingerprint_auth">Теперь вы можете открыть кошелек с помощью отпечатков пальцев.\nПожалуйста коснитесь датчика.</string>
+    <string name="prompt_open_wallet">Открытие кошелька&#8230;</string>
+    <string name="bad_fingerprint">Отпечаток пальца не распознается. Попробуйте ещё раз.</string>
+    <string name="bad_password">Неверный пароль!</string>
+    <string name="bad_saved_password">Сохраненный пароль неверен.\nВведите пароль вручную.</string>
+    <string name="bad_wallet">Кошелька не существует!</string>
+
+    <string name="label_watchonly">(Режим просмотра)</string>
+
+    <string name="service_description">Служба Monerujo</string>
+
+    <string name="label_copy_viewkey">Ключ просмотра</string>
+    <string name="label_copy_address">Публичный адрес</string>
+    <string name="message_copy_viewkey">Ключ просмотра скопирован в буфер обмена!</string>
+    <string name="message_copy_address">Адрес кошелька скопирован в буфер обмена!</string>
+    <string name="message_nocopy">Копирование недоступно по соображениям безопасности!</string>
+
+    <string name="generate_title">Создать кошелек</string>
+    <string name="generate_name_hint">Имя кошелька</string>
+    <string name="generate_password_hint">Пароль кошелька</string>
+    <string name="generate_fingerprint_hint">Разрешить открыть кошелек при помощи отпечатка пальца</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Аутентификация по отпечаткам пальцев</strong>
+        <p>С поддержкой аутентификации по отпечаткам пальцев, вы можете просматривать баланс и получать средства
+        без ввода пароля.</p>
+        <p>Но для дополнительной безопасности, Monerujo потребует от вас ввести пароль при
+        просмотре деталей кошелька или отправке средств.</p>
+        <strong>Предупреждение системы безопасности</strong>
+        <p>Monerujo хочет напомнить вам, что любой, кто может получить ваш отпечаток пальца, будет
+        обладать возможностью, заглянуть в баланс вашего кошелька.</p>
+        <p>Например, злоумышленник может заглянуть в ваш кошелек, когда вы спите.</p>
+        <strong>Вы уверены, что хотите включить эту функцию?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Пароль не совпадает</string>
+    <string name="generate_buttonGenerate">Сделайте мне уже кошелек!</string>
+    <string name="generate_button_accept">Я записал мнемоническую фразу</string>
+
+    <string name="generate_wallet_name">Придумай мне имя!</string>
+    <string name="generate_wallet_exists">Такой кошелек существует!</string>
+    <string name="generate_wallet_dot">Не может начинаться с .</string>
+    <string name="generate_wallet_creating">Создание кошелька</string>
+    <string name="generate_wallet_created">Кошелек создан</string>
+
+    <string name="generate_restoreheight_error">Введите номер блока или дату (YYYY-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Ключ</string>
+    <string name="generate_wallet_type_new">Новый</string>
+    <string name="generate_wallet_type_seed">Фраза</string>
+    <string name="generate_wallet_type_view">Просмотр</string>
+
+    <string name="generate_address_hint">Публичный адрес</string>
+    <string name="generate_viewkey_hint">Ключ просмотра</string>
+    <string name="generate_spendkey_hint">Ключ траты</string>
+    <string name="generate_mnemonic_hint">Мнемоническая фраза (25 слов)</string>
+    <string name="generate_restoreheight_hint">Восстановить высоту или дату (YYYY-MM-DD)</string>
+
+    <string name="generate_address_label">Публичный адрес</string>
+    <string name="generate_viewkey_label">Ключ просмотра</string>
+    <string name="generate_spendkey_label">Ключ траты</string>
+    <string name="generate_mnemonic_label">Мнемоническая фраза</string>
+    <string name="generate_crazypass_label">Дата высоты восстановления (YYYY-MM-DD)</string>
+
+    <string name="generate_check_key">Введите действующий ключ</string>
+    <string name="generate_check_address">Введите действующий адрес</string>
+    <string name="generate_check_mnemonic">Введите вашу мнемоническую фразу</string>
+
+    <string name="send_fee">+%1$s Комиссия</string>
+
+    <string name="details_alert_message">Сейчас будут показаны конфиденциальные данные. Оглянись вокруг!</string>
+    <string name="details_alert_yes">Я в безопасности</string>
+    <string name="details_alert_no">Верните меня обратно!</string>
+    <string name="details_title">Подробная информация</string>
+
+    <string name="delete_alert_message">Этот кошелек будет удален. Твои деньги исчезнут навсегда, если у тебя нет сид-фразы или рабочей резервной копии для их восстановления.</string>
+    <string name="delete_alert_yes">Да, сделай это!</string>
+    <string name="delete_alert_no">Нет, спасибо!</string>
+
+    <string name="fab_create_new">Создать новый кошелек</string>
+    <string name="fab_restore_viewonly">Восстановить кошелек только для просмотра</string>
+    <string name="fab_restore_key">Восстановить кошелек из ключей</string>
+    <string name="fab_restore_seed">Восстановить кошелек из мнемонической фразы</string>
+
+    <string name="menu_language">Язык</string>
+    <string name="language_system_default">Использовать язык системы</string>
+
+    <string name="fab_restore_ledger">Восстановление из Ledger Nano</string>
+
+    <string name="menu_info">Показать ключи</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="backup_success">Резервное копирование успешно</string>
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Преобразовать фразу Ledger</string>
+    <string name="prompt_ledger_seed">Словесная фраза Ledger</string>
+    <string name="prompt_ledger_phrase">Пароль Ledger (необязательно)</string>
+    <string name="bad_ledger_seed">Ошибка фразы Ledger!</string>
+    <string name="prompt_ledger_seed_warn">Если вы пытаетесь ввести сюда фразу Ledger, это серьезная угроза для вашей безопасности!</string>
+
+    <string name="label_restoreheight">Высота восстановления</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">Я понял!</string>
+
+    <string-array name="daynight_themes">
+        <item>Автоматически</item>
+        <item>Светлая (дневная)</item>
+        <item>Тёмная (ночная)</item>
+    </string-array>
+    <string name="gunther_says">Тут ничего нет\nСоздайте или восстановите кошелек</string>
+
+    <string name="menu_delete">Удалить кошелек</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Ошибка удаления!</string>
+
+    <string name="menu_restore">Импортировать кошелек</string>
+    <string name="restore_failed">Ошибка импорта!</string>
+
+    <string name="label_seed_offset_encrypt">Шифрование фразы (ЭКСПЕРЕМЕНТАЛЬНО)</string>
+    <string name="seed_offset_hint">Смещение фразы (необязательно)</string>
+
+    <string name="menu_settings">Настройки</string>
+    <string name="title_iface">Интерфейс</string> <!-- like: User Intreface -->
+    <string name="title_info">Информация</string>
+    <string name="setting_daynight">Дневная / Ночная</string>
+
+    <string name="setting_theme">Стиль</string>
+    <string-array name="themes">
+        <item>Классический</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

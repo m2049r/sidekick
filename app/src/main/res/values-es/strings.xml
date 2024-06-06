@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Monedero</string>
+
+    <string name="menu_about">Legal</string>
+    <string name="menu_privacy">Política de Privacidad</string>
+
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_rename">Renombrar</string>
+    <string name="menu_backup">Copia de seguridad</string>
+    <string name="menu_changepw">Cambiar contraseña</string>
+    <string name="menu_back">Atrás</string>
+    <string name="menu_close">Cerca</string>
+    <string name="menu_cancel">Cancelar</string>
+
+    <string name="label_login_wallets">Monederos</string>
+    <string name="label_credits">Créditos</string>
+    <string name="label_ok">Aceptar</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_wallet_advanced_details">Claves</string>
+
+    <string name="changepw_progress">Cambiando contraseña en progreso&#8230;</string>
+
+    <string name="service_progress">Cerrando el monedero&#8230;\n¡Puede tardar un tiempo!</string>
+
+    <string name="backup_success">Copia de seguridad exitosa</string>
+    <string name="backup_failed">¡Copia de seguridad fallida!</string>
+    <string name="rename_failed">¡Cambio de nombre fallido!</string>
+    <string name="changepw_failed">¡Cambio de contraseña fallido!</string>
+    <string name="changepw_success">Contraseña cambiada</string>
+
+    <string name="status_wallet_disconnected">Desconectado</string>
+
+    <string name="service_busy">Todavía estoy ocupado con el último monedero &#8230;</string>
+
+    <string name="prompt_rename">Nuevo nombre para %1$s</string>
+
+    <string name="prompt_changepw">Nueva contraseña para %1$s</string>
+    <string name="prompt_changepwB">Repetir contraseña para %1$s</string>
+    <string name="prompt_password">Contraseña para %1$s</string>
+    <string name="prompt_fingerprint_auth">Puedes poner tu dedo en el sensor para autorizar con tu huella.</string>
+    <string name="prompt_open_wallet">Abriendo el monedero&#8230;</string>
+    <string name="bad_fingerprint">Huella no reconocida. Inténtalo nuevamente.</string>
+    <string name="bad_password">¡Contraseña incorrecta!</string>
+    <string name="bad_saved_password">La contraseña guardada es incorrecta.\nIngrésala manualmente.</string>
+    <string name="bad_wallet">¡El monedero no existe!</string>
+
+    <string name="label_watchonly">(Sólo Vista)</string>
+
+    <string name="service_description">Monedero abierto</string>
+
+    <string name="label_copy_viewkey">Clave de Vista</string>
+    <string name="label_copy_address">Dirección Pública</string>
+    <string name="message_copy_viewkey">¡Clave de vista copiada al portapapeles!</string>
+    <string name="message_copy_address">¡Dirección del monedero copiada al portapapeles!</string>
+    <string name="message_nocopy">¡Copia no permitida para tu seguridad!</string>
+
+    <string name="generate_title">Crear monedero</string>
+    <string name="generate_name_hint">Nombre del monedero</string>
+    <string name="generate_password_hint">Frase de contraseña</string>
+    <string name="generate_fingerprint_hint">Permitir abrir usando huella dactilar</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Autenticación por huella</strong>
+        <p>Con la autenticación por huella dactilar activada, puedes abrir tu monedero y recibir fondos
+        sin la necesidad de ingresar tu contraseña.</p>
+        <p>Sin embargo, para tu seguridad, Monerujo va a requerir tu contraseña para ver los secretos de tu monedero o enviar fondos.</p>
+        <strong>Advertencia de seguridad</strong>
+        <p>Si bien es cómodo, recuerda que cualquier persona que tenga acceso a tu huella dactilar
+        va a ser capaz de mirar el balance de tu monedero.</p>
+        <p>Por ejemplo, alguien podría abrir tu monedero con tu dedo mientras duermes.</p>
+        <strong>¿Estás seguro de activar esta función?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Contraseñas no coinciden</string>
+    <string name="generate_buttonGenerate">¡Házme ya un monedero!</string>
+    <string name="generate_button_accept">¡Ya anote todo!</string>
+
+    <string name="generate_wallet_name">¡Dame un nombre!</string>
+    <string name="generate_wallet_exists">¡El monedero ya existe!</string>
+    <string name="generate_wallet_dot">No puede empezar con .</string>
+    <string name="generate_wallet_creating">Creando monedero&#8230;</string>
+    <string name="generate_wallet_created">Monedero creada</string>
+
+    <string name="generate_restoreheight_error">Introduce un número o una fecha (AAAA-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Claves</string>
+    <string name="generate_wallet_type_new">Nuevo</string>
+    <string name="generate_wallet_type_seed">Semilla</string>
+    <string name="generate_wallet_type_view">Ver</string>
+
+    <string name="generate_address_hint">Dirección pública</string>
+    <string name="generate_viewkey_hint">Clave de vista</string>
+    <string name="generate_spendkey_hint">Clave de gasto</string>
+    <string name="generate_mnemonic_hint">Semilla mnemotécnica</string>
+    <string name="generate_restoreheight_hint">Altura o fecha (YYYY-MM-DD) de restauración</string>
+
+    <string name="generate_address_label">Dirección pública</string>
+    <string name="generate_viewkey_label">Clave de vista</string>
+    <string name="generate_spendkey_label">Clave de gasto</string>
+    <string name="generate_mnemonic_label">Semilla mnemotécnica</string>
+    <string name="generate_crazypass_label">Contraseña del backup</string>
+
+    <string name="generate_check_key">Introduce una clave válida</string>
+    <string name="generate_check_address">Introduce una dirección válida</string>
+    <string name="generate_check_mnemonic">Introduce tu semilla de 25 palabras</string>
+
+    <string name="details_alert_message">Se va a mostrar información delicada. Cualquiera con acceso a ella tendría control sobre tus fondos.\n¡Mira detrás tuyo!</string>
+    <string name="details_alert_yes">Estoy seguro</string>
+    <string name="details_alert_no">No muestres nada</string>
+    <string name="details_title">Secretos del monedero</string>
+
+    <string name="delete_alert_message">Este monedero será borrado.\nTus fondos se perderán para siempre sino tienes tu semilla mnemotéctica o una copia de seguridad y su correspondiente contraseña del backup para recuperarla.\nPuedes encontrar ambas entre los secretos de tu monedero.</string>
+    <string name="delete_alert_yes">Sí, hazlo</string>
+    <string name="delete_alert_no">No lo hagas</string>
+
+    <string name="fab_create_new">Crear nuevo monedero</string>
+    <string name="fab_restore_viewonly">Restaurar monedero de sólo vista</string>
+    <string name="fab_restore_key">Restaurar monedero con claves</string>
+    <string name="fab_restore_seed">Restaurar monedero con semilla</string>
+    <string name="send_fee">+%1$s Comisión</string>
+    <string name="about_whoami">Monerujo</string>
+
+    <string name="menu_language">Idioma</string>
+    <string name="language_system_default">Usar el del sistema</string>
+
+    <string name="fab_restore_ledger">Restaurar desde Ledger Nano</string>
+
+    <string name="menu_info">Secretos</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Convertir semilla de Ledger</string>
+    <string name="prompt_ledger_seed">Palabras de la semilla de Ledger</string>
+    <string name="prompt_ledger_phrase">Contraseña de Ledger (opcional)</string>
+    <string name="bad_ledger_seed">¡Semilla de Ledger inválida!</string>
+    <string name="prompt_ledger_seed_warn">¡Ingresar tu semilla de Ledger aquí implica un riesgo importante!</string>
+
+    <string name="label_restoreheight">Altura de restauración</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">¡Entendido!</string>
+
+    <string-array name="daynight_themes">
+        <item>Automático</item>
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+    <string name="gunther_says">No hay nada aquí.\nPor favor crea o restaura un monedero.</string>
+
+    <string name="menu_delete">Eliminar</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">¡Falló la eliminación!</string>
+
+    <string name="menu_restore">Importar monedero</string>
+    <string name="restore_failed">¡Falló la importación!</string>
+
+    <string name="label_seed_offset_encrypt">Semilla encriptada (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Palabra clave adicional</string>
+
+    <string name="menu_settings">Ajustes</string>
+    <string name="title_iface">Interfaz</string> <!-- like: User Interface -->
+    <string name="title_info">Información</string>
+    <string name="setting_daynight">Modo</string>
+
+    <string name="setting_theme">Tema</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

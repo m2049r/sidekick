@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Portefeuille</string>
+
+    <string name="menu_about">À Propos</string>
+    <string name="menu_privacy">Politique de Confidentialité</string>
+
+    <string name="menu_help">Aide</string>
+    <string name="menu_rename">Renommer</string>
+    <string name="menu_backup">Sauvegarder</string>
+    <string name="menu_changepw">Modifier Phrase secrète</string>
+    <string name="menu_back">Précédent</string>
+    <string name="menu_close">fermer</string>
+    <string name="menu_cancel">Annuler</string>
+
+    <string name="label_login_wallets">Portefeuilles</string>
+    <string name="label_credits">Crédits</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Annuler</string>
+    <string name="label_wallet_advanced_details">Plus d\'infos</string>
+
+
+    <string name="changepw_progress">Modification du mot de passe en cours</string>
+
+    <string name="service_progress">Remise en ordre &#8230;\nCela peut prendre un moment !</string>
+
+    <string name="backup_success">Sauvegarde réussie</string>
+    <string name="backup_failed">Sauvegarde Échouée !</string>
+    <string name="rename_failed">Renommage Échoué !</string>
+    <string name="changepw_failed">Modification du mot de passe Échouée !</string>
+    <string name="changepw_success">Modification du mot de passe réussie</string>
+
+    <string name="status_wallet_disconnected">Déconnecté</string>
+
+    <string name="service_busy">Je suis toujours occupé avec votre dernier portefeuille &#8230;</string>
+
+    <string name="prompt_rename">Renommer %1$s</string>
+
+    <string name="prompt_changepw">Nouvelle Phase secrète pour %1$s</string>
+    <string name="prompt_changepwB">Répéter la Phase secrète pour %1$s</string>
+    <string name="prompt_password">Mot de passe pour %1$s</string>
+    <string name="prompt_fingerprint_auth">Vous pouvez également ouvrir le portefeuille avec votre empreinte digitale.\nMerci de toucher le capteur.</string>
+    <string name="prompt_open_wallet">Ouverture du portefeuille &#8230;</string>
+    <string name="bad_fingerprint">Empreinte digitale non reconnue. Résessayez.</string>
+    <string name="bad_password">Mot de passe incorrect !</string>
+    <string name="bad_saved_password">Mot de passe sauvegardé incorrect.\nVeuillez entrer le mot de passe manuellement.</string>
+    <string name="bad_wallet">Portefeuille inexistant !</string>
+
+    <string name="label_watchonly">(Audit)</string>
+
+    <string name="service_description">Service monerujo</string>
+
+    <string name="label_copy_viewkey">Clef d\'Audit</string>
+    <string name="label_copy_address">Adresse Publique</string>
+    <string name="message_copy_viewkey">Clef d\'audit copiée !</string>
+    <string name="message_copy_address">Adresse du Portefeuille copiée !</string>
+    <string name="message_nocopy">Copie désactivée par sécurité !</string>
+
+    <string name="generate_title">Créer un Portefeuille</string>
+    <string name="generate_name_hint">Nom du Portefeuille</string>
+    <string name="generate_password_hint">Mot de Passe du Portefeuille</string>
+    <string name="generate_fingerprint_hint">Allow to open wallet using fingerprint</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Authentification par empreinte dgitale</strong>
+        <p>En activant l\'authentification par empreinte digitale, vous pouvez voir le solde de
+        votre portefeuille et recevoir des fonds sans entrer de mot de passe.</p>
+        <p>Mais pour plus de sécurité, monerujo continuera de vous demander votre mot de passe
+        lorsque vous afficherez les détails du portefeuille ou enverez des fonds.</p>
+        <strong>Avertissement de Sécurité</strong>
+        <p>Enfin, monerujo vous rappel que quiconque pouvant obtenir votre empreinte digitale
+        sera capable de jeter un coup d\'œil au solde de votre portefeuille.</p>
+        <p>Par exemple, un utilisateur malveillant à vos côtés pourrait ouvrir votre portefeuille
+        pendant votre sommeil.</p>
+        <strong>Êtes vous certain de vouloir activer cette fonctionnalité ?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Phrases secrètes non correspondantes</string>
+    <string name="generate_buttonGenerate">Faites moi un Portefeuille déjà !</string>
+    <string name="generate_button_accept">J\'ai noté ces 25 mots !</string>
+
+    <string name="generate_wallet_name">Donnez-moi un nom !</string>
+    <string name="generate_wallet_exists">Le Portefeuille existe !</string>
+    <string name="generate_wallet_dot">Ne peut pas commencer par .</string>
+    <string name="generate_wallet_creating">Création du Portefeuille</string>
+    <string name="generate_wallet_created">Portefeuille créé</string>
+
+    <string name="generate_restoreheight_error">Entrer un nombre ou une date (YYYY-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Clefs</string>
+    <string name="generate_wallet_type_new">Nouveau</string>
+    <string name="generate_wallet_type_seed">Phrase Mnémonique</string>
+    <string name="generate_wallet_type_view">Audit</string>
+
+    <string name="generate_address_hint">Adresse Publique</string>
+    <string name="generate_viewkey_hint">Clef d\'audit</string>
+    <string name="generate_spendkey_hint">Clef de dépense</string>
+    <string name="generate_mnemonic_hint">Phrase Mnémonique</string>
+    <string name="generate_restoreheight_hint">Hauteur ou date de restauration (YYYY-MM-DD)</string>
+
+    <string name="generate_address_label">Adresse publique</string>
+    <string name="generate_viewkey_label">Clef d\'audit</string>
+    <string name="generate_spendkey_label">Clef de dépense</string>
+    <string name="generate_mnemonic_label">Phrase Mnémonique</string>
+    <string name="generate_crazypass_label">Mdp de restauration des fichiers Portefeuille</string>
+
+    <string name="generate_check_key">Entrez une clef valide</string>
+    <string name="generate_check_address">Entrez une Adresse valide</string>
+    <string name="generate_check_mnemonic">Entrez votre phrase Mnémonique</string>
+
+    <string name="send_fee">+%1$s Frais</string>
+
+    <string name="details_alert_message">Des données sensible vont être affichées.\nRegardez autour de vous !</string>
+    <string name="details_alert_yes">C\'est bon</string>
+    <string name="details_alert_no">Non merci !</string>
+    <string name="details_title">Détails</string>
+
+    <string name="delete_alert_message">Ce portefeuille sera supprimé. Vos fonds seront perdus à jamais, sauf si vous disposez de votre semence ou d\'une sauvegarde fonctionnelle pour les récupérer.</string>
+    <string name="delete_alert_yes">Oui, procéder !</string>
+    <string name="delete_alert_no">Non merci !</string>
+
+    <string name="fab_create_new">Créer un nouveau portefeuille</string>
+    <string name="fab_restore_viewonly">Restaurer un portefeuille d\'audit</string>
+    <string name="fab_restore_key">Restaurer depuis la clef privée</string>
+    <string name="fab_restore_seed">Restaurer depuis la phrase mnémonique</string>
+
+    <string name="fab_restore_ledger">Restaurer depuis Ledger Nano</string>
+
+    <string name="menu_language">Langue</string>
+    <string name="language_system_default">Utiliser la Langue du Système</string>
+
+    <string name="menu_info">Montrer les secrets !</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Convertir mnémonique Ledger</string>
+    <string name="prompt_ledger_seed">Phrase mnémonique Ledger</string>
+    <string name="prompt_ledger_phrase">Mot de passe Ledger (optionnel)</string>
+    <string name="bad_ledger_seed">Phrase mnémonique Ledger invalide !</string>
+    <string name="prompt_ledger_seed_warn">Saisir votre phrase mnémonique Ledger ici est un risque majeur de sécurité !</string>
+
+    <string name="label_restoreheight">Hauteur de restauration</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Portamonedes</string>
+
+    <string name="menu_about">Sobre</string>
+    <string name="menu_privacy">Política de Privacitat</string>
+
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_rename">Canvi de nom</string>
+    <string name="menu_backup">Còpia de seguretat</string>
+    <string name="menu_changepw">Canvi de contrasenya</string>
+
+    <string name="label_login_wallets">Portamonedes</string>
+    <string name="label_credits">Crèdits</string>
+    <string name="label_ok">D\'acord</string>
+    <string name="label_cancel">Cancel·lar</string>
+    <string name="label_wallet_advanced_details">Informació més detallada</string>
+
+    <string name="changepw_progress">Canvi de contrasenya en curs</string>
+
+    <string name="service_progress">Posant les coses al see bloc &#8230;\nAixò pot trigar una estona!</string>
+
+    <string name="backup_success">Còpia de seguretat amb èxit</string>
+    <string name="backup_failed">Còpia de seguretat fallida!</string>
+    <string name="rename_failed">Canvi de nom fallit!</string>
+    <string name="changepw_failed">Canvi de contrasenya fallit!</string>
+    <string name="changepw_success">La contrasenya ha canviat</string>
+
+    <string name="status_wallet_disconnected">Desconectat</string>
+
+    <string name="service_busy">Encara estic ocupat amb el teu últim portamonedes &#8230;</string>
+
+    <string name="prompt_rename">Canvi de nom %1$s</string>
+
+    <string name="prompt_changepw">Nova contrasenya per %1$s</string>
+    <string name="prompt_changepwB">Repetir contrasenya per %1$s</string>
+    <string name="prompt_password">Contrasenya per %1$s</string>
+    <string name="prompt_fingerprint_auth">Pots obrir el portamonedes fent servir l\'empremta digital.\nPremi el sensor.</string>
+    <string name="prompt_open_wallet">Obrint el portamonedes&#8230;</string>
+    <string name="bad_fingerprint">Empremta no reconeguda. Torni-ho a intentar.</string>
+    <string name="bad_password">Contrasenya incorrecta!</string>
+    <string name="bad_saved_password">La contrasenya desada és incorrecta.\nIntrodueixi la contrasenya manualment.</string>
+    <string name="bad_wallet">El portamonedes no existeix!</string>
+
+    <string name="label_watchonly">(Només de Visualització)</string>
+
+    <string name="service_description">Servei de monerujo</string>
+
+    <string name="label_copy_viewkey">Clau de visualització</string>
+    <string name="label_copy_address">Adreça Pública</string>
+    <string name="message_copy_viewkey">Clau de visualització copiada al porta-retalls!</string>
+    <string name="message_copy_address">Adreça del portamonedes copiada al porta-retalls!</string>
+    <string name="message_nocopy">S\'ha inhabilitat la funció de copiar per raons de seguretat!</string>
+
+    <string name="generate_title">Crear portamonedes</string>
+    <string name="generate_name_hint">Nom del portamonedes</string>
+    <string name="generate_password_hint">Contrasenya del portamonedes</string>
+    <string name="generate_fingerprint_hint">Permetre obrir el portamonedes amb l\'empremta digital</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Autenticació d’empremta digitals</strong>
+        <p>Amb l’autenticació d’empremta digital habilitada podeu veure el balanç del portamonedes i rebre fons
+         sense la necessitat d’introduir la contrasenya.</p>
+        <p>Per a més seguretat, monerujo encara us demanarà que introduïu la contrasenya per
+         veure els detalls del portamonedes o enviar fons.</p>
+        <strong>Advertència de seguretat</strong>
+        <p>Finalment, monerujo vol recordar-li que qualsevol que pugui obtenir la seva empremta digital serà
+         capaç d’observar el balanç del seu portamonedes.</p>
+        <p>Per exemple, un usuari maliciós del vostre voltant pot obrir la vostra cartera quan esteu dormint.</p>
+        <strong>Esteu segurs d’habilitar aquesta funcionalitat?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">La contrasenya no coincideix</string>
+    <string name="generate_buttonGenerate">Fes-me un portamonedes ara mateix!</string>
+    <string name="generate_button_accept">Ja ho he apuntat tot!</string>
+
+    <string name="generate_wallet_name">Dona\'m un nom!</string>
+    <string name="generate_wallet_exists">El portamonedes ja existeix!</string>
+    <string name="generate_wallet_dot">No pot començar amb .</string>
+    <string name="generate_wallet_creating">Creant portamonedes</string>
+    <string name="generate_wallet_created">Portamonedes creat</string>
+
+    <string name="generate_restoreheight_error">Introduïu un número o una data (AAAA-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">Claus</string>
+    <string name="generate_wallet_type_new">Nou</string>
+    <string name="generate_wallet_type_seed">Llavor</string>
+    <string name="generate_wallet_type_view">Visualitzar</string>
+
+    <string name="generate_address_hint">Adreça Pública</string>
+    <string name="generate_viewkey_hint">Clau de Visualització</string>
+    <string name="generate_spendkey_hint">Clau de Despeses</string>
+    <string name="generate_mnemonic_hint">Llavor Mnemòtica de 25 paraules</string>
+    <string name="generate_restoreheight_hint">Restablir Alçada o Data (AAAA-MM-DD)</string>
+
+    <string name="generate_address_label">Adreça Pública</string>
+    <string name="generate_viewkey_label">Clau de Visualització</string>
+    <string name="generate_spendkey_label">Clau de Despeses</string>
+    <string name="generate_mnemonic_label">Llavor Mnemòtica</string>
+    <string name="generate_crazypass_label">Contrasenya de Restauració per l\'Arxiu del Portamonedes</string>
+
+    <string name="generate_check_key">Introduïu una clau vàlida</string>
+    <string name="generate_check_address">Introduïu una adreça vàlida</string>
+    <string name="generate_check_mnemonic">Introduïu la vostra llavor de 25 paraules</string>
+
+    <string name="send_fee">+%1$s Comissió</string>
+
+    <string name="details_alert_message">Ara es mostrarà informació delicada.\nEsteu a l\'aguait!</string>
+    <string name="details_alert_yes">Estic segur</string>
+    <string name="details_alert_no">Torna\'m enrere!</string>
+    <string name="details_title">Detalls</string>
+
+    <string name="delete_alert_yes">Si, fes-ho!</string>
+    <string name="delete_alert_no">No gràcies!</string>
+
+    <string name="fab_create_new">Crear un nou portamonedes</string>
+    <string name="fab_restore_viewonly">Restablir portamonedes de només lectura</string>
+    <string name="fab_restore_key">Restablir portamonedes desde les claus privades</string>
+    <string name="fab_restore_seed">Restablir portamonedes desde la llavor de 25 paraules</string>
+
+    <string name="menu_language">Idioma</string>
+    <string name="language_system_default">Utilitzar Idioma del Sistema</string>
+
+    <string name="fab_restore_ledger">Restablir desde Ledger Nano</string>
+
+    <string name="menu_info">Mostra Secrets!</string>
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="menu_ledger_seed">Convertir la llavor del Ledger</string>
+    <string name="prompt_ledger_seed">Paraules de la llavor del Ledger</string>
+    <string name="prompt_ledger_phrase">Contrasenya Ledger (avançat)</string>
+    <string name="bad_ledger_seed">Llavor de Ledger no vàlida!</string>
+    <string name="prompt_ledger_seed_warn">Introduir la vostra llavor del Ledger aquí té un elevat risc de seguretat!</string>
+
+    <string name="label_restoreheight">Restablir Alçada</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

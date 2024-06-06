@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">錢包</string>
+
+    <string name="menu_about">關於</string>
+    <string name="menu_privacy">隱私權政策</string>
+
+    <string name="menu_help">幫助</string>
+    <string name="menu_rename">重新命名</string>
+    <string name="menu_backup">備份</string>
+    <string name="menu_changepw">更改密碼</string>
+
+    <string name="label_login_wallets">錢包</string>
+    <string name="label_credits">致謝</string>
+    <string name="label_ok">好的</string>
+    <string name="label_cancel">取消</string>
+
+
+    <string name="changepw_progress">更改密碼中</string>
+
+    <string name="service_progress">處理中 &#8230;\n可能需要些許時間！</string>
+
+    <string name="backup_success">備份成功</string>
+    <string name="backup_failed">備份失敗！</string>
+    <string name="rename_failed">重新命名失敗！</string>
+    <string name="changepw_failed">密碼更改失敗！</string>
+    <string name="changepw_success">密碼更改成功</string>
+
+    <string name="status_wallet_disconnected">連接中斷</string>
+
+    <string name="service_busy">正在處理前一個錢包 &#8230;</string>
+
+    <string name="prompt_rename">重新命名 %1$s</string>
+
+    <string name="prompt_changepw">為 %1$s 設定新密碼</string>
+    <string name="prompt_changepwB">重複輸入 %1$s 的密碼</string>
+    <string name="prompt_password">%1$s 的密碼</string>
+    <string name="prompt_fingerprint_auth">你也可以使用指紋來開啟錢包。\n請輕觸你的指紋感應器。</string>
+    <string name="prompt_open_wallet">正在開啟錢包 &#8230;</string>
+    <string name="bad_fingerprint">無法辨識指紋，請再試一次。</string>
+    <string name="bad_password">密碼錯誤！</string>
+    <string name="bad_saved_password">儲存的密碼不正確。\n請手動輸入密碼。</string>
+    <string name="bad_wallet">錢包不存在！</string>
+
+    <string name="label_watchonly">(唯讀)</string>
+
+    <string name="service_description">monerujo 服務</string>
+
+    <string name="label_copy_viewkey">查看金鑰</string>
+    <string name="label_copy_address">公開地址</string>
+    <string name="message_copy_viewkey">查看金鑰已複製至剪貼簿！</string>
+    <string name="message_copy_address">錢包地址已複製至剪貼簿！</string>
+    <string name="message_nocopy">因安全因素已停用複製功能！</string>
+
+    <string name="generate_title">建立錢包</string>
+    <string name="generate_name_hint">錢包名稱</string>
+    <string name="generate_password_hint">錢包密碼</string>
+    <string name="generate_fingerprint_hint">允許使用指紋開啟錢包</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>指紋驗證</strong>
+        <p>啟用指紋驗證後，無需輸入密碼，就可以查看錢包餘額並接收資金。</p>
+        <p>但為安全起見，查看錢包詳細資訊或發送資金時，仍須輸入密碼。</p>
+        <strong>安全警告</strong>
+        <p>最後，monerujo 提醒您，任何可以取得您指紋的人都能夠窺視您的錢包餘額。</p>
+        <p>例如，您身邊的惡意使用者可以趁您睡著時使用您的指紋開啟錢包。</p>
+        <strong>您確定要啟用本功能嗎？</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">密碼不符</string>
+    <string name="generate_buttonGenerate">建立錢包！</string>
+    <string name="generate_button_accept">我已抄寫種子碼</string>
+
+    <string name="generate_wallet_name">取個名稱！</string>
+    <string name="generate_wallet_exists">錢包已存在！</string>
+    <string name="generate_wallet_dot">無法用.作為開頭</string>
+    <string name="generate_wallet_creating">建立錢包</string>
+    <string name="generate_wallet_created">錢包已建立</string>
+
+    <string name="generate_restoreheight_error">輸入區塊高度或日期 (YYYY-MM-DD)</string>
+
+    <string name="generate_wallet_type_key">金鑰</string>
+    <string name="generate_wallet_type_new">新增</string>
+    <string name="generate_wallet_type_seed">種子碼</string>
+    <string name="generate_wallet_type_view">查看</string>
+
+    <string name="generate_address_hint">公開地址</string>
+    <string name="generate_viewkey_hint">查看金鑰</string>
+    <string name="generate_spendkey_hint">花費金鑰</string>
+    <string name="generate_mnemonic_hint">25 字記憶種子碼</string>
+    <string name="generate_restoreheight_hint">從區塊高度或日期 (YYYY-MM-DD) 回復</string>
+
+    <string name="generate_address_label">公開地址</string>
+    <string name="generate_viewkey_label">查看金鑰</string>
+    <string name="generate_spendkey_label">花費金鑰</string>
+    <string name="generate_mnemonic_label">記憶種子碼</string>
+    <string name="generate_crazypass_label">錢包檔回復密碼</string>
+
+    <string name="generate_check_key">輸入有效的金鑰</string>
+    <string name="generate_check_address">輸入有效的地址</string>
+    <string name="generate_check_mnemonic">輸入你的 25 字種子碼</string>
+
+    <string name="send_fee">+%1$s 手續費</string>
+
+    <string name="details_alert_message">將會顯示敏感資訊。\n請注意周遭安全！</string>
+    <string name="details_alert_yes">我現在很安全</string>
+    <string name="details_alert_no">不看了！</string>
+    <string name="details_title">詳細資訊</string>
+
+    <string name="delete_alert_yes">好的！</string>
+    <string name="delete_alert_no">不了！</string>
+
+    <string name="fab_create_new">建立新錢包</string>
+    <string name="fab_restore_viewonly">回復唯讀錢包</string>
+    <string name="fab_restore_key">從私鑰回復錢包</string>
+    <string name="fab_restore_seed">從 25 字種子碼回復錢包</string>
+
+    <string name="menu_language">語言</string>
+    <string name="language_system_default">使用系統語言</string>
+
+    <string name="fab_restore_ledger">從 Ledger Nano 回復錢包</string>
+
+    <string name="menu_info">顯示私鑰資訊</string>
+
+    <string name="menu_ledger_seed">轉換 Ledger 種子碼</string>
+    <string name="prompt_ledger_seed">Ledger 種子碼</string>
+    <string name="prompt_ledger_phrase">Ledger 密碼 (選填)</string>
+    <string name="bad_ledger_seed">無效的 Ledger 種子碼！</string>
+    <string name="prompt_ledger_seed_warn">在此輸入 Ledger 種子碼可能存在嚴重的安全風險！</string>
+
+    <string name="label_restoreheight">回復高度</string>
+
+    <string name="onboarding_agree">我知道了！</string>
+
+    <string-array name="daynight_themes">
+        <item>自動</item>
+        <item>白天</item>
+        <item>黑夜</item>
+    </string-array>
+    <string name="gunther_says">這裡還沒有東西\n請建立或是回復一個錢包</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_wallet_advanced_details">點選以獲得詳細資訊</string> <!-- Please chnage to "Detailed information" -->
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Portofel</string>
+
+    <string name="menu_about">Despre</string>
+    <string name="menu_privacy">Politică de confidențialitate</string>
+
+    <string name="menu_help">Ajutor</string>
+    <string name="menu_rename">Redenumește</string>
+    <string name="menu_backup">Backup</string>
+
+    <string name="label_login_wallets">Portofele</string>
+    <string name="label_credits">Credits</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Anulează</string>
+    <string name="label_wallet_advanced_details">Informații detaliate</string>
+
+    <string name="service_progress">Împachetăm lucrurile &#8230;\nPoate dura un pic!</string>
+
+    <string name="backup_success">Copia de rezervă creată cu succes</string>
+    <string name="backup_failed">Copia de rezervă a eșuat!</string>
+    <string name="rename_failed">Redenumirea a eșuat!</string>
+
+    <string name="status_wallet_disconnected">Deconectat</string>
+
+    <string name="service_busy">Încă sunt ocupat cu ultimul tău portofel &#8230;</string>
+
+    <string name="prompt_rename">Redenumește %1$s</string>
+
+    <string name="prompt_password">Parola pentru %1$s</string>
+    <string name="bad_password">Parolă incorectă!</string>
+    <string name="bad_wallet">Portofelul nu există!</string>
+
+    <string name="label_watchonly">(Doar vizualizare)</string>
+
+    <string name="service_description">Serviciul monerujo</string>
+
+    <string name="label_copy_viewkey">Cheie Vizualizare</string>
+    <string name="label_copy_address">Adresă publică</string>
+    <string name="message_copy_viewkey">Cheie vizualizre copiată în clipboard!</string>
+    <string name="message_copy_address">Adresă portofel copiată în clipboard!</string>
+    <string name="message_nocopy">Copierea dezactivată din motive de securitate!</string>
+
+    <string name="generate_title">Creează portofel</string>
+    <string name="generate_name_hint">Nume portofel</string>
+    <string name="generate_password_hint">Parolă portofel</string>
+    <string name="generate_buttonGenerate">Hai cu portofelul odată!</string>
+    <string name="generate_button_accept">Mi-am notat cele 25 de cuvinte!</string>
+
+    <string name="generate_wallet_name">Dă-mi un nume!</string>
+    <string name="generate_wallet_exists">Portofelul există!</string>
+    <string name="generate_wallet_dot">Nu pot începe cu .</string>
+    <string name="generate_wallet_creating">Se creează portofel</string>
+    <string name="generate_wallet_created">Portofel creat</string>
+
+    <string name="generate_restoreheight_error">Introdu număr sau dată (AAAA-LL-ZZ)</string>
+
+    <string name="generate_wallet_type_key">Chei</string>
+    <string name="generate_wallet_type_new">Nou</string>
+    <string name="generate_wallet_type_seed">Semnătură Mnemonică</string>
+    <string name="generate_wallet_type_view">Vizualizare</string>
+
+    <string name="generate_address_hint">Adresă publică</string>
+    <string name="generate_viewkey_hint">Cheie vizualizare</string>
+    <string name="generate_spendkey_hint">Cheie consum</string>
+    <string name="generate_mnemonic_hint">Semnătura Mnemonică de 25-cuvinte</string>
+    <string name="generate_restoreheight_hint">Restaurează Monobloc sau Dată (YYYY-MM-ZZ)</string>
+
+    <string name="generate_address_label">Adresă publică</string>
+    <string name="generate_viewkey_label">Cheie vizualizare</string>
+    <string name="generate_spendkey_label">Cheie consum</string>
+    <string name="generate_mnemonic_label">Semnătură Mnemonică</string>
+
+    <string name="generate_check_key">Introdu cheie validă</string>
+    <string name="generate_check_address">Introdu adresă validă</string>
+    <string name="generate_check_mnemonic">Introdu cele 25 de cuvinte</string>
+
+    <string name="send_fee">+%1$s Comision</string>
+
+    <string name="details_alert_message">Acum vor fi afișate date sensibile.\nUită-te peste umărul tău!</string>
+    <string name="details_alert_yes">Sunt în siguranță</string>
+    <string name="details_alert_no">Du-mă înapoi!</string>
+    <string name="details_title">Detalii</string>
+
+    <string name="delete_alert_yes">Da, fă asta!</string>
+    <string name="delete_alert_no">Nu mersi!</string>
+
+    <string name="fab_create_new">Creează portofel nou</string>
+    <string name="fab_restore_viewonly">Restaurează portofel vizualizare</string>
+    <string name="fab_restore_key">Restaurează portofel cu cheie privată</string>
+    <string name="fab_restore_seed">Restaurează portofel cu semnătură mnemonică</string>
+
+    <string name="menu_changepw">Schimbă parola</string>
+    <string name="changepw_progress">Schimbare parolă în curs</string>
+    <string name="changepw_failed">Schimbare parolă eșuată!</string>
+    <string name="changepw_success">Parolă schimbată</string>
+    <string name="prompt_changepw">Parolă nouă pentru %1$s</string>
+    <string name="prompt_changepwB">Confirmă parola pentru %1$s</string>
+    <string name="prompt_fingerprint_auth">Poți folosi amprentele digitale pentru a deschide portofelul.\nTe rugăm să atingi senzorul.</string>
+    <string name="prompt_open_wallet">Se deschide portofelul&#8230;</string>
+    <string name="bad_fingerprint">Amprentele nu au fost recunoscute. Reîncearcă.</string>
+    <string name="bad_saved_password">Parola salvată este incorectă.\nTe rugăm să introduci parola manual.</string>
+    <string name="generate_fingerprint_hint">Permite deschiderea portofelului cu amprenta digitală</string>
+    <string name="generate_fingerprint_warn">
+        <strong>Autentificare amprentă digitală</strong>
+        <p>Având autentificarea amprentă digitală activată, poți vizualiza balanța portofelului și primi fonduri
+        fără a introduce parola.</p>
+        <p>Pentru securitate suplimentară, monerujo va solicita să introduci parola atunci când
+        vizualizezi informația portofelului sau trimiți fonduri.</p>
+        <strong>Avertisment de securitate</strong>
+        <p>În final, monerujo îți reamintește că oricine va avea amprenta ta digitală va putea
+        să urmărească balanța portofelului tău.</p>
+        <p>Ca exemplu, un utilizator malițios din preajma ta ar putea deschide portofelul atunci când dormi.</p>
+        <strong>Sigur dorești să activezi această opțiune?</strong>
+    </string>
+    <string name="generate_bad_passwordB">Parolele nu se potrivesc</string>
+    <string name="generate_crazypass_label">Parolă Recuperare Fișiere Portofel</string>
+
+    <string name="menu_language">Limbă</string>
+    <string name="language_system_default">De sistem</string>
+
+    <string name="fab_restore_ledger">Recuperează cu Ledger Nano</string>
+
+    <string name="menu_info">Detalii</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Convertește semnătura Ledger</string>
+    <string name="prompt_ledger_seed">Cuvinte Semnătură Ledger</string>
+    <string name="prompt_ledger_phrase">Parolă Ledger (opțional)</string>
+    <string name="bad_ledger_seed">Semnătură Ledger invalidă!</string>
+    <string name="prompt_ledger_seed_warn">Introducere semnăturii tale Ledger aici e un risc major de securitate!</string>
+
+    <string name="label_restoreheight">Restaurează Monobloc</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">Am înțeles!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Zi</item>
+        <item>Noapte</item>
+    </string-array>
+    <string name="gunther_says">Nu e nimic aici\nTe rugăm să creezi sau recuperezi un portofel</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

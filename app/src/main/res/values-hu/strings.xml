@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Tárca</string>
+
+    <string name="menu_about">Névjegy</string>
+    <string name="menu_privacy">Adatvédelem</string>
+
+    <string name="menu_help">Segítség</string>
+    <string name="menu_rename">Átnevezés</string>
+    <string name="menu_backup">Biztonsági mentés</string>
+    <string name="menu_changepw">Jelszómódosítás</string>
+
+    <string name="label_login_wallets">Tárcák</string>
+    <string name="label_credits">Készítők</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Mégsem</string>
+    <string name="label_wallet_advanced_details">Részletes információk</string>
+
+    <string name="changepw_progress">Jelszómódosítás folyamatban</string>
+
+    <string name="service_progress">Műveletek befejezése&#8230;\nEz eltarthat egy ideig!</string>
+
+    <string name="backup_failed">Sikertelen biztonsági mentés!</string>
+    <string name="rename_failed">Sikertelen átnevezés!</string>
+    <string name="changepw_failed">Sikertelen jelszómódosítás!</string>
+    <string name="changepw_success">Jelszó megváltoztatva</string>
+
+    <string name="status_wallet_disconnected">Szétkapcsolva</string>
+
+    <string name="service_busy">Még az előző tárcáddal vagyok elfoglalva&#8230;</string>
+
+    <string name="prompt_rename">%1$s átnevezése</string>
+
+    <string name="prompt_changepw">A(z) %1$s tárca új jelszava</string>
+    <string name="prompt_changepwB">Ismételd meg a(z) %1$s tárca új jelszavát</string>
+    <string name="prompt_password">A(z) %1$s tárca jelszava</string>
+    <string name="prompt_fingerprint_auth">Ujjlenyomattal is megnyithatod a tárcát.\nKérlek, érintsd meg a szenzort.</string>
+    <string name="prompt_open_wallet">Tárca megnyitása&#8230;</string>
+    <string name="bad_fingerprint">Az ujjlenyomat nem felismerhető. Próbáld újra.</string>
+    <string name="bad_password">Helytelen jelszó!</string>
+    <string name="bad_saved_password">Az elmentett jelszó helytelen.\nKérlek, add meg a jelszót manuálisan.</string>
+    <string name="bad_wallet">A tárca nem létezik!</string>
+
+    <string name="label_watchonly">(csak megtekintés)</string>
+
+    <string name="service_description">monerujo szolgáltatás</string>
+
+    <string name="label_copy_viewkey">Figyelőkulcs</string>
+    <string name="label_copy_address">Nyilvános cím</string>
+    <string name="message_copy_viewkey">Figyelőkulcs vágólapra másolva!</string>
+    <string name="message_copy_address">Tárcacím vágólapra másolva!</string>
+    <string name="message_nocopy">A másolás biztonsági okokból tiltásra került!</string>
+
+    <string name="generate_title">Tárcalétrehozás</string>
+    <string name="generate_name_hint">Tárca neve</string>
+    <string name="generate_password_hint">Tárca jelszava</string>
+    <string name="generate_fingerprint_hint">Tárca ujjlenyomattal való megnyitásának engedélyezése</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Ujjlenyomat-azonosítás</strong>
+        <p>Az ujjlenyomat-azonosítás engedélyezésével jelszó megadása nélkül tekintheted meg a
+        tárcaegyenleget és fogadhatsz pénzösszegeket.</p>
+        <p>A további biztonság érdekében ugyanakkor a monerujo továbbra is jelszót fog kérni a
+        tárca részletes adatainak megtekintése és a pénzküldés esetén.</p>
+        <strong>Biztonsági figyelmeztetés</strong>
+        <p>A monerujo felhívja a figyelmed arra, hogy az ujjlenyomatoddal rendelkező személy(ek)
+        megtekinthetik a tárcaegyenleged.</p>
+        <p>Egy rosszhiszemű személy például megnyithatja a tárcádat míg te alszol.</p>
+        <strong>Biztosan engedélyezni szeretnéd ezt a funckiót?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">A jelszavak nem egyeznek</string>
+    <string name="generate_buttonGenerate">Legyen kész a tárcám!</string>
+    <string name="generate_button_accept">Lejegyeztem a mnemonikus magot</string>
+
+    <string name="generate_wallet_name">Nevezz el!</string>
+    <string name="generate_wallet_exists">Már létezik ez a tárca!</string>
+    <string name="generate_wallet_dot">Nem kezdődhet ponttal.</string>
+    <string name="generate_wallet_creating">Tárca létrehozása</string>
+    <string name="generate_wallet_created">Tárca létrehozva</string>
+
+    <string name="generate_restoreheight_error">Számot vagy dátumot (ÉÉÉÉ-HH-NN) adj meg</string>
+
+    <string name="generate_wallet_type_key">Kulcsok</string>
+    <string name="generate_wallet_type_new">Új</string>
+    <string name="generate_wallet_type_seed">Mag</string>
+    <string name="generate_wallet_type_view">Figyelőtárca</string>
+
+    <string name="generate_address_hint">Nyilvános cím</string>
+    <string name="generate_viewkey_hint">Figyelőkulcs</string>
+    <string name="generate_spendkey_hint">Költőkulcs</string>
+    <string name="generate_mnemonic_hint">25 szavas mnemonikus mag</string>
+    <string name="generate_restoreheight_hint">Visszaállítási lánchossz vagy dátum (ÉÉÉÉ-HH-NN)</string>
+
+    <string name="generate_address_label">Nyilvános cím</string>
+    <string name="generate_viewkey_label">Figyelőkulcs</string>
+    <string name="generate_spendkey_label">Költőkulcs</string>
+    <string name="generate_mnemonic_label">Mnemonikus mag</string>
+    <string name="generate_crazypass_label">Tárcafájl-visszaállító jelszó</string>
+
+    <string name="generate_check_key">Adj meg egy valós kulcsot</string>
+    <string name="generate_check_address">Adj meg egy valós címet</string>
+    <string name="generate_check_mnemonic">Add meg a 25 szavas magod</string>
+
+    <string name="send_fee">+%1$s díj</string>
+
+    <string name="details_alert_message">Bizalmas adatok kerülnek megjelenítésre.\nBizonyosodj meg róla, hogy más nem látja!</string>
+    <string name="details_alert_yes">Mehet</string>
+    <string name="details_alert_no">Inkább ne!</string>
+    <string name="details_title">Részletek</string>
+
+    <string name="delete_alert_yes">Igen, mehet!</string>
+    <string name="delete_alert_no">Inkább ne!</string>
+
+    <string name="fab_create_new">Új tárca létrehozása</string>
+    <string name="fab_restore_viewonly">Figyelőtárca visszaállítása</string>
+    <string name="fab_restore_key">Visszaállítás privát kulcsokkal</string>
+    <string name="fab_restore_seed">Visszaállítás mnemonikus maggal</string>
+
+    <string name="menu_language">Nyelv</string>
+    <string name="language_system_default">Rendszernyelv használata</string>
+
+    <string name="fab_restore_ledger">Visszaállítás Ledger Nano-ről</string>
+
+    <string name="menu_info">Részletek</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="backup_success">Backup successful</string>
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Convert Ledger Seed</string>
+    <string name="prompt_ledger_seed">Ledger Seed Words</string>
+    <string name="prompt_ledger_phrase">Ledger Passphrase (optional)</string>
+    <string name="bad_ledger_seed">Invalid Ledger Seed!</string>
+    <string name="prompt_ledger_seed_warn">Entering your Ledger Seed here is a major security risk!</string>
+
+    <string name="label_restoreheight">Visszaállítási lánchossz</string> <!-- Restore Height -->
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

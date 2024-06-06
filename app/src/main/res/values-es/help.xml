@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Crear nuevo monedero</h1>
+        <p>En esta pantalla vas a crear un nuevo y único monedero en vez de restaurar uno viejo.</p>
+        <p>Necesitas introducir un nombre único para tu monedero y una contraseña.
+        Esta contraseña se te pedirá para abrir tu monedero y para poder enviar fondos.
+        Usa una contraseña lo más compleja que puedas, pero que puedas recordar fácilmente. Puede ser una palabra o una frase. Piensa algo creativo.</p>
+		<p>Si pierdes u olvidas esta contraseña, puedes recuperar el acceso con la semilla. Pero si pierdes u olvidas la semilla&#8230 ¡no hay forma de recuperarla! Así que pase lo que pase:</p>
+		<h2>¡Anota muy bien tu semilla!</h2>
+        <p>En la siguiente pantalla verás la \"Semilla\" de este monedero. Es una lista de 25 palabras generada aleatoriamente y no puede cambiarse nunca.
+        Esa semilla es la única información necesaria para recuperar tu monedero en el futuro y obtener acceso a tu monedero otra vez.
+        ¡Mantenerla segura y secreta es muy importante. Si alguien te la roba o la copia, tendrás que mover todos tus fondos a una nuevo monedero (que tenga una
+        nueva semilla). Por tanto, es mejor si haces una copia de tu semilla anotándola con cuidado y guardándola en <em>múltiples</em> lugares seguros y
+        secretos.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Restaurar monedero con semilla</h1>
+        <p>En esta pantalla puedes recrear un monedero ya existente, usando su correspondiente semilla mnemotécnica. Una vez que la sincronización esté completa, todos tus fondos deberían estar ahí.</p>
+		<p>Primero elige un nombre único para tu monedero.</p>
+        <p>Luego una contraseña que será utilizada para encriptar los archivos de tu monedero en el dispositivo, así que usa una palabra o frase que no sea fácil de adivinar.</p>
+        <p>Introduce tu semilla en el campo \"Semilla\".</p>
+        <p>Luego introduce en el campo \"Altura de Restauración\" un número de bloque (o una fecha en formato AAAA-MM-DD) que sea anterior a la primera transacción hecha en este monedero. Monerujo sólo va a revisar los bloques posteriores a este dato, así que si pones uno demasiado reciente no encontrará transacciones antiguas (y mostrará un balance erróneo). Si estás en la duda déjalo en blanco, pero escaneará la cadena de bloques <em>entera</em> y va a llevar <em>mucho</em> tiempo.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Restaurar un monedero con claves</h1>
+        <p>En esta pantalla puedes recrear un monedero ya existente, usando sus correspondientes claves. Una vez que la sincronización esté completa, todos tus fondos deberían estar ahí.</p>
+        <p>Primero elige un nombre único para tu monedero.</p>
+        <p>Luego una contraseña que será utilizada para encriptar los archivos de tu monedero en el dispositivo, así que usa una palabra o frase que no sea fácil de adivinar.</p>
+        <p>Ingresa la dirección de Monero en el campo \"Dirección Pública\" y las claves correspondientes en \"Clave de Vista\" y \"Clave de Gasto\".</p>
+		<p>Luego introduce en el campo \"Altura de Restauración\" un número de bloque (o una fecha en formato AAAA-MM-DD) que sea anterior a la primera transacción hecha en este monedero. Monerujo sólo va a revisar los bloques posteriores a este dato, así que si pones uno demasiado reciente no encontrará transacciones antiguas (y mostrará un balance erróneo). Si estás en la duda déjalo en blanco, pero escaneará la cadena de bloques <em>entera</em> y va a llevar <em>mucho</em> tiempo.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Crear monedero de sólo vista</h1>
+        <p>En esta pantalla puedes recrear un monedero ya existente usando sólo su clave de vista. Con ella, Monerujo podrá mostrarte todas las transacciones que entren en tu monedero, pero no verá las que salen, ni podrás enviar fondos. es útil para monitorear un monedero de manera segura. Una vez que la sincronización esté completa, todos tus fondos deberían estar ahí.</p>
+		<p>Primero elige un nombre único para tu monedero.</p>
+        <p>Luego una contraseña que será utilizada para encriptar los archivos de tu monedero en el dispositivo, así que usa una palabra o frase que no sea fácil de adivinar.</p>
+        <p>Ingresa la dirección de Monero en el campo \"Dirección Pública\" y las clave correspondiente en \"Clave de Vista\".</p>
+		<p>Luego introduce en el campo \"Altura de Restauración\" un número de bloque (o una fecha en formato AAAA-MM-DD) que sea anterior a la primera transacción hecha en este monedero. Monerujo sólo va a revisar los bloques posteriores a este dato, así que si pones uno demasiado reciente no encontrará transacciones antiguas (y mostrará un balance erróneo). Si estás en la duda déjalo en blanco, pero escaneará la cadena de bloques <em>entera</em> y va a llevar <em>mucho</em> tiempo.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Secretos del monedero</h1>
+        <h2>Dirección pública</h2>
+        <p>Tu dirección pública funciona como el número de tu cuenta bancaria, puedes compartirla con cualquiera sin miedo a perder tus fondos. Los montos que alguien envíe a esta dirección aparecerán en tu monedero.</p>
+        <h2>Semilla</h2>
+        <p>Este es el más importante de todos los secretos. De ser necesario, puedes usar esta semilla para restaurar tu monedero y obtener acceso completo a tus fondos. Esto quiere decir que si cualquier otra persona la roba o la copia, también tiene ese acceso, así que mantenla <em>segura</em> y <em>secreta</em>. Si aún no la anotaste, ¡por favor hazlo ahora! No hay forma de recuperar una semilla perdida.</p>
+        <h2>Altura de restauración</h2>
+		<p>Este es el número de un bloque en la cadena de Monero. Monerujo muestra transacciones (y calcula el balance) a partir de este bloque para <em>este</em> monedero. Anótalo, es útil para que en caso de que restaures este monedero en el futuro, no tengas que revisar todos los bloques, sólo los posteriores a éste.</p> 
+		<h2>Contraseña del backup</h2>
+        <p>Asegúrate de escribir esta clave. Si pierdes el dispositivo o desinstalas Monerujo, vas a necesitarla para desencriptar los backups que hayas hecho de este monedero. Lo mismo si quieres abrir ese backup en otra aplicaión de Monero. Pueder estar viendo una de dos opciones:<br/>
+        <h3>CrAzYpass</h3>
+        Si la clave que se muestra consiste de 52 caracteres alfanuméricos en grupos de 4&#8230; ¡felicitaciones! Quiere decir que los archivos de tu monedero están encriptados con una clave de 256 bits, generada por tu propio dispositivo basándose en la última contraseña que hayas elegido. Esto hace que tus archivos sean  extremadamente difíciles de hackear por fuerza bruta. Esta opción es obligatoria para todos los monederos nuevos creados en Monerujo.<br/>
+        <h3>Contraseña normal</h3>
+        Si ves tu contraseña aquí, los archivos de tu billetera no están tan seguros como cuando se usa una CrAzYpass. Para solucionar esto, simplemente elige \"Cambiar Contraseña\" en el menú. Después de ingresar una nueva contraseña (aún si eliges la misma que antes), Monerujo generará una CrAzYpass y asegurará los archivos de tu monedero con ella.
+        ¡Por favor anótala bien!</p>
+		<h2>Claves</h2>
+		<p>Tu monedero tiene 2 claves diferentes que sirven para distintas cosas:
+        <h2>Clave de vista</h2>
+        Se usa para monitorizar las transacciones entrantes de tu monedero, pero no otorga permiso para gastar los fondos guardados en él.
+        <h2>Clave de gasto</h2>
+        Permite a quien sea gastar los moneros recibidos en tu moendero, así que no la compartas con nadie, guárdala tan <em>segura</em> y <em>secreta</em> como tu semilla mnemotécnica.</p>
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">¡Entendido!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

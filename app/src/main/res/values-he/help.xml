@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="help_create_new"><![CDATA[
+        <h1>צור ארנק - חדש</h1>
+        <p>אם אתה צריך כתובת מונרו חדשה!</p>
+        <p>הזן שם ארנק וסיסמה יחודיים.
+        הסיסמה משמשת לאבטחת נתוני הארנק שלך במכשיר. השתמש בסיסמה חזקה -
+        אפילו טוב יותר להשתמש ב- ביטוי סיסמה.</p>
+        <h2>שימו לב ל- מנמוניק סיד!</h2>
+        <p>במסך הזה תוכל למצוא את \"מנמוניק סיד\" אשר בנוי מ-25 מילים.
+        אלה הנתונים היחידים הדרושים כדי לשחזר את הארנק שלך בשלב מאוחר יותר
+        ולקבל גישה מלאה לכספים שלך.
+        חשוב מאוד לשמור על זה מאובטח ופרטי, מכוון שזה מביא ל<em>כל</em>
+        אחד גישה מלאה לכספים שלך!</p>
+        <p>אם תאבד את סיסמת הארנק שלך, אתה עדיין תוכל לשחזר את הארנק שלך עם מנמוניק סיד.</p>
+        <p>אין דרך לשחזר את ה מנמוניק סיד שלך, אם תאבד את זה כל הכספים שלך יאבדו!
+        ה-מנמוניק סיד גם לעולם לא ניתן לשנות, ואם הוא נגנב או נפרץ בדרך אחרת,
+        תצטרך להעביר את הכספים שלך לארנק חדש (עם מנמוניק סיד חדש). לכן, זה הכי טוב
+        שאתה תגבה את ה-מנמוניק סיד על ידי כתיבתו ואחסונו ב- <em>כמה</em> מקומות
+        בטוחים ומאובטחים.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>צור ארנק - סיד</h1>
+        <p>אם כבר יש לך כתובת Monero וברצונך לשחזר את העסקאות מהבלוקצ\'יין!</p>
+        <p>הזן שם ארנק וסיסמה יחודיים. הסיסמה משמשת לאבטחת נתוני הארנק שלך במכשיר.
+        השתמש בסיסמה חזקה - אפילו יותר טוב להשתמש ב- ביטוי סיסמה.</p>
+        <p>הזן את ה- סיד בשדה הכתיבה \"מנמוניק סיד\".<p>
+        <p>הזן את מספר הבלוק של העסקה הראשונה ששימשה עבור כתובת זו 
+        בשדה הכתיבה \"שחזור גובה\". ניתן גם להשתמש בתאריך בתבנית יום-חודש-שנה. אם אינך בטוח,
+        הזן תאריך משוער/גובה-הבלוק <em>לפני</em> שהשתמשת לראשונה בכתובת ארנק זו.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>צור ארנק - מפתחות</h1>
+        <p>אם אתה משחזר את הארנק באמצעות המפתחות שלך!</p>
+        <p>הזן שם ארנק וסיסמה יחודיים. הסיסמה משמשת לאבטחת נתוני הארנק שלך במכשיר.
+        השתמש בסיסמה חזקה - אפילו יותר טוב להשתמש ב- ביטוי סיסמה.<p>
+        <p>הזן את כתובת מונרו שלך בשדה הכתיבה \"כתובת ציבורית\" ותמלא את- \"הצג מפתח\" ו-  \"מפתח הוצאה\".</p>
+        <p>הזן את מספר הבלוק של העסקה הראשונה ששימשה עבור כתובת זו 
+        בשדה הכתיבה \"שחזור גובה\". ניתן גם להשתמש בתאריך בתבנית יום-חודש-שנה. אם אינך בטוח,
+        הזן תאריך משוער/גובה-הבלוק <em>לפני</em> שהשתמשת לראשונה בכתובת ארנק זו.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>צור ארנק - הצגה</h1>
+        <p>אם אתה רק רוצה לפקח על עסקאות נכנסות לארנק!</p>
+        <p>הזן שם ארנק וסיסמה יחודיים. הסיסמה משמשת לאבטחת נתוני הארנק שלך במכשיר.
+        השתמש בסיסמה חזקה - אפילו יותר טוב להשתמש ב- ביטוי סיסמה.<p>
+        <p>הזן את כתובת מונרו שלך בשדה הכתיבה \"כתובת ציבורית\" ותמלא את- \"הצג מפתח\" ו-  \"מפתח הוצאה\".</p>
+        <p>הזן את מספר הבלוק של העסקה הראשונה ששימשה עבור כתובת זו 
+        בשדה הכתיבה \"שחזור גובה\". ניתן גם להשתמש בתאריך בתבנית יום-חודש-שנה. אם אינך בטוח,
+        הזן תאריך משוער/גובה-הבלוק <em>לפני</em> שהשתמשת לראשונה בכתובת ארנק זו.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>פרטי הארנק</h1>
+        <h2>כתובת ציבורית</h2>
+        הכתובת הציבורית שלך היא כמו מספר חשבון הבנק שלך אתה יכול לשתף את זה עם כל אחד בלי
+        לחשוש לאבד את המונרו שלך. אנשים ישלחו מונרו לארנק שלך באמצעות כתובת זו.
+        <h2>מנמוניק סיד</h2>
+        אלה הנתונים היחידים הדרושים כדי לשחזר את הארנק שלך בשלב מאוחר יותר ולקבל גישה מלאה
+        לכספים שלך. חשוב מאוד לשמור על זה מאובטח ופרטי,  מכוון שזה מביא ל<em>כל</em> אחד
+        גישה מלאה למונרו שלך! אם לא רשמת את זה במקום בטוח, אנא עשה זאת!
+        <h2>שחזור סיסמת קבצי ארנק</h2>
+        הקפד לרשום סיסמה זו. אם תאפס את המכשיר או תסיר את התקנת האפליקציה, תזדקק
+        לו כדי לגשת שוב לארנק שלך.<br/>
+        <h3>סיסמה חסינה</h3>
+        אם הסיסמה המוצגת כאן היא 52 תווים אלפאנומריים בקבוצות של 4 - מזל טוב!
+        קבצי הארנק מאובטחים באמצעות מפתח של 256 סיביות שנוצר על-ידי המכשיר שלך&apos;s תכונות
+        האבטחה המבוססות על ביטוי הסיסמה שבחרת (בין אם זה ביצירת הארנק או בשינוי הסיסמה לאחר). זה עושה את
+        הסיסמה קשה נורא לפריצה!<br/>
+        תכונה זו היא חובה עבור כל הארנקים החדשים שנוצרו.
+        <h3>סיסמה מדור קודם</h3>
+        אם אתה רואה את ביטוי הסיסמה שלך כאן, קבצי הארנק שלך אינם מאובטחים כמו בעת שימוש
+        בסיסמה חסינה. כדי לתקן זאת, פשוט בחר \"שנה סיסמה\" מהתפריט. לאחר הכנסת
+        ביטוי סיסמה חדש (אולי אפילו אותו אחד כמו הקודם) האפליקציה תיצור סיסמה חסינה בשבילך
+        שתגן על קבצי הארנק שלך איתה. תרשום אותה!
+        <h3>ארנקי סיסמה חסינה</h3>
+        אם אי פעם תצטרך להתקין מחדש את Monerujo (לדוגמה, לאחר איפוס הטלפון או החלפה
+        לאחד חדש)   או שברצונך להשתמש בקבצי הארנק שלך במכשיר או במחשב אחר, עליך
+        עליך להשתמש בסיסמת שחזור זו כדי לגשת שוב לארנק שלך.<br/>
+        על ידי בחירה \"שנה סיסמה\" מהתפריט, ניתן לבחור ביטוי סיסמה אחר. היזהר
+        מכך שהדבר ייצור סיסמת שחזור חדשה. תרשום אותה!
+        <h2>הצג מפתח</h2>
+        ניתן להשתמש במפתח התצוגה שלך כדי לפקח עסקאות נכנסות בארנק שלך מבלי לתת
+        הרשאה להוציא את הכספים בתוך הארנק שלך.
+        <h2>מפתח הוצאה</h2>
+        מפתח ההוצאה שלך מאפשר לכל אחד להוציא את המונרו המשויך לארנק שלך, אז אל תשתף
+        לאף אחד מפתח זה, שמור עליו בטוח כמו מנמוניק סיד שלך.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">סגור אני מבין!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

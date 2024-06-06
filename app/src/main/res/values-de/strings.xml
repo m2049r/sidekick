@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Wallet</string>
+
+    <string name="menu_about">Über Monerujo</string>
+    <string name="menu_privacy">Datenschutzerklärung</string>
+
+    <string name="menu_help">Hilfe</string>
+    <string name="menu_rename">Umbenennen</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_changepw">Passwort ändern</string>
+
+    <string name="label_login_wallets">Wallets</string>
+    <string name="label_credits">Credits</string>
+    <string name="label_ok">Okay</string>
+    <string name="label_cancel">Abbrechen</string>
+    <string name="label_wallet_advanced_details">Detailinfos</string>
+
+    <string name="changepw_progress">Ändere Passwort</string>
+
+    <string name="service_progress">Stellt fertig &#8230;\nDies kann einen Moment dauern!</string>
+
+    <string name="backup_success">Backup erfolgreich</string>
+    <string name="backup_failed">Backup fehlgeschlagen!</string>
+    <string name="delete_failed">Löschen fehlgeschlagen!</string>
+    <string name="rename_failed">Umbenennen fehlgeschlagen!</string>
+    <string name="changepw_failed">Passwort ändern fehlgeschlagen!</string>
+    <string name="changepw_success">Passwort geändert</string>
+
+    <string name="status_wallet_disconnected">Verbindung getrennt</string>
+
+    <string name="service_busy">Ich bin noch mit deinem letzten Wallet beschäftigt &#8230;</string>
+
+    <string name="prompt_rename">Umbenennen %1$s</string>
+
+    <string name="prompt_changepw">Neues Passwort für %1$s</string>
+    <string name="prompt_changepwB">Passwort für %1$s wiederholen</string>
+    <string name="prompt_password">Passwort für %1$s</string>
+    <string name="prompt_fingerprint_auth">Fingerabdruck-Authentifizierung möglich.\nBitte Sensor berühren.</string>
+    <string name="prompt_open_wallet">Öffne Wallet &#8230;</string>
+    <string name="bad_fingerprint">Fingerabdruck nicht erkannt. Nochmals versuchen.</string>
+    <string name="bad_password">Falsches Passwort!</string>
+    <string name="bad_saved_password">Hinterlegtes Passwort falsch.\nBitte Passwort manuell eingeben.</string>
+    <string name="bad_wallet">Wallet existiert nicht!</string>
+
+    <string name="label_watchonly">(View-Only)</string>
+
+    <string name="service_description">monerujo Service</string>
+
+    <string name="label_copy_viewkey">View-Key</string>
+    <string name="label_copy_address">Empfangsadresse</string>
+    <string name="message_copy_viewkey">View-Key in Zwischenablage kopiert!</string>
+    <string name="message_copy_address">Wallet-Adresse in Zwischenablage kopiert!</string>
+    <string name="message_nocopy">Kopieren aus Sicherheitsgründen deaktiviert!</string>
+
+    <string name="generate_title">Wallet erstellen</string>
+    <string name="generate_name_hint">Wallet-Name</string>
+    <string name="generate_password_hint">Wallet-Passwort</string>
+    <string name="generate_fingerprint_hint">Erlaubt das Öffnen des Wallets durch Fingerabdruck-Authentifizierung</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Fingerabdruck-Authentifizierung</strong>
+        <p>Mit aktivierter Fingerabdruck-Authentifizierung kannst du ohne Eingabe eines Passworts
+        über dein Wallet verfügen und Gelder empfangen.</p>
+        <p>Aus Sicherheitsgründen wird Monerujo weiterhin dein Passwort abfragen,
+        wenn du die Wallet-Details einsehen möchtest.</p>
+        <strong>Sicherheits-Warnung</strong>
+        <p>Bedenke bitte, dass jeder mit Zugriff auf deinen Fingerabdruck dein Guthaben einsehen und verwenden kann.</p>
+        <p>Eine bösartige Person könnte dies zum Beispiel versuchen, während du schläfst.</p>
+        <strong>Bist du sicher, dass du diese Funktion aktivieren willst?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Passwörter stimmen nicht überein</string>
+    <string name="generate_buttonGenerate">Erstell mir jetzt endlich ein Wallet!</string>
+    <string name="generate_button_accept">Ich habe den Mnemonischen Seed notiert!</string>
+
+    <string name="generate_wallet_name">Gib mir einen Namen!</string>
+    <string name="generate_wallet_exists">Wallet existiert bereits!</string>
+    <string name="generate_wallet_dot">Kann nicht mit einem . beginnen</string>
+    <string name="generate_wallet_creating">Erstelle Wallet</string>
+    <string name="generate_wallet_created">Wallet erstellt</string>
+
+    <string name="generate_restoreheight_error">Gib eine Blocknummer oder ein Datum (JJJJ-MM-TT) ein</string>
+
+    <string name="generate_wallet_type_key">Schlüssel</string>
+    <string name="generate_wallet_type_new">Neu</string>
+    <string name="generate_wallet_type_seed">Seed</string>
+    <string name="generate_wallet_type_view">View</string>
+
+    <string name="generate_address_hint">Empfangsadresse</string>
+    <string name="generate_viewkey_hint">View-Key</string>
+    <string name="generate_spendkey_hint">Spend-Key</string>
+    <string name="generate_mnemonic_hint">mnemonischer Seed (25 Wörter)</string>
+    <string name="generate_restoreheight_hint">Wiederherstellungshöhe oder Datum (JJJJ-MM-TT)</string>
+
+    <string name="generate_address_label">Empfangsadresse</string>
+    <string name="generate_viewkey_label">View-Key</string>
+    <string name="generate_spendkey_label">Spend-Key</string>
+    <string name="generate_mnemonic_label">Mnemonischer Seed</string>
+    <string name="generate_crazypass_label">Wiederherstellungspasswort für Wallet-Dateien</string>
+
+    <string name="generate_check_key">Gib einen gültigen Schlüssel ein</string>
+    <string name="generate_check_address">Gib eine gültige Adresse ein</string>
+    <string name="generate_check_mnemonic">Gib deinen 25 Wörter langen Seed ein</string>
+
+    <string name="send_fee">+%1$s Gebühr</string>
+
+    <string name="details_alert_message">Sensible Daten werden angezeigt.\nSchau über deine Schulter!</string>
+    <string name="details_alert_yes">Ich bin sicher</string>
+    <string name="details_alert_no">Nein, doch nicht!</string>
+    <string name="details_title">Details</string>
+
+    <string name="delete_alert_message">Das Wallet wird gelöscht. Dein Geld wird für immer verloren sein, außer wenn Du den Seed oder ein funktionierendes Backup hast um es wiederherzustellen.</string>
+    <string name="delete_alert_yes">Ja, mach das!</string>
+    <string name="delete_alert_no">Nein, danke!</string>
+
+    <string name="fab_create_new">Neues Wallet erstellen</string>
+    <string name="fab_restore_viewonly">View-Only-Wallet wiederherstellen</string>
+    <string name="fab_restore_key">Mit privaten Schlüsseln wiederherstellen</string>
+    <string name="fab_restore_seed">Mit 25-Wörter-Seed wiederherstellen</string>
+
+    <string name="menu_language">Sprache</string>
+    <string name="language_system_default">Benutze Systemsprache</string>
+
+    <string name="fab_restore_ledger">Wallet mit Ledger Nano wiederherstellen</string>
+
+    <string name="menu_info">Zeige Geheimnisse!</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Konvertiere Ledger-Seed</string>
+    <string name="prompt_ledger_seed">Ledger-Seed-Wörter</string>
+    <string name="prompt_ledger_phrase">Ledger-Passphrase (optional)</string>
+    <string name="bad_ledger_seed">Ungültiger Ledger-Seed!</string>
+    <string name="prompt_ledger_seed_warn">Den Ledger-Seed hier einzugeben, stellt ein erhebliches Sicherheitsrisiko dar!</string>
+
+    <string name="label_restoreheight">Wiederherstellungshöhe</string>
+
+    <string name="onboarding_agree">Ich akzeptiere</string>
+    <!-- I am ready!" -->
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Hell</item>
+        <item>Dunkel</item>
+    </string-array>
+    <string name="gunther_says">Leer\nBitte erstelle ein Wallet</string>
+
+    <string name="menu_restore">Importiere wallet</string>
+    <string name="restore_failed">Import fehlgeschlagen!</string>
+
+    <string name="label_seed_offset_encrypt">Seed-Verschlüsselung (EXPERIMENTELL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Einstellungen</string>
+    <string name="title_iface">Oberfläche</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Hell / Dunkel</string>
+
+    <string name="setting_theme">Stil</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

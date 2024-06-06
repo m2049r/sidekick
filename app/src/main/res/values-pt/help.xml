@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Criar Carteira - Nova</h1>
+        <p>Se precisas de um endereço Monero novo!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira.
+        A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte -
+        melhor ainda é utilizar uma frase passe.</p>
+        <h2>Toma nota da tua Semente Mnemónica!</h2>
+        <p>No próximo ecrã vai estar a tua \"Semente Mnemónica\" de 25 palavras.
+        Esta semente é suficiente para recuperar a tua carteira mais tarde
+        e ganhar total acesso aos teus fundos.
+        Mantê-la segura e privada é muito importante, já que pode dar acesso total aos
+        teus fundos a <em>qualquer pessoa</em>!
+        <p>Se perderes a palavra passe da tua carteira, podes recuperar a carteira com a Semente Mnemónica.</p>
+        <p>Não há forma de recuperar a Semente Mnemónica, se a perderes todos os teus fundos serão perdidos!
+        A Semente Mnemónica não pode ser alterada, e se for roubada ou comprometida de outra forma,
+        tens de transferir os teus fundos para uma carteira nova (com uma nova Semente Mnemónica). Por isso,
+        é melhor fazer uma cópia de segurança da Semente escrevendo-a fisicamente e guardando-a em
+        <em>vários</em> lugares seguros.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Crirar Carteira - Semente</h1>
+        <p>Se já tens um Endereço Monero e queres recuperar as transacções da blockchain!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
+        <p>Introduz a tua Semente no campo \"Semente Mnemónica\".<p>
+        <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
+        \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
+        encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Criar Carteira - Chaves</h1>
+        <p>Se estás a recuperar a tua carteira a partir das tuas chaves!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
+        <p>Introduz o teu Endereço Monero no campo \"Endereço público\" e preenche a \"Chave de Visualização\" e a \"Chave de utilização\".</p>
+        <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
+        \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
+        encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Criar Carteira - Visualização</h1>
+        <p>Se apenas queres ver as transacções de depósito numa carteira!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
+        <p>Introduz o teu Endereço Monero no campo \"Endereço público\" e preenche a \"Chave de Visualização\".</p>
+        <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
+        \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
+        encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Detalhes da Carteira</h1>
+        <h2>Endereço público</h2>
+        O teu endereço público é como o teu número de conta bancário e podes partilhá-lo livremente
+        sem qualquer receio de perderes os teus Monero. As pessoas enviam dinheiro para a tua carteira
+        através deste endereço.
+        <h2>Semente Mnemónica</h2>
+        Este é o único dado necessário para recuperar a tua carteira no futuro e ganhar acesso total aos
+        teus fundos. Manter esta informação privada e protegida é muito importante, já que dá a <em>qualquer</em>
+        pessoa acesso aos teus Monero! Se não escreveste a semente nalgum sítio seguro, por favor fá-lo!
+        <h2>Palavra passe dos Ficheiros da Carteira</h2>
+        Certifica-te que escreves esta palavra passe. Se formatares o teu dispositivo ou desinstalares esta
+        app, vais precisar precisar disto para acederes à tua carteira.<br/>
+        <h3>passLoUCa</h3>
+        Se a palavra passe mostrada aqui tem 52 caracteres alfanuméricos em grupos de 4 - parabéns!
+        Os teus ficheiros estão seguros com uma chave de 256-bits gerada pelas funcionalidades de segurança
+        do teu dispositivo através da frase passe que escolheste (na criação ou alterando-a). Isto
+        torna-a extremamente difícil de piratear!<br/>
+        Esta funcionalidade é obrigatória para todas as carteiras novas.
+        <h3>Palavra passe antiga</h3>
+        Se vês a tua frase passe aqui, os ficheiros da tua carteira não estão tão seguros quanto
+        se estivesses a usar a passLoUCa. Para corrigir isto, selecciona \"Alterar palavra passe\" no
+        menu. Após introduzir a nova palavra passe (podes usar a mesma) a aplicação gera uma passLoUCa para
+        ti e protege os ficheiros da tua carteira com ela. Escreve-a nalgum lado!
+        <h3>Carteiras com passLoUCa</h3>
+        Se precisares de reinstalar o Monerujo (por exemplo, depois de formatares o telemóvel ou trocares
+        para um novo) ou quiseres utilizar os ficheiros da carteira num dispositivo diferente ou PC, tens
+        que usar esta Palavra passe de Recuperação de forma a aceder à tua carteira novamente.<br/>
+        Ao seleccionar \"Alterar palavra passe\" do menu, podes escolher uma palavra passe nova. Cuidado
+        que isto vai fazer gerar uma nova Palavra passe de Recuperação. Escreve-a nalgum lado!
+        <h2>Chave de Visualização</h2>
+        A tua chave de visualização pode ser usada para ver as transacções de depósito sem dar permissão
+        para gastar os fundos da tua carteira.
+        <h2>Spend key</h2>
+        A tua chave de utilização permite a qualquer pessoa de gaster os Monero associados à tua carteira,
+        por isso não a reveles a ninguém, mantém-a segura assim como a tua Semente Mnemónica.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">Entendido!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

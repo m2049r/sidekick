@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_activity_name">Πορτοφόλι</string>
+
+    <string name="menu_about">Σχετικά</string>
+    <string name="menu_privacy">Πολιτική Απορρήτου</string>
+
+    <string name="menu_help">Βοήθεια</string>
+    <string name="menu_rename">Μετονομασία</string>
+    <string name="menu_backup">Δημιουργία αντίγραφου ασφαλείας</string>
+
+    <string name="label_login_wallets">Πορτοφόλια</string>
+    <string name="label_credits">Ευχαριστίες</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Άκυρο</string>
+    <string name="label_wallet_advanced_details">Λεπτομερείς πληροφορίες</string>
+
+    <string name="service_progress">Μάζεμα των πραγμάτων &#8230;\nΑυτό μπορεί να διαρκέσει λίγο!</string>
+
+    <string name="backup_success">Η δημιουργία αντίγραφου ασφαλείας ήταν επιτυχής</string>
+    <string name="backup_failed">Η δημιουργία αντίγραφου ασφαλείας απέτυχε!</string>
+    <string name="rename_failed">Η μετονομασία απέτυχε!</string>
+
+    <string name="status_wallet_disconnected">Αποσυνδέθηκε</string>
+
+    <string name="service_busy">Δουλεύω ακόμα στο προηγούμενο πορτοφόλι σου &#8230;</string>
+
+    <string name="prompt_rename">Μετονομασία %1$s</string>
+
+    <string name="prompt_password">Κωδικός για %1$s</string>
+    <string name="bad_password">Λάθος κωδικός!</string>
+    <string name="bad_wallet">Το πορτοφόλι δεν υπάρχει!</string>
+
+    <string name="label_watchonly">(Μόνο Παρακολούθηση)</string>
+
+    <string name="service_description">Υπηρεσία monerujo</string>
+
+    <string name="label_copy_viewkey">Κλειδί Προβολής(View Key)</string>
+    <string name="label_copy_address">Δημόσια Διεύθυνση(Public Address)</string>
+    <string name="message_copy_viewkey">Το Κλειδί Προβολής αντιγράφηκε στο πρόχειρο!</string>
+    <string name="message_copy_address">Η διύθυνση πορτοφολιού αντιγράφηκε στο πρόχειρο!</string>
+    <string name="message_nocopy">Η αντιγραφή είναι απενεργοποιημένη για λόγους ασφαλείας!</string>
+
+    <string name="generate_title">Δημιουργία Πορτοφολιού</string>
+    <string name="generate_name_hint">Όνομα Πορτοφολιού</string>
+    <string name="generate_password_hint">Κωδικός Πορτοφολιού</string>
+    <string name="generate_buttonGenerate">Φτιάξε μου ένα πορτοφόλι επιτέλους!</string>
+    <string name="generate_button_accept">Έχω σημειώσει αυτές τις 25 λέξεις!</string>
+
+    <string name="generate_wallet_name">Δώσε μου ένα όνομα!</string>
+    <string name="generate_wallet_exists">Το Πορτοφόλι υπάρχει!</string>
+    <string name="generate_wallet_dot">Δεν γίνεται να ξεκινάει με .</string>
+    <string name="generate_wallet_creating">Το πορτοφόλι δημιουργείται</string>
+    <string name="generate_wallet_created">Το Πορτοφόλι δημιουργήθηκε</string>
+
+    <string name="generate_restoreheight_error">Βάλε αριθμό ή ημερομηνία (YYYY-MM-DD δλδ χρονιά-μήνας-μέρα)</string>
+
+    <string name="generate_wallet_type_key">Κλειδιά</string>
+    <string name="generate_wallet_type_new">Νέο</string>
+    <string name="generate_wallet_type_seed">Σπόρος</string>
+    <string name="generate_wallet_type_view">Προβολή</string>
+
+    <string name="generate_address_hint">Δημόσια Διεύθυνση(Public Address)</string>
+    <string name="generate_viewkey_hint">Κλειδί Προβολής(View Key)</string>
+    <string name="generate_spendkey_hint">Κλειδί Ξοδεύματος(Spend Key)</string>
+    <string name="generate_mnemonic_hint">Μνημονικός Σπόρος(Mnemonic Seed) 25-Λέξεων</string>
+    <string name="generate_restoreheight_hint">Ύψος ανάκτησης ή Ημερομηνία (YYYY-MM-DD δλδ χρονιά-μήνας-μέρα)</string>
+
+    <string name="generate_address_label">Δημόσια Διεύθυνση(Public Address)</string>
+    <string name="generate_viewkey_label">Κλειδί προβολής(View Key)</string>
+    <string name="generate_spendkey_label">Κλειδί ξοδεύματος(Spend Key)</string>
+    <string name="generate_mnemonic_label">Μνημονικός Σπόρος(Mnemonic Seed)</string>
+
+    <string name="generate_check_key">Δώστε έγκυρο κλειδί</string>
+    <string name="generate_check_address">Δώστε έγκυρη διεύθυνση</string>
+    <string name="generate_check_mnemonic">Βάλε τον σπόρο σου 25-λέξεων</string>
+
+    <string name="send_fee">+%1$s Κόμιστρο</string>
+
+    <string name="details_alert_message">Θα εμφανιστούν τώρα ευαίσθητα δεδομένα. \nΠρόσεχε ποιος είναι πίσω σου!</string>
+    <string name="details_alert_yes">Είμαι ασφαλής</string>
+    <string name="details_alert_no">Πήγαινε με πίσω!</string>
+    <string name="details_title">Λεπτομέρειες</string>
+
+    <string name="delete_alert_yes">Ναι, κάνε αυτό!</string>
+    <string name="delete_alert_no">Όχι ευχαριστώ!</string>
+
+    <string name="fab_create_new">Δημιουργία νέου πορτοφολιού</string>
+    <string name="fab_restore_viewonly">Επαναφορά πορτοφολιού προβολής-μόνο</string>
+    <string name="fab_restore_key">Επαναφορά πορτοφολιού από ιδιωτικά κλειδιά</string>
+    <string name="fab_restore_seed">Επαναφορά πορτοφολιού από σπόρο 25-λέξεων</string>
+
+    <string name="menu_changepw">Change Passphrase</string>
+    <string name="changepw_progress">Change Password in progress</string>
+    <string name="changepw_failed">Change Password failed!</string>
+    <string name="changepw_success">Password changed</string>
+    <string name="prompt_changepw">New Passphrase for %1$s</string>
+    <string name="prompt_changepwB">Repeat Passphrase for %1$s</string>
+    <string name="prompt_fingerprint_auth">You can also open wallet using fingerprint.\nPlease touch sensor.</string>
+    <string name="prompt_open_wallet">Opening the wallet&#8230;</string>
+    <string name="bad_fingerprint">Fingerprint not recognized. Try again.</string>
+    <string name="bad_saved_password">Saved password is incorrect.\nPlease enter password manually.</string>
+    <string name="generate_fingerprint_hint">Allow to open wallet using fingerprint</string>
+    <string name="generate_fingerprint_warn">
+        <strong>Fingerprint Authentication</strong>
+        <p>With fingerprint authentication enabled, you can view wallet balance and receive funds
+        without entering password.</p>
+        <p>But for additional security, monerujo will still require you to enter password when
+        viewing wallet details or sending funds.</p>
+        <strong>Security Warning</strong>
+        <p>Finally, monerujo wants to remind you that anyone who can get your fingerprint will be
+        able to peep into your wallet balance.</p>
+        <p>For instance, a malicious user around you can open your wallet when you are asleep.</p>
+        <strong>Are you sure to enable this function?</strong>
+    </string>
+    <string name="generate_bad_passwordB">Passphrases do not match</string>
+    <string name="generate_crazypass_label">Wallet Files Restore Password</string>
+
+    <string name="menu_language">Language</string>
+    <string name="language_system_default">Use System Language</string>
+
+    <string name="fab_restore_ledger">Restore from Ledger Nano</string>
+
+    <string name="menu_info">Λεπτομέριες</string><!--Changed to: Show Secrets!-->
+
+    <!--note: as in "Test a network connection"-->
+
+    <!-- as in: "everything in the account" = "all the money" -->
+
+    <string name="menu_ledger_seed">Convert Ledger Seed</string>
+    <string name="prompt_ledger_seed">Ledger Seed Words</string>
+    <string name="prompt_ledger_phrase">Ledger Passphrase (optional)</string>
+    <string name="bad_ledger_seed">Invalid Ledger Seed!</string>
+    <string name="prompt_ledger_seed_warn">Entering your Ledger Seed here is a major security risk!</string>
+
+    <string name="label_restoreheight">Ύψος ανάκτησης</string> <!-- "Restore Height" -->
+
+    <string name="onboarding_agree">I get it!</string>
+
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">Delete failed!</string>
+
+    <string name="menu_restore">Import wallet</string>
+    <string name="restore_failed">Import failed!</string>
+
+    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

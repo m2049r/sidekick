@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+<resources>
+    <string name="wallet_activity_name">کیف پول</string>
+
+    <string name="menu_about">درباره</string>
+    <string name="menu_privacy">خط‌مشی رازداری</string>
+
+    <string name="menu_help">راهنمایی</string>
+    <string name="menu_rename">تغییر نام</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_backup">پشتیبان‌گیری</string>
+    <string name="menu_changepw">تغییر عبارت عبور</string>
+
+    <string name="label_login_wallets">کیف پول‌ها</string>
+    <string name="label_credits">دست اندرکاران</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">لغو</string>
+    <string name="label_wallet_advanced_details">اطلاعات بیشتر</string>
+
+    <string name="changepw_progress">در حال تغییر رمز</string>
+
+    <string name="service_progress">
+    در حال انجام...
+    \n
+    این کار ممکن است زمان زیادی طول بکشد!
+    </string>
+
+    <string name="backup_success">پشتیبان‌گیری موفق بود</string>
+    <string name="backup_failed">پشتیبان‌گیری شکست خورد!</string>
+    <string name="delete_failed">حذف شکست خورد!</string>
+    <string name="rename_failed">تغییر نام شکست خورد!</string>
+    <string name="changepw_failed">تغییر رمز شکست خورد!</string>
+    <string name="changepw_success">رمز عبور تغییر کرد</string>
+
+    <string name="status_wallet_disconnected">قطع شد</string>
+
+    <string name="service_busy">هنوز با کیف پول قبلی شما مشغول هستم...</string>
+
+    <string name="prompt_rename">
+    تغییر نام
+    %1$s</string>
+
+    <string name="prompt_changepw">
+    عبارت عبور جدید برای
+    %1$s</string>
+    <string name="prompt_changepwB">
+    عبارت عبور را برای
+    %1$s
+    تکرار کنید
+    </string>
+    <string name="prompt_password">
+    رمز عبور برای
+    %1$s</string>
+    <string name="prompt_fingerprint_auth">
+    همینطور می‌توانید با اثر انگشت کیف پول را باز کنید.
+    \n
+    لطفا حسگر را لمس کنید.
+    </string>
+    <string name="prompt_open_wallet">در حال بازگشایی کیف پول...</string>
+    <string name="bad_fingerprint">اثر انگشت شناسایی نشد. دوباره امتحان کنید.</string>
+    <string name="bad_password">رمز عبور اشتباه است!</string>
+    <string name="bad_saved_password">
+    رمز عبور ذخیره شده اشتباه است.
+    \n
+    لطفا رمز عبور را دستی وارد کنید.
+    </string>
+    <string name="bad_wallet">کیف پول پیدا نشد!</string>
+
+    <string name="label_watchonly">(فقط مشاهده‌ای)</string>
+
+    <string name="service_description">سرویس مونروجو</string>
+
+    <string name="label_copy_viewkey">کلید مشاهده</string>
+    <string name="label_copy_address">آدرس عمومی</string>
+    <string name="message_copy_viewkey">کلید مشاهده کپی شد!</string>
+    <string name="message_copy_address">آدرس کیف پول کپی شد!</string>
+    <string name="message_nocopy">کپی به دلایل امنیتی غیرفعال شد!</string>
+
+    <string name="generate_title">ساخت کیف پول</string>
+    <string name="generate_name_hint">نام کیف پول</string>
+    <string name="generate_password_hint">عبارت عبور کیف پول</string>
+    <string name="generate_fingerprint_hint">اجازه برای بازگشایی کیف پول با اثر انگشت</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>احراز با اثر انگشت</strong>
+        <p>
+        با فعال بودن احراز با اثر انگشت می‌توانید بدون نیاز به وارد کردن رمز عبور، موجودی کیف پول را دیده و وجوه دریافت کنید.
+        </p>
+        <p>
+        اما برای امنیت بیشتر، مونروجو برای مشاهدهٔ جزئیات کیف پول و ارسال وجوه از شما برای وارد کردن رمز عبور می‌پرسد.
+        </p>
+        <strong>هشدار امنیتی</strong>
+        <p>
+        در نهایت، مونروجو به شما یادآور می‌شود که هرکس دسترسی به اثر انگشت شما داشته باشد قابلیت فضولی و مشاهدهٔ موجودی شما را خواهد داشت.
+        </p>
+        <p>
+        برای مثال، شخصی می‌تواند کیف پول شما را وقتی که خواب هستید باز کند.
+        </p>
+        <strong>برای فعالسازی این قابلیت اطمینان دارید؟</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">عبارت عبور تطابق ندارد</string>
+    <string name="generate_buttonGenerate">کیف پول را بساز!</string>
+    <string name="generate_button_accept">بذر یادآوری را یادداشت کرده‌ام</string>
+
+    <string name="generate_wallet_name">یک نام برایم بگذار!</string>
+    <string name="generate_wallet_exists">کیف پول از پیش وجود دارد!</string>
+    <string name="generate_wallet_dot">با نقطه نمی‌تواند شروع شود</string>
+    <string name="generate_wallet_creating">در حال ساخت کیف پول</string>
+    <string name="generate_wallet_created">کیف پول ساخته شد</string>
+
+    <string name="generate_restoreheight_error">
+    ارتفاع یا تاریخ میلادی بازیابی
+    (YYYY-MM-DD)
+    را وارد کنید
+    </string>
+
+    <string name="generate_wallet_type_key">کلیدها</string>
+    <string name="generate_wallet_type_new">جدید</string>
+    <string name="generate_wallet_type_seed">بذر</string>
+    <string name="generate_wallet_type_view">مشاهده‌ای</string>
+
+    <string name="generate_address_hint">آدرس عمومی</string>
+    <string name="generate_viewkey_hint">کلید مشاهده</string>
+    <string name="generate_spendkey_hint">کلید مصرف</string>
+    <string name="generate_mnemonic_hint">بذر یادآوری 25 کلمه‌ای</string>
+    <string name="generate_restoreheight_hint">
+    ارتفاع یا تاریخ میلادی بازیابی
+    (YYYY-MM-DD)</string>
+
+    <string name="generate_address_label">آدرس عمومی</string>
+    <string name="generate_viewkey_label">کلید مشاهده</string>
+    <string name="generate_spendkey_label">کلید مصرف</string>
+    <string name="generate_mnemonic_label">بذر یادآوری</string>
+    <string name="generate_crazypass_label">رمز عبور بازیابی فایل‌های کیف پول</string>
+
+    <string name="generate_check_key">یک کلید معتبر وارد کنید</string>
+    <string name="generate_check_address">یک آدرس معتبر وارد کنید</string>
+    <string name="generate_check_mnemonic">بذر 25 کلمه‌ای خود را وارد کنید</string>
+
+    <string name="send_fee">+%1$s
+    هزینهٔ تراکنش
+    </string>
+
+    <string name="details_alert_message">
+    داده‌های حساس نمایش داده خواهند شد.
+    \n
+    مراقب پشت سر خود باشید!
+    </string>
+    <string name="details_alert_yes">حله!</string>
+    <string name="details_alert_no">بازگشت!</string>
+    <string name="details_title">جزئیات</string>
+
+    <string name="delete_alert_message">
+    این کیف پول حذف خواهد شد. وجوه شما برای همیشه از بین خواهند رفت مگر اینکه بذر یا فایل پشتیبان برای بازیابی داشته باشید.
+    </string>
+    <string name="delete_alert_yes">آره انجامش بده!</string>
+    <string name="delete_alert_no">نه مرسی!</string>
+
+    <string name="fab_create_new">ساخت کیف پول جدید</string>
+    <string name="fab_restore_viewonly">بازگردانی کیف پول فقط مشاهده‌ای</string>
+    <string name="fab_restore_key">بازگردانی کیف پول با کلیدهای شخصی</string>
+    <string name="fab_restore_seed">بازگردانی کیف پول با بذر 25 کلمه‌ای</string>
+
+    <string name="menu_language">زبان</string>
+    <string name="language_system_default">زبان سیستم</string>
+
+    <string name="fab_restore_ledger">
+    بازیابی از Ledger Nano
+    </string>
+
+    <string name="menu_info">نمایش اسرار!</string>
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="menu_ledger_seed">
+    تبدیل بذر لجر
+    </string>
+    <string name="prompt_ledger_seed">کلمات بذر لجر</string>
+    <string name="prompt_ledger_phrase">عبارت عبور لجر (پیشرفته)</string>
+    <string name="bad_ledger_seed">بذر لجر نامعتبر!</string>
+    <string name="prompt_ledger_seed_warn">
+    نوشتن بذر لجر خود در اینجا یک خطر امنیتی بزرگ است!
+    </string>
+
+    <string name="label_restoreheight">ارتفاع بازیابی</string>
+
+    <string name="onboarding_agree">متوجه شدم!</string>
+
+    <string-array name="daynight_themes">
+        <item>خودکار</item>
+        <item>روز</item>
+        <item>شب</item>
+    </string-array>
+    <string name="gunther_says">
+    هیچ خبری نیست
+    \n
+    لطفا یک کیف پول بسازید یا بازیابی کنید
+    </string>
+
+    <string name="menu_restore">وارد کردن کیف پول</string>
+    <string name="restore_failed">وارد کردن شکست خورد!</string>
+
+    <string name="label_seed_offset_encrypt">رمزگذاری بذر (قابلیت آزمایشی)</string>
+    <string name="seed_offset_hint">عبارت رمزگذاری بذر (اختیاری)</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
+    <string name="title_info">Information</string>
+    <string name="setting_daynight">Day / Night</string>
+
+    <string name="setting_theme">Style</string>
+    <string-array name="themes">
+        <item>Classic</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

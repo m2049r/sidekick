@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Vytvoriť Peňaženku - Novú</h1>
+        <p>Ak Ti treba novú Monero adresu!</p>
+        <p>Vlož unikátny názov a heslo peňaženky.
+        Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení.
+        Používaj silné heslo - alebo ešte lepšie je použiť frázu.</p>
+        <h2>Zapíš si mnemotechnický Seed!</h2>
+        <p>Na nasledujúcej obrazovke uvidíš svoj 25-slovný \"Mnemotechnický Seed\".
+        Sú to dáta potrebné na obnovenie peňaženky a získanie prístupu k Tvojim prostriedkom.
+        Bezpečné uloženie a utajenie týchto dát je veľmi dôležité, keďže pomocou nich <em>hocikto</em> môže získať kontrolu nad vašimi XMR!</p>
+        <p>Ak stratíš heslo do peňaženky, ešte stále si môžeš obnoviť peňaženku so svojím mnemotechnickým Seedom.</p>
+        <p>Ak stratíš mnemotechnický Seed, neexistuje spôsob ako ho odvodiť a všetky Tvoje mince sú navždy stratené!
+        Tento Seed sa nikdy nemôže zmeniť a v prípade, že je ukradnutý, alebo inak skompromitovaný, budeš musieť presunúť svoje mince do novej peňaženky (s novým mnemotechnickým Seedom).
+        Preto je najlepšie ak si svoj Seed zálohuješ zapísaním na papier a uložíš na <em>niekoľko</em> bezpečných a utajených miest.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Vytvoriť Peňaženku - Seed</h1>
+        <p>Ak už máš Monero adresu a chceš obnoviť transakcie z blockchain!</p>
+        <p>Vlož unikátny názov a heslo peňaženky.
+        Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení.
+        Používaj silné heslo - alebo ešte lepšie je použiť frázu.</p>
+        <p>Vlož svoj Seed do políčka \"Mnemotechnický Seed\".<p>
+        <p>Ak poznáš číslo bloku svojej prvej transakcie pre túto adresu, vlož ho do poľa \"Obnov Výšku\" - zanechaním prázdneho poľa budeš skenovať <em>celú</em> blockchain,
+        aby si našiel transakcie prislúchajúce tejto adrese. To môže trvať <em>veľmi</em> dlho.</p>
+    ]]></string>
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Vytvoriť Peňaženku - Kľúče</h1>
+        <p>Ak obnovuješ svoju peňaženku pomocou kľúčov!</p>
+        <p>Vlož unikátny názov a heslo peňaženky.
+        Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení.
+        Používaj silné heslo - alebo ešte lepšie je použiť frázu.<p>
+        <p>Vlož svoju Monero adresu do poľa \"Verejná Adresa\" a vyplň \"Prezerací Kľúč\" and  \"Platobný Kľúč\".</p>
+        <p>Ak poznáš číslo bloku svojej prvej transakcie pre túto adresu, vlož ho do poľa \"Obnov Výšku\" - zanechaním prázdneho poľa budeš skenovať <em>celú</em> blockchain,
+        aby si našiel transakcie prislúchajúce tejto adrese. To môže trvať <em>veľmi</em> dlho.</p>
+        <p>Vlož sem číslo bloku prvej transakcie pre túto adresu do políčka \"Obnov Výšku\". Môžeš tiež použiť dátum vo formáte YYYY-MM-DD.
+        Ak to nevieš naisto, vlož približný dátum/číslo bloku <em>pred</em> tým ako si prvýkrát použil danú adresu.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Vytvoriť Peňaženku - Prezeracia Peňaženka</h1>
+        <p>Ak chceš iba sledovať prichádzajúce transakcie!</p>
+        <p>Vlož unikátny názov a heslo peňaženky. Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení.
+        Používaj silné heslo - alebo ešte lepšie je použiť frázu.<p>
+        <p>Vlož svoju Monero adresu do poľa \"Verejná Adresa\" a vyplň \"Prezerací Kľúč\".</p>
+        <p>Ak poznáš číslo bloku svojej prvej transakcie pre túto adresu, vlož ho do poľa \"Obnov Výšku\". Môžeš tiež použiť dátum vo formáte YYYY-MM-DD.
+        Ak to nevieš naisto, vlož približný dátum/číslo bloku <em>pred</em> tým ako si prvýkrát použil danú adresu.
+        Zanechaním prázdneho poľa budeš skenovať <em>celú</em> blockchain, aby si našiel transakcie prislúchajúce tejto adrese. To môže trvať <em>veľmi</em> dlho.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Detaily Peňaženky</h1>
+        <h2>Verejná Adresa</h2>
+        Vaša verejná adresa je niečo ako číslo bakového účtu, ktoré môžte zdieľať bez toho aby ste sa báli,
+        že prídete o svoje Monero. Ľudia vám budú posielať Monero práve na túto adresu.
+        <h2>Mnemotechnický Seed</h2>
+        Tieto dáta sú potrebné len na obnovu peňaženky a získanie plného prístupu k vašim prostriedkom.
+        Bezpečné uloženie a utajenie týchto dát je veľmi dôležité, keďže pomocou nich <em>hocikto</em> môže získať kontrolu nad vašimi XMR!
+        Ak to ešte nemáš zapísané a uložené niekde na bezpečnom mieste, urob tak čo najskôr!
+        <h2>Heslo pre súbory peňaženky</h2>
+        Uisti sa, že si si heslo zapísal. Ak resetuješ zariadenie, alebo odinštaluješ appku, budeš ho potrebovať na prístup do peňaženky.
+        <br/>
+        <h3>CrAzYpass</h3>
+        Pokiaľ tu zobrazené heslo tvorí 52 alfanumerických znakov v skupinách po 4 - gratulujem!
+        Tvoje súbory peňaženky sú zabezpečené 256-bit kľúčom vygenerovaným bezpečnostnými funkciami Tvojho zariadenia.
+        Extrémne to zťažuje hacknutie týchto súborov!<br/>
+        Táto funkcia je povinná pre všetky novo-vytvorené peňaženky.
+        <h3>Legacy Password</h3>
+        Ak vidíš svoju prístupovú frázu na tomto mieste, Tvoja peňaženka nie je zabezpečená tak,
+        ako by bola pri použití CrAzYpass. Napraviť to môžeš označením \"Zmeň Frázu\" v menu.
+        Po vložení novej prístupovej frázy (aj pri tej istej ako predtým), aplikácia ti vygeneruje
+        CrAzYpass a zabezpečí s ním súbory peňaženky. Zapísať!
+        <h3>CrAzYpass peňaženky</h3>
+        Ak budeš potrebovať niekedy preinštalovať Monerujo (napríklad po resetovaní telefónu alebo pri výmene za iný),
+        alebo ak chceš použiť súbory peňaženky na inom zariadení či PC, budeš musieť
+        použiť toto heslo pre obnovu na opätovný prístup do svojej peňaženky.<br/>
+        Označením \"Zmeň Frázu\ z menu, môžeš vybrať inú prístupovú frázu. Tu pozor, pretože to vygenereuje nové heslo pre obnovu.
+        Zapísať!
+        <h2>Prezerací Kľúč</h2>
+        Tvoj prezerací kľúč (view key) môžeš používať na sledovanie prichádzajúcich transakcií do peňaženky,
+        zatiaľ čo míňať prostriedky tento prezerací kľúč neumožňuje.
+        <h2>Platobný Kľúč</h2>
+        Platobný Kľúč (spend key) umožňuje míňať Monero prislúchajúce danej peňaženke,
+        takže ho nikomu nepredrádzaj a uchovaj rovnako bezpečne ako svoj mnemotechnický seed.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">Rozumiem!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>

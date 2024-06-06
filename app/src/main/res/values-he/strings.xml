@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY nbsp "&#160;">]>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="wallet_activity_name">ארנק</string>
+
+    <string name="menu_about">מידע</string>
+    <string name="menu_privacy">מדיניות פרטיות</string>
+
+    <string name="menu_help">עזרה</string>
+    <string name="menu_rename">שינוי-שם</string>
+    <string name="menu_delete">מחיקה</string>
+    <string name="menu_backup">גיבוי</string>
+    <string name="menu_changepw">שינוי סיסמה</string>
+
+    <string name="label_login_wallets">ארנקים</string>
+    <string name="label_credits">זכויות</string>
+    <string name="label_ok">אוקיי</string>
+    <string name="label_cancel">ביטול</string>
+    <string name="label_wallet_advanced_details">מידע מפורט</string>
+
+    <string name="changepw_progress">שינוי סיסמה בתהליך</string>
+
+    <string name="service_progress">מסכמים את הדברים &#8230;\nזה יכול לקחת זמן מה!</string>
+
+    <string name="backup_success">גיבוי מוצלח</string>
+    <string name="backup_failed">הגיבוי נכשל!</string>
+    <string name="delete_failed">המחיקה נכשלה!</string>
+    <string name="rename_failed">שינוי השם נכשל!</string>
+    <string name="changepw_failed">שינוי סיסמה נכשל!</string>
+    <string name="changepw_success">הסיסמה השתנתה</string>
+
+    <string name="status_wallet_disconnected">מנותק</string>
+
+    <string name="service_busy">אני עדיין עסוק בארנק האחרון שלך &#8230;</string>
+
+    <string name="prompt_rename">שינוי-שם %1$s</string>
+
+    <string name="prompt_changepw">סיסמה חדשה עבור %1$s</string>
+    <string name="prompt_changepwB">חזור על הסיסמה עבור %1$s</string>
+    <string name="prompt_password">סיסמה עבור %1$s</string>
+    <string name="prompt_fingerprint_auth">ניתן גם לפתוח את הארנק באמצעות טביעת אצבע.\nאנא גע בחיישן.</string>
+    <string name="prompt_open_wallet">פותח את הארנק&#8230;</string>
+    <string name="bad_fingerprint">טביעת האצבע לא זוהתה. נסה שוב.</string>
+    <string name="bad_password">סיסמה שגויה!</string>
+    <string name="bad_saved_password">הסיסמה שנשמרה שגויה.\nאנא הזן סיסמה באופן ידני.</string>
+    <string name="bad_wallet">הארנק אינו קיים!</string>
+
+    <string name="label_watchonly">(צפייה בלבד)</string>
+
+    <string name="service_description">שירות מונרוג\'ו</string>
+
+    <string name="label_copy_viewkey">הצג מפתח</string>
+    <string name="label_copy_address">כתובת פומבית</string>
+    <string name="message_copy_viewkey">הצגת מפתח שהועתק ללוח-העתקה!</string>
+    <string name="message_copy_address">כתובת ארנק הועתקה ללוח-העתקה!</string>
+    <string name="message_nocopy">העתקה לא זמינה מטעמי אבטחה!</string>
+
+    <string name="generate_title">צור ארנק</string>
+    <string name="generate_name_hint">שם הארנק</string>
+    <string name="generate_password_hint">ביטוי-סיסמה של הארנק</string>
+    <string name="generate_fingerprint_hint">אפשר לפתוח את הארנק באמצעות טביעת אצבע</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>אימות טביעת אצבע</strong>
+        <p>עם אימות טביעת אצבע מופעל, באפשרותך להציג את יתרת הארנק ולקבל כספים
+        מבלי להזין סיסמה.</p>
+        <p>אבל עבור אבטחה נוספת, מונרוג\'ו עדיין ידרוש ממך להזין סיסמה
+        בעת הצגת פרטי הארנק או שליחת כספים.</p>
+        <strong>אזהרת אבטחה</strong>
+        <p>לבסוף, מונרוג\'ו רוצה להזכיר לך שכל מי שיכול לקבל את טביעת האצבע שלך
+        יוכל להציץ לתוך יתרת הארנק שלך.</p>
+        <p>לדוגמה, משתמש זדוני סביבך יכול לפתוח את הארנק שלך כשאתה ישן.</p>
+        <strong>האם אתה בטוח רוצה להפעיל פונקציה זו?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">הסיסמה אינה תואמת</string>
+    <string name="generate_buttonGenerate">תכינו לי כבר ת\'ארנק!</string>
+    <string name="generate_button_accept">שמרתי את המנמוניק סיד</string>
+
+    <string name="generate_wallet_name">תן לי שם!</string>
+    <string name="generate_wallet_exists">הארנק קיים!</string>
+    <string name="generate_wallet_dot">לא ניתן להתחיל עם.</string>
+    <string name="generate_wallet_creating">יוצר ארנק</string>
+    <string name="generate_wallet_created">הארנק נוצר</string>
+
+    <string name="generate_restoreheight_error">אכנס מספר או תאריך (יום-חודש-שנה)</string>
+
+    <string name="generate_wallet_type_key">מפתחות</string>
+    <string name="generate_wallet_type_new">חדש</string>
+    <string name="generate_wallet_type_seed">סיד</string>
+    <string name="generate_wallet_type_view">הצג</string>
+
+    <string name="generate_address_hint">כתובת פומבית</string>
+    <string name="generate_viewkey_hint">הצג מפתח</string>
+    <string name="generate_spendkey_hint">מפתח הוצאה</string>
+    <string name="generate_mnemonic_hint">25-אותיות מנמוניק סיד</string>
+    <string name="generate_restoreheight_hint">שחזר גובה או תאריך (יום-חודש-שנה)</string>
+
+    <string name="generate_address_label">כתובת פומבית</string>
+    <string name="generate_viewkey_label">הצג מפתח</string>
+    <string name="generate_spendkey_label">מפתח הוצאה</string>
+    <string name="generate_mnemonic_label">25-אותיות מנמוניק סי</string>
+    <string name="generate_crazypass_label">שחזור קבצי סיסמאות ארנק</string>
+
+    <string name="generate_check_key">הזן מפתח חוקי</string>
+    <string name="generate_check_address">הזן כתובת חוקית</string>
+    <string name="generate_check_mnemonic">הזן סיד מ25 אותיות</string>
+
+    <string name="send_fee">+%1$s דמי</string>
+
+    <string name="details_alert_message">כעת יוצגו נתונים רגישים.\nתסתכל מעבר לכתף שלך!</string>
+    <string name="details_alert_yes">אני בטוח</string>
+    <string name="details_alert_no">קח אותי בחזרה!</string>
+    <string name="details_title">פרטים</string>
+
+    <string name="delete_alert_message">ארנק זה יימחק. הכספים שלך ייעלמו לנצח, אלא אם כן יש לך את הסיד שלך או גיבוי עובד כדי לשחזר אותו.</string>
+    <string name="delete_alert_yes">כן, עשה את זה!</string>
+    <string name="delete_alert_no">לא תודה!</string>
+
+    <string name="fab_create_new">צור ארנק חדש</string>
+    <string name="fab_restore_viewonly">שחזור ארנק תצוגה בלבד</string>
+    <string name="fab_restore_key">שחזור ארנק ממפתחות פרטיים</string>
+    <string name="fab_restore_seed">שחזור ארנק עם 25 אותיות סיד</string>
+
+    <string name="menu_language">שפה</string>
+    <string name="language_system_default">שימוש בשפת המערכת</string>
+
+    <string name="fab_restore_ledger">שחזר מתוך Ledger Nano</string>
+
+    <string name="menu_info">הצג סודות!</string>
+
+    <!--note: as in "Test a network connection"-->
+
+    <string name="menu_ledger_seed">מהמר Ledger סיד</string>
+    <string name="prompt_ledger_seed">מילי Ledger סיד</string>
+    <string name="prompt_ledger_phrase">סיסמת Ledger (מתקדם)</string>
+    <string name="bad_ledger_seed">Ledger סיד לא חוקי!</string>
+    <string name="prompt_ledger_seed_warn">הזנת סיד Ledger שלך כאן היא סיכון אבטחה גדול!</string>
+
+
+    <string name="label_restoreheight">שחזור גובה</string>
+
+    <string name="onboarding_agree">אני מבין!</string>
+
+    <string-array name="daynight_themes">
+        <item>אוטומטי</item>
+        <item>יום</item>
+        <item>לילה</item>
+    </string-array>
+    <string name="gunther_says">אין כאן שום דבר\nבבקשה תיצור או שתחזר ארנק</string>
+
+    <string name="menu_restore">טעינת ארנק</string>
+    <string name="restore_failed">טעינה נכשלה!</string>
+
+    <string name="label_seed_offset_encrypt">הצפנת סיד (ניסיוני)</string>
+    <string name="seed_offset_hint">ביטוי היסט סיט (אופציונלי)</string>
+
+    <string name="menu_settings">הגדרות</string>
+    <string name="title_iface">ממשק</string> <!-- like: User Intreface -->
+    <string name="title_info">מידע</string>
+    <string name="setting_daynight">יום / לילה</string>
+
+    <string name="setting_theme">סגנון</string>
+    <string-array name="themes">
+        <item>קלאסי</item>
+        <item>Baldaŭ</item> <!-- do not translate this one -->
+    </string-array>
+
+    <string name="setting_lock">Lock Wallet in Background</string>
+
+    <string name="sidekick">monerujo Sidekick Service</string>
+    <string name="label_bluetooth">Bluetooth</string>
+    <string name="bluetooth_select_label">Select Sidekick device</string>
+    <string name="bluetooth_permissions">Bluetooth permissions are required to connect your Sidekick Wallet!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">App Settings</string>
+    <string name="bluetooth_permissions_cancel">Cancel</string>
+
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[not connected]</string>
+    <string name="sidekick_confirm_tx">Confirm Transaction</string>
+    <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
+        to turn on flight mode and restart the app with only Bluetooth enabled!</string>
+    <string name="fab_restore_sidekick">Restore from Sidekick</string>
+</resources>

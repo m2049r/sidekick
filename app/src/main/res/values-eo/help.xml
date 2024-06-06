@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_create_new"><![CDATA[
+        <h1>Krei monujon - Nova</h1>
+        <p>Se vi bezonas novan Monero-adreson!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <h2>Skribu vian mnemonikan semon surpapere!</h2>
+        <p>Sur la venonta ekrano, vi trovos vian 25-vortan \"mnemonikan semon\".
+        Estas la nura datumo, kiu bezoniĝos por restaŭri vian monujon en la estonteco, kaj reiĝi
+        estro de via mono!
+        <p>Se vi perdas la pasvorton de via monujo, vi tamen povos restaŭri vian monujon per
+        la mnemonikan semon.
+        <p>Estas neniu ebleco retrovi vian mnemonikan semon. Se vi perdas ĝin, via tuta mono
+        perdiĝas ankaŭ! La mnemonika semo ne ŝanĝeblas, kaj se ĝi ŝteliĝas aŭ endanĝeriĝas,
+        vi devos transigi vian monon al nova monujo (kun nova mnemonika semo). Tial estas
+        plej bone ke vi sekurkopiu vian mnemonikan semon skribante ĝin surpapere, kaj konservu
+        ĝin en <em>pluraj</em> sekuraj lokoj.</p>
+    ]]></string>
+
+    <string name="help_create_seed"><![CDATA[
+        <h1>Krei monujon - Semo</h1>
+        <p>Se vi jam havas Monero-adreson kaj volas reĉerpi la transkaciojn el la blokĉeno!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <p>Entajpu vian semon en la kampo \"Mnemonika Semo\".</p>
+        <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
+        Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
+        bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
+    ]]></string>
+
+
+    <string name="help_create_keys"><![CDATA[
+        <h1>Krei monujon - Ŝlosiloj</h1>
+        <p>Se vi restaŭras vian monujon per viaj ŝlosiloj!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via Android-aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <p>Entajpu vian Monero-adreson en la kamp \"Public Address\" kaj plenigu \"Vida ŝlosilo\" kaj \"Elspezŝlosilo\".</p>
+        <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
+        Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
+        bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
+    ]]></string>
+
+    <string name="help_create_view"><![CDATA[
+        <h1>Krei monujon - nurvida</h1>
+        <p>Se vi nur volas sekvi transakciojn kiuj alvenas en la monujon!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn restaŭrasde via monujo sur via Android-aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <p>Entajpu vian Monero-adreson en la kampo \"Publika adreso\" kaj plenigu \"Vida ŝlosilo\".</p>
+        <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
+        Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
+        bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
+    ]]></string>
+
+    <string name="help_details"><![CDATA[
+        <h1>Monujdetaloj</h1>
+        <h2>Publika adreso</h2>
+        Via publika adreso estas kiel via banka kontonumero, kiun vi povas montri al iu ajn, kaj fidi
+        ke vi ne perdos viajn Monerojn. Per tiu adreso, homoj sendos Monerojn al via monujo.
+
+        <h2>Mnemonika semo</h2>
+        Tio estas la nura datumo, kiu bezoniĝas por restaŭri vian monujon en la estonteco, kaj reiĝi
+        estro de via mono! Estas gravege konservi ĝin private kaj sekrete, ĉar ĝi lasus <em>iun ajn</em>
+        forŝteli viajn Monerojn! Se vi je jam skribis ĝin surpapere, bonvolu fari tion tuj!
+
+        <h2>Pasvorto por retrovi monujdosierojn</h2>
+        Certiĝu ke vi skribas tiun pasvorton surpapere. Se vi restartas vian aparaton aŭ malinstalas
+        la aplikaĵon, vi bezonos ĝin por atingi vian monujon denove.<br/>
+
+        <h3>CrAzYpass</h3>
+        Se la ĉi-montrita pasvorto estas 52 ciferoj kaj literoj je kvaropoj, gratulojn!
+        Signifas ke viaj monujdosieroj nun sekuriĝas per 256-bita ŝlosilo, kiun kreis la sekurfunkcioj
+        de via parato, bazante sur la pasfrazo skribita de vi (ĉu ĵus kreite aŭ ĉu nur ŝanĝite).
+        Tiu afero igas la monujon treege malfacile kodrompebla!<br/>
+        Tiu funkcio estas deviga por ĉiuj nove kreitaj monujoj.
+
+        <h3>Malnova pasvorto</h3>
+        Se vi vidas vian pasfrazon ĉi tie, signifas ke viaj monujdosieroj ne tiom sekuras kiel uzante
+        CrAzYpass. Por solvi tion, simple elektu \"Ŝanĝi pasfrazon\" el la menuo. Per tiu nova pasfrazo
+        (kiu ja povas esti la sama kiel antaŭe) la aplikaĵo kreos iun CrAzYpass por vi, kaj sekurigos
+        viajn monujdosierojn per ĝi. Skribu ĝin surpapere!
+
+        <h3>CrAzYpass-monujoj</h3>
+        Se vi iam bezonas reinstali Monerujon (ekz. post restartigo de via telefono aŭ ŝanĝo de telefono)
+        aŭ se vi intencas uzi viajn monujdosierojn kun alia aparato aŭ komputilo, vi devos uzi tiun
+        Restaŭrpasvorton por atingi vian monujon denove.<br/>
+        Elektante \"Ŝanĝi pasfrazon\" el la menuo, vi povos entajpi alian pasfrazon. Atentu pri tio
+        ke nova Restaŭrpasvorto kreiĝos. Srkibu ĝin surpapere!
+
+        <h2>Vida ŝlosilo</h2>
+        Via vida ŝlosilo uzeblas por sekvi transakciojn venantajn al via monujo, sen permesigi
+        elspezon de la mono troviĝanta en via monujo.
+
+        <h2>Elspezŝlosilo</h2>
+        Via elspezŝlosilo ebligas ĉiun ajn elspezi la Monerojn ligitajn kun via monujo, do ne montru
+        ĝin al iu ajn, konservu ĝin sekure, kiel vian Mnemonikan Semon.
+    ]]></string>
+
+    <string name="help_list"><![CDATA[
+        <h1>Sidekick</h1>
+        This is the sidekick app. It should ideally be used on a phone that is not connected
+        to the internet. As long as that condition is true, it\'s almost as secure as a hardware wallet.
+        If we take into account that you don\'t have to purchase a dedicated crypto device, it could be
+        considered more secure: nobody knows you\'re using this.
+
+        To set it up, you\'ll need another phone with the monerujo app installed and connect both phones
+        via Bluetooth:
+        <ol>
+        <li>Turn on Bluetooth on both phones</li>
+        <li>Go to the Bluetooth settings on the monerujo phone and pair it with this one</li>
+        <li>Open both sidekick and monerujo apps</li>
+        </ol>
+
+        <h2>Creating a new sidekick wallet</h2>
+        <h3>On sidekick:</h3>
+        Click on the + button to create a new wallet.
+
+        Pick a name you like for the wallet. We suggest something that will help you match it with its corresponding wallet on the monerujo phone, for example use the same wallet name on both.
+
+        Enter a desired password. Try to make it a good one, it\'s what\'s needed to use the wallet.
+
+        Write down the seed just like with any normal wallet. Please don\'t skip this step, it\'s the key to recover your funds.
+
+        Open your newly created wallet. Go to the monerujo phone.
+
+        <h3>On monerujo:</h3>
+        Click on the "Connect to sidekick" menu or icon. You should see the sidekick phone\'s name in the list, pick it.
+
+        If it\'s successfully connected, when you press the + button you should only have one option: "Restore from sidekick".
+
+        Pick a name for the wallet on this phone. Same advice as before applies.
+
+        You\'ll notice that there\'s no seed displayed here. Good. That\'s the whole point.
+
+        Once you proceed, this new wallet should appear on the main screen just like a normal wallet.
+
+        <h2>Using your sidekick wallet</h2>
+        Check that both phones are connected via Bluetooth and both apps are opened.
+
+        <h3>On sidekick:</h3>
+        Open your wallet of choice.
+
+        <h3>On monerujo:</h3>
+        Connect to sidekick.
+
+        Open the wallet matching the one you have opened on the sidekick phone.
+
+        Use it as you\'d normally use any wallet. Let it scan to see incoming transactions, share addresses, or send moneros. If the app needs to do something that involves your keys, it\'ll ask for permission from sidekick.
+
+        <h3>On sidekick:</h3>
+        If monerujo requested permission, you should see a dialog that shows the transaction details like amount and fees. You\'ll also see two options, to ACCEPT or DENY it. Choose wisely.
+
+        <h3>On monerujo:</h3>
+        The transaction should be signed and ready to be sent. Press to make it so.
+         <br/>
+    ]]></string>
+
+    <string name="help_ok">Got it!</string> <!-- Note: "Got it" as in "I understand this" -->
+
+</resources>
