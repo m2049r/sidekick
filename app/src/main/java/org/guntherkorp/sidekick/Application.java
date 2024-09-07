@@ -21,9 +21,6 @@ import android.content.res.Configuration;
 import android.os.Build;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.OptIn;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentStateManagerControl;
 
 import org.guntherkorp.sidekick.model.NetworkType;
 import org.guntherkorp.sidekick.util.LocaleHelper;
@@ -34,10 +31,8 @@ import timber.log.Timber;
 public class Application extends android.app.Application {
 
     @Override
-    @OptIn(markerClass = FragmentStateManagerControl.class)
     public void onCreate() {
         super.onCreate();
-        FragmentManager.enableNewStateManager(false);
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
         }
