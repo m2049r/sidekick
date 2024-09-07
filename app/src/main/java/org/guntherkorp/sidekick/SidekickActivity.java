@@ -275,12 +275,13 @@ public class SidekickActivity extends BaseActivity implements SidekickFragment.L
         switch (event) {
             case LOADED:
                 runOnUiThread(() -> {
-                    setSubtitle("Ready"); //TODO string.xml
+                    setSubtitle(getString(R.string.sidekick_ready));
                     getBluetoothFragment().start();
+                    getSidekickFragment().setRestoreheight(msg);
                 });
                 break;
             case LOAD_FAILED:
-                runOnUiThread(() -> abort("Load failed")); //TODO string.xml
+                runOnUiThread(() -> abort(getString(R.string.sidekick_failed)));
                 break;
         }
     }

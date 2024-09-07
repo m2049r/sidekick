@@ -114,8 +114,8 @@ Java_org_guntherkorp_sidekick_model_Wallet_createWalletJ(JNIEnv *env, jclass cla
 
 JNIEXPORT jlong JNICALL
 Java_org_guntherkorp_sidekick_model_Wallet_openWalletJ(JNIEnv *env, jclass clazz,
-                                                          jstring path, jstring password,
-                                                          jint networkType) {
+                                                       jstring path, jstring password,
+                                                       jint networkType) {
     const char *_path = env->GetStringUTFChars(path, nullptr);
     const char *_password = env->GetStringUTFChars(password, nullptr);
     Monero::NetworkType _networkType = static_cast<Monero::NetworkType>(networkType);
@@ -133,10 +133,10 @@ Java_org_guntherkorp_sidekick_model_Wallet_openWalletJ(JNIEnv *env, jclass clazz
 
 JNIEXPORT jlong JNICALL
 Java_org_guntherkorp_sidekick_model_Wallet_recoveryWalletJ(JNIEnv *env, jclass clazz,
-                                                                  jstring path, jstring password,
-                                                                  jstring mnemonic, jstring offset,
-                                                                  jint networkType,
-                                                                  jlong restoreHeight) {
+                                                           jstring path, jstring password,
+                                                           jstring mnemonic, jstring offset,
+                                                           jint networkType,
+                                                           jlong restoreHeight) {
     const char *_path = env->GetStringUTFChars(path, nullptr);
     const char *_password = env->GetStringUTFChars(password, nullptr);
     const char *_mnemonic = env->GetStringUTFChars(mnemonic, nullptr);
@@ -162,14 +162,14 @@ Java_org_guntherkorp_sidekick_model_Wallet_recoveryWalletJ(JNIEnv *env, jclass c
 
 JNIEXPORT jlong JNICALL
 Java_org_guntherkorp_sidekick_model_Wallet_createWalletFromKeysJ(JNIEnv *env, jclass clazz,
-                                                                        jstring path,
-                                                                        jstring password,
-                                                                        jstring language,
-                                                                        jint networkType,
-                                                                        jlong restoreHeight,
-                                                                        jstring addressString,
-                                                                        jstring viewKeyString,
-                                                                        jstring spendKeyString) {
+                                                                 jstring path,
+                                                                 jstring password,
+                                                                 jstring language,
+                                                                 jint networkType,
+                                                                 jlong restoreHeight,
+                                                                 jstring addressString,
+                                                                 jstring viewKeyString,
+                                                                 jstring spendKeyString) {
     const char *_path = env->GetStringUTFChars(path, nullptr);
     const char *_password = env->GetStringUTFChars(password, nullptr);
     const char *_language = env->GetStringUTFChars(language, nullptr);
@@ -200,7 +200,7 @@ Java_org_guntherkorp_sidekick_model_Wallet_createWalletFromKeysJ(JNIEnv *env, jc
 
 JNIEXPORT jboolean JNICALL
 Java_org_guntherkorp_sidekick_model_Wallet_isAddressValid(JNIEnv *env, jclass clazz,
-                                                      jstring address, jint networkType) {
+                                                          jstring address, jint networkType) {
     const char *_address = env->GetStringUTFChars(address, nullptr);
     Monero::NetworkType _networkType = static_cast<Monero::NetworkType>(networkType);
     bool isValid = Monero::Wallet::addressValid(_address, _networkType);
@@ -237,7 +237,7 @@ Java_org_guntherkorp_sidekick_model_Wallet_queryWalletDeviceJ(JNIEnv *env, jclas
 
 JNIEXPORT jboolean JNICALL
 Java_org_guntherkorp_sidekick_model_Wallet_close(JNIEnv *env, jclass clazz,
-                                                        jobject walletInstance) {
+                                                 jobject walletInstance) {
     Monero::Wallet *wallet = getHandle<Monero::Wallet>(env, walletInstance);
     bool closeSuccess = Monero::WalletManagerFactory::getWalletManager()->closeWallet(wallet,
                                                                                       false);
@@ -401,8 +401,8 @@ Java_org_guntherkorp_sidekick_util_KeyStoreHelper_slowHash(JNIEnv *env, jclass c
 
 JNIEXPORT void JNICALL
 Java_org_guntherkorp_sidekick_model_Logger_initLogger(JNIEnv *env, jclass clazz,
-                                                             jstring argv0,
-                                                             jstring default_log_base_name) {
+                                                      jstring argv0,
+                                                      jstring default_log_base_name) {
 
     const char *_argv0 = env->GetStringUTFChars(argv0, nullptr);
     const char *_default_log_base_name = env->GetStringUTFChars(default_log_base_name, nullptr);
@@ -415,7 +415,7 @@ Java_org_guntherkorp_sidekick_model_Logger_initLogger(JNIEnv *env, jclass clazz,
 
 JNIEXPORT void JNICALL
 Java_org_guntherkorp_sidekick_model_Logger_logDebug(JNIEnv *env, jclass clazz,
-                                                       jstring category, jstring message) {
+                                                    jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, nullptr);
     const char *_message = env->GetStringUTFChars(message, nullptr);
@@ -428,7 +428,7 @@ Java_org_guntherkorp_sidekick_model_Logger_logDebug(JNIEnv *env, jclass clazz,
 
 JNIEXPORT void JNICALL
 Java_org_guntherkorp_sidekick_model_Logger_logInfo(JNIEnv *env, jclass clazz,
-                                                      jstring category, jstring message) {
+                                                   jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, nullptr);
     const char *_message = env->GetStringUTFChars(message, nullptr);
@@ -441,7 +441,7 @@ Java_org_guntherkorp_sidekick_model_Logger_logInfo(JNIEnv *env, jclass clazz,
 
 JNIEXPORT void JNICALL
 Java_org_guntherkorp_sidekick_model_Logger_logWarning(JNIEnv *env, jclass clazz,
-                                                         jstring category, jstring message) {
+                                                      jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, nullptr);
     const char *_message = env->GetStringUTFChars(message, nullptr);
@@ -454,7 +454,7 @@ Java_org_guntherkorp_sidekick_model_Logger_logWarning(JNIEnv *env, jclass clazz,
 
 JNIEXPORT void JNICALL
 Java_org_guntherkorp_sidekick_model_Logger_logError(JNIEnv *env, jclass clazz,
-                                                       jstring category, jstring message) {
+                                                    jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, nullptr);
     const char *_message = env->GetStringUTFChars(message, nullptr);
@@ -467,7 +467,7 @@ Java_org_guntherkorp_sidekick_model_Logger_logError(JNIEnv *env, jclass clazz,
 
 JNIEXPORT void JNICALL
 Java_org_guntherkorp_sidekick_model_Logger_setLogLevel(JNIEnv *env, jclass clazz,
-                                                          jint level) {
+                                                       jint level) {
     Monero::WalletManagerFactory::setLogLevel(level);
 }
 
@@ -573,7 +573,8 @@ Java_org_guntherkorp_sidekick_model_SidekickWallet_loadFromWalletJ(JNIEnv *env, 
     if (status == Monero::Wallet::Status_Ok) {
         sidekickWallet = new Monerujo::SidekickWallet(static_cast<uint8_t>(networkType),
                                                       wallet->secretSpendKey(),
-                                                      wallet->secretViewKey());
+                                                      wallet->secretViewKey(),
+                                                      wallet->getRefreshFromBlockHeight());
     }
     if (!mgr->closeWallet(wallet, false)) delete wallet;
     env->ReleaseStringUTFChars(path, _path);
@@ -615,6 +616,12 @@ JNIEXPORT jint JNICALL
 Java_org_guntherkorp_sidekick_model_SidekickWallet_getStatusJ(JNIEnv *env, jobject instance) {
     auto *wallet = getHandle<Monerujo::SidekickWallet>(env, instance);
     return (int) wallet->status();
+}
+
+JNIEXPORT jlong JNICALL
+Java_org_guntherkorp_sidekick_model_SidekickWallet_getRestoreheight(JNIEnv *env, jobject instance) {
+    auto *wallet = getHandle<Monerujo::SidekickWallet>(env, instance);
+    return wallet->getRestoreheight();
 }
 
 #ifdef __cplusplus

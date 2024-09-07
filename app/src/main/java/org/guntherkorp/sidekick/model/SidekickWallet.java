@@ -63,6 +63,8 @@ public class SidekickWallet {
 
     public native void reset();
 
+    public native long getRestoreheight();
+
     static public SidekickWallet loadFromWallet(String path, String password) {
         long handle = loadFromWalletJ(path, password, Wallet.getAppNetworkType().getValue());
         return new SidekickWallet(handle, new File(path).getName());

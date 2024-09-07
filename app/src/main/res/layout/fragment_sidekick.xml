@@ -4,17 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <GridLayout
-        android:id="@+id/lights"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:columnCount="5" />
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/lights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/restoreheight"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="8dp"
+            android:columnCount="5"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/restoreheight"
+            style="@style/MoneroText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            tools:text="Available since block 12345677" />
+
+    </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/confirmation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible">
+        android:visibility="invisible">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -26,8 +46,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:padding="8dp"
-                android:visibility="visible">
+                android:padding="8dp">
 
                 <TextView
                     style="@style/MoneroText.Large.Accent"

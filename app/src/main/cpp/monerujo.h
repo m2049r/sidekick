@@ -91,7 +91,7 @@ namespace Monerujo {
             Status_Critical
         };
 
-        SidekickWallet(uint8_t networkType, std::string a, std::string b);
+        SidekickWallet(uint8_t networkType, std::string a, std::string b, uint64_t restoreheight);
 
         ~SidekickWallet();
 
@@ -100,6 +100,8 @@ namespace Monerujo {
         void reset();
 
         Status status() const;
+
+        uint64_t getRestoreheight() const;
 
     };
 }

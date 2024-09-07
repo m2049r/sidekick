@@ -19,8 +19,6 @@ package org.guntherkorp.sidekick;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridLayout;
@@ -50,6 +48,7 @@ import timber.log.Timber;
 public class SidekickFragment extends Fragment {
     private TextView tvFee;
     private TextView tvTransfers;
+    private TextView restoreheight;
     private GridLayout lights;
     private ViewGroup confirmation;
 
@@ -68,6 +67,7 @@ public class SidekickFragment extends Fragment {
 
         tvFee = view.findViewById(R.id.tvFee);
         tvTransfers = view.findViewById(R.id.tvTransfers);
+        restoreheight = view.findViewById(R.id.restoreheight);
 
         lights = view.findViewById(R.id.lights);
         confirmation = view.findViewById(R.id.confirmation);
@@ -96,6 +96,10 @@ public class SidekickFragment extends Fragment {
             startPostponedEnterTransition();
             return true;
         });
+    }
+
+    public void setRestoreheight(String height) {
+        restoreheight.setText(getString(R.string.restoreheight_text, height));
     }
 
     private void showLights() {

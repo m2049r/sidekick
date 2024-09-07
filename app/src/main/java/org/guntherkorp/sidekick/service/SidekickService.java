@@ -243,7 +243,7 @@ public class SidekickService extends Service {
         wallet = openWallet(walletName, walletPassword);
         Timber.d("...openWallet %s", wallet);
         if (wallet != null)
-            showEvent(Observer.Event.LOADED);
+            showEvent(Observer.Event.LOADED, Long.toString(wallet.getRestoreheight()));
     }
 
     public void stop() {
