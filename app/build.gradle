@@ -4,12 +4,12 @@ android {
     ndkVersion '17.2.4988734'
     defaultConfig {
         applicationId "org.guntherkorp.sidekick"
-        buildToolsVersion = '34.0.0'
-        compileSdk 34
+        buildToolsVersion = '35.0.0'
+        compileSdk 35
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 1002
-        versionName "1.0.2 'Sidekick'"
+        versionCode 1003
+        versionName "1.0.3 'Sidekick'"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
