@@ -22,11 +22,12 @@
 
         <TextView
             android:id="@+id/restoreheight"
-            style="@style/MoneroText"
+            style="@style/MoneroText.Medium"
+            android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            tools:text="Available since block 12345677" />
+            tools:text="Block Height: 12345677" />
 
     </RelativeLayout>
 
