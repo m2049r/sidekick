@@ -229,4 +229,8 @@
     <string name="sidekick_network_warning">Network is on - this is a security risk. It is recommended
         to turn on flight mode and restart the app with only Bluetooth enabled!</string>
     <string name="fab_restore_sidekick">Restore from Sidekick</string>
+
+    <string name="restoreheight_text">Restore Height: %1$s</string>
+    <string name="sidekick_ready">Ready</string>
+    <string name="sidekick_failed">Load failed</string>
 </resources>
