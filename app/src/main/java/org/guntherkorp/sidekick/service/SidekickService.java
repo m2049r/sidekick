@@ -366,7 +366,7 @@ public class SidekickService extends Service {
     }
 
     public static boolean ConfirmTransfers(String transfers) {
-        Timber.e("Transfers= |%s|", transfers);
+        Timber.d("Transfers= |%s|", transfers);
         final Confirmation confirmation = new Confirmation(transfers);
         synchronized (SidekickService.class) {
             if (Instance != null) { // TODO deal with this becoming null
